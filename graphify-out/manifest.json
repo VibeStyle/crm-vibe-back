@@ -1,0 +1,417 @@
+{
+  "D:\\repository\\crm-vibe-back\\.eslintrc.js": {
+    "mtime": 1764752180.9111955,
+    "ast_hash": "5b70dbd61274c4d44277de36e2e3b682",
+    "semantic_hash": "5b70dbd61274c4d44277de36e2e3b682"
+  },
+  "D:\\repository\\crm-vibe-back\\db\\dataSource.ts": {
+    "mtime": 1764752180.9111955,
+    "ast_hash": "905b5634a468e61fb943041ae2b5d04b",
+    "semantic_hash": "905b5634a468e61fb943041ae2b5d04b"
+  },
+  "D:\\repository\\crm-vibe-back\\db\\entities\\index.ts": {
+    "mtime": 1782375341.6802816,
+    "ast_hash": "45fe2bb0c112c7ba4295559e77eafd2a",
+    "semantic_hash": "45fe2bb0c112c7ba4295559e77eafd2a"
+  },
+  "D:\\repository\\crm-vibe-back\\db\\entities\\roles.entity.ts": {
+    "mtime": 1768917325.5865426,
+    "ast_hash": "d70201e5449e059b87adfca614435f0a",
+    "semantic_hash": "d70201e5449e059b87adfca614435f0a"
+  },
+  "D:\\repository\\crm-vibe-back\\db\\entities\\users.entity.ts": {
+    "mtime": 1782376399.268624,
+    "ast_hash": "738f556b99ba8fc277e6681e8e40b559",
+    "semantic_hash": "738f556b99ba8fc277e6681e8e40b559"
+  },
+  "D:\\repository\\crm-vibe-back\\db\\migrations\\1782376487417-inite.ts": {
+    "mtime": 1782376490.6851094,
+    "ast_hash": "da8dc4e25b45173d02fd63b3bb67cecf",
+    "semantic_hash": "da8dc4e25b45173d02fd63b3bb67cecf"
+  },
+  "D:\\repository\\crm-vibe-back\\nest-cli.json": {
+    "mtime": 1764752180.9144926,
+    "ast_hash": "fa439650fa28a1a7aa8c2b6d81c8cc20",
+    "semantic_hash": "fa439650fa28a1a7aa8c2b6d81c8cc20"
+  },
+  "D:\\repository\\crm-vibe-back\\package.json": {
+    "mtime": 1775485710.8763433,
+    "ast_hash": "706134d383fd6d14fe201eb691eb97b2",
+    "semantic_hash": "706134d383fd6d14fe201eb691eb97b2"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\app.controller.spec.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "e91fed2ee35431d60d1adbf1d5739b83",
+    "semantic_hash": "e91fed2ee35431d60d1adbf1d5739b83"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\app.controller.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "ae15d1c5a85e6ebfad68b7193766dfb5",
+    "semantic_hash": "ae15d1c5a85e6ebfad68b7193766dfb5"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\app.module.ts": {
+    "mtime": 1782374617.4023087,
+    "ast_hash": "5d669cf65f5f4d71d350167cc18fca4f",
+    "semantic_hash": "5d669cf65f5f4d71d350167cc18fca4f"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\app.service.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "08e985e831bca61f6be89c5c2ecef2fa",
+    "semantic_hash": "08e985e831bca61f6be89c5c2ecef2fa"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\auth.controller.ts": {
+    "mtime": 1782376554.1678417,
+    "ast_hash": "fe61e3f8da057005eb5edcf9cd71d19e",
+    "semantic_hash": "fe61e3f8da057005eb5edcf9cd71d19e"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\auth.module.ts": {
+    "mtime": 1782374682.7532146,
+    "ast_hash": "20aab5000bb900fd6c5370e531333805",
+    "semantic_hash": "20aab5000bb900fd6c5370e531333805"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\auth.service.ts": {
+    "mtime": 1769071121.6122031,
+    "ast_hash": "7e25bf15d6ed21111677513246ca1425",
+    "semantic_hash": "7e25bf15d6ed21111677513246ca1425"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\auth.types.ts": {
+    "mtime": 1768917325.5970297,
+    "ast_hash": "ff1cc5bad7c79847be2abaa0a4e3ec1d",
+    "semantic_hash": "ff1cc5bad7c79847be2abaa0a4e3ec1d"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\dto\\BodyToken.dto.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "b3000684ccb55269797a4b1d85790bee",
+    "semantic_hash": "b3000684ccb55269797a4b1d85790bee"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\dto\\Login.dto.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "24d763d16db632e177ea74433e1a2ed9",
+    "semantic_hash": "24d763d16db632e177ea74433e1a2ed9"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\dto\\common.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "1b1f54cf134cdec02961f1e63449b112",
+    "semantic_hash": "1b1f54cf134cdec02961f1e63449b112"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\strategies\\index.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "5c42bfb8c87a88d7e6a3cf2958dc6a9e",
+    "semantic_hash": "5c42bfb8c87a88d7e6a3cf2958dc6a9e"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\strategies\\jwt.strategy.ts": {
+    "mtime": 1768917325.5970297,
+    "ast_hash": "eee59f8293210a31778733feb92c3325",
+    "semantic_hash": "eee59f8293210a31778733feb92c3325"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\strategies\\jwtRefresh.strategy.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "a87eefe74a541b42b15d008f649be84d",
+    "semantic_hash": "a87eefe74a541b42b15d008f649be84d"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\auth\\strategies\\local.strategy.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "a5fc9cb9ef93b749d3927e25c82a40b2",
+    "semantic_hash": "a5fc9cb9ef93b749d3927e25c82a40b2"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\configs\\env.config.ts": {
+    "mtime": 1782374270.50672,
+    "ast_hash": "491a14afabd696c405a20f74b00e7257",
+    "semantic_hash": "491a14afabd696c405a20f74b00e7257"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\configs\\postgres.config.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "24b837cb8623c2d0d0460f5f0a3bc2d0",
+    "semantic_hash": "24b837cb8623c2d0d0460f5f0a3bc2d0"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\decorators\\recaptcha.decorator.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "471cc79127835e93907f6250cdf5b4b4",
+    "semantic_hash": "471cc79127835e93907f6250cdf5b4b4"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\decorators\\roles.decorator.ts": {
+    "mtime": 1768917325.5980327,
+    "ast_hash": "155f61ea03e3ef7d3d5e2fee554f8428",
+    "semantic_hash": "155f61ea03e3ef7d3d5e2fee554f8428"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\decorators\\userDataField.decorator.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "a85857617f36907fcf9ae4450204f5fb",
+    "semantic_hash": "a85857617f36907fcf9ae4450204f5fb"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\dto\\baseError.dto.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "cad18b7a34dd09d19f4f8d649ef3a93c",
+    "semantic_hash": "cad18b7a34dd09d19f4f8d649ef3a93c"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\exceptions\\app.exception.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "b732c211e3859e29e5f0518156c605f3",
+    "semantic_hash": "b732c211e3859e29e5f0518156c605f3"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\exceptions\\index.ts": {
+    "mtime": 1764752180.919422,
+    "ast_hash": "e781df4a80d49e43a5b81979807c97d2",
+    "semantic_hash": "e781df4a80d49e43a5b81979807c97d2"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\filters\\exception.filter.ts": {
+    "mtime": 1764752180.9268396,
+    "ast_hash": "86fc560683076c8631e3264e78a9a63f",
+    "semantic_hash": "86fc560683076c8631e3264e78a9a63f"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\globalTypes\\Req.dto.ts": {
+    "mtime": 1764752180.9271405,
+    "ast_hash": "2983b3943bf5b4bdd617c849c8b5f70b",
+    "semantic_hash": "2983b3943bf5b4bdd617c849c8b5f70b"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\guards\\access.guard.ts": {
+    "mtime": 1764752180.9271405,
+    "ast_hash": "40e4d7083b8c68db4a07faee95a8f200",
+    "semantic_hash": "40e4d7083b8c68db4a07faee95a8f200"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\guards\\auth.guard.ts": {
+    "mtime": 1764752180.9271405,
+    "ast_hash": "027170f7b4bfd36b5d63bcc9b0ac598f",
+    "semantic_hash": "027170f7b4bfd36b5d63bcc9b0ac598f"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\guards\\hardCode.guard.ts": {
+    "mtime": 1764752180.9271405,
+    "ast_hash": "1e105592e6ba41029a1ada6c3792445d",
+    "semantic_hash": "1e105592e6ba41029a1ada6c3792445d"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\guards\\index.ts": {
+    "mtime": 1768917325.599315,
+    "ast_hash": "306c6cd7a8263d5504fb409b41276a6b",
+    "semantic_hash": "306c6cd7a8263d5504fb409b41276a6b"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\guards\\recaptcha.guard.ts": {
+    "mtime": 1764752180.928142,
+    "ast_hash": "7a28162a1e055fbc2c17f375f2e96f4f",
+    "semantic_hash": "7a28162a1e055fbc2c17f375f2e96f4f"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\guards\\roles.guard.ts": {
+    "mtime": 1768917325.599315,
+    "ast_hash": "2e3e4c5dd89ff55761cd6c5ac18bf2c4",
+    "semantic_hash": "2e3e4c5dd89ff55761cd6c5ac18bf2c4"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\interseptors\\file-upload.interceptor.ts": {
+    "mtime": 1765292493.7253852,
+    "ast_hash": "c5908be47d9c7a421640abbd1e3d61a1",
+    "semantic_hash": "c5908be47d9c7a421640abbd1e3d61a1"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\interseptors\\response.interseptor.ts": {
+    "mtime": 1764752180.928142,
+    "ast_hash": "5b73bfedda6c8952a70773deabf77116",
+    "semantic_hash": "5b73bfedda6c8952a70773deabf77116"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\pipe\\pipe.ts": {
+    "mtime": 1764752180.928142,
+    "ast_hash": "e4faf263420c1526d052fd9247ec5701",
+    "semantic_hash": "e4faf263420c1526d052fd9247ec5701"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\repositories\\index.ts": {
+    "mtime": 1782374481.8615522,
+    "ast_hash": "868c84de0f5e2843e3220d56546f0f3b",
+    "semantic_hash": "868c84de0f5e2843e3220d56546f0f3b"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\repositories\\roles.repository.ts": {
+    "mtime": 1764752180.9300768,
+    "ast_hash": "c0a876d1b07d80ebe99c8818135c57c7",
+    "semantic_hash": "c0a876d1b07d80ebe99c8818135c57c7"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\repositories\\users.repository.ts": {
+    "mtime": 1777279341.5431616,
+    "ast_hash": "a7fbd2dd4ae67531808a8f4e0f597375",
+    "semantic_hash": "a7fbd2dd4ae67531808a8f4e0f597375"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\statusCodes\\errors.ts": {
+    "mtime": 1768917325.6003332,
+    "ast_hash": "95918b368a1588dcb8319ba7fc0fd7cd",
+    "semantic_hash": "95918b368a1588dcb8319ba7fc0fd7cd"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\statusCodes\\index.ts": {
+    "mtime": 1764752180.9300768,
+    "ast_hash": "fbb91c59290f617c0b241feb3180fc54",
+    "semantic_hash": "fbb91c59290f617c0b241feb3180fc54"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\statusCodes\\infos.ts": {
+    "mtime": 1764752180.9300768,
+    "ast_hash": "6c91b458e40d57d8a2d00b81c40e4dd4",
+    "semantic_hash": "6c91b458e40d57d8a2d00b81c40e4dd4"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\types\\baseResponse.ts": {
+    "mtime": 1764752180.9300768,
+    "ast_hash": "4ccfaa866ef026338d99d533097ddcf4",
+    "semantic_hash": "4ccfaa866ef026338d99d533097ddcf4"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\types\\iFiles.type.ts": {
+    "mtime": 1764752180.9300768,
+    "ast_hash": "ea16583a0a4f3eb43409547582b227c2",
+    "semantic_hash": "ea16583a0a4f3eb43409547582b227c2"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\types\\types.d.ts": {
+    "mtime": 1764752180.932087,
+    "ast_hash": "f19db294d0aaa642243c08be11b572a7",
+    "semantic_hash": "f19db294d0aaa642243c08be11b572a7"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\utils\\emailMessages.ts": {
+    "mtime": 1779701584.8468966,
+    "ast_hash": "1dce83e6c099178ce65f3734329ea30a",
+    "semantic_hash": "1dce83e6c099178ce65f3734329ea30a"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\common\\utils\\formatDateTime.ts": {
+    "mtime": 1767177831.08053,
+    "ast_hash": "9f8e518d4c9aadf668b8b331f9ea1bda",
+    "semantic_hash": "9f8e518d4c9aadf668b8b331f9ea1bda"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\main.ts": {
+    "mtime": 1764752180.932087,
+    "ast_hash": "5636b4b502af5f2e46eacb878ef20122",
+    "semantic_hash": "5636b4b502af5f2e46eacb878ef20122"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\openai\\openai-invoice-extraction.service.ts": {
+    "mtime": 1776247679.9153361,
+    "ast_hash": "2aedb7f08508119ca46ef9d1f0aed8c9",
+    "semantic_hash": "2aedb7f08508119ca46ef9d1f0aed8c9"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\openai\\openai.module.ts": {
+    "mtime": 1775485710.8899136,
+    "ast_hash": "ad8926bae47ee389f8e167381834a204",
+    "semantic_hash": "ad8926bae47ee389f8e167381834a204"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\r2\\r2.client.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "db53477b3dd066fd3203d9679ab45ba6",
+    "semantic_hash": "db53477b3dd066fd3203d9679ab45ba6"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\r2\\storage.module.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "6a3286c50826b5e8c8ee6b5565e5a46e",
+    "semantic_hash": "6a3286c50826b5e8c8ee6b5565e5a46e"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\r2\\storage.service.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "45392106e3d10d75c41f437d4d79e9f3",
+    "semantic_hash": "45392106e3d10d75c41f437d4d79e9f3"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\recaptcha\\recaptcha.controller.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "be1bc781f22cf4b49112eb7cee1d088f",
+    "semantic_hash": "be1bc781f22cf4b49112eb7cee1d088f"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\recaptcha\\recaptcha.module.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "545f92d932c01b5c5b1dddcd281d65b0",
+    "semantic_hash": "545f92d932c01b5c5b1dddcd281d65b0"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\recaptcha\\recaptcha.service.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "43950d38e21fa98815ec043566311cd9",
+    "semantic_hash": "43950d38e21fa98815ec043566311cd9"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\shared\\services\\index.ts": {
+    "mtime": 1782376562.2222238,
+    "ast_hash": "ad3c47c11d3d65d7a54b8a1935fa7e00",
+    "semantic_hash": "ad3c47c11d3d65d7a54b8a1935fa7e00"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\shared\\services\\sendEmail.service.ts": {
+    "mtime": 1767005170.8175254,
+    "ast_hash": "93fd33a9f1ce01e90473d40f6681b514",
+    "semantic_hash": "93fd33a9f1ce01e90473d40f6681b514"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\shared\\shared.module.ts": {
+    "mtime": 1782374753.523093,
+    "ast_hash": "db314192855aedf45275cb346c9dbad5",
+    "semantic_hash": "db314192855aedf45275cb346c9dbad5"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\shared\\types.ts": {
+    "mtime": 1765820287.4522796,
+    "ast_hash": "f49380c30aa54ebc51bc955614650a8d",
+    "semantic_hash": "f49380c30aa54ebc51bc955614650a8d"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\dto\\changePasswordDto.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "31880fb6567fe7993e1b88972f903437",
+    "semantic_hash": "31880fb6567fe7993e1b88972f903437"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\dto\\createUserDto.ts": {
+    "mtime": 1764752180.9340963,
+    "ast_hash": "4f45748eec5a7b9ef21b9a80104eb857",
+    "semantic_hash": "4f45748eec5a7b9ef21b9a80104eb857"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\dto\\getUserDto.ts": {
+    "mtime": 1779794928.095333,
+    "ast_hash": "17a0dff5922501ebe3c8ebffb033ddb7",
+    "semantic_hash": "17a0dff5922501ebe3c8ebffb033ddb7"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\dto\\restorePasswordDto.ts": {
+    "mtime": 1764752180.937474,
+    "ast_hash": "d1e09ec9d07d9cab757c3bf38d08387d",
+    "semantic_hash": "d1e09ec9d07d9cab757c3bf38d08387d"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\dto\\updateUserDto.ts": {
+    "mtime": 1777279341.543661,
+    "ast_hash": "32cb1980f2435ee57417d149e86acbeb",
+    "semantic_hash": "32cb1980f2435ee57417d149e86acbeb"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\dto\\verifyUserDto.ts": {
+    "mtime": 1764752180.937474,
+    "ast_hash": "c04300eaa72cb541f1f214fae82f4f4a",
+    "semantic_hash": "c04300eaa72cb541f1f214fae82f4f4a"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\users.controller.ts": {
+    "mtime": 1782375173.9059007,
+    "ast_hash": "933975e5c0bdd69fd6f9688afc4ee0eb",
+    "semantic_hash": "933975e5c0bdd69fd6f9688afc4ee0eb"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\users.module.ts": {
+    "mtime": 1782374825.086966,
+    "ast_hash": "dd3b17aa24a2c8f04f677c166d0d5f4a",
+    "semantic_hash": "dd3b17aa24a2c8f04f677c166d0d5f4a"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\users.service.ts": {
+    "mtime": 1782375268.7008586,
+    "ast_hash": "71f463f616cc5372d4a0c157370343c7",
+    "semantic_hash": "71f463f616cc5372d4a0c157370343c7"
+  },
+  "D:\\repository\\crm-vibe-back\\src\\users\\users.types.ts": {
+    "mtime": 1764752180.937474,
+    "ast_hash": "d69ecf340035c531fc124e15c7af43d0",
+    "semantic_hash": "d69ecf340035c531fc124e15c7af43d0"
+  },
+  "D:\\repository\\crm-vibe-back\\test\\app.e2e-spec.ts": {
+    "mtime": 1764752180.937474,
+    "ast_hash": "90c62dc45b2bd56c24f65d4349983c74",
+    "semantic_hash": "90c62dc45b2bd56c24f65d4349983c74"
+  },
+  "D:\\repository\\crm-vibe-back\\test\\jest-e2e.json": {
+    "mtime": 1764752180.937474,
+    "ast_hash": "707a50895cb1c565825637916e9cf290",
+    "semantic_hash": "707a50895cb1c565825637916e9cf290"
+  },
+  "D:\\repository\\crm-vibe-back\\tsconfig.build.json": {
+    "mtime": 1764752180.937474,
+    "ast_hash": "d23fc4aff02c91ce9c424c15aea9b49b",
+    "semantic_hash": "d23fc4aff02c91ce9c424c15aea9b49b"
+  },
+  "D:\\repository\\crm-vibe-back\\tsconfig.json": {
+    "mtime": 1778225379.6343472,
+    "ast_hash": "56312f749243c1a409c12cda4cfd1f75",
+    "semantic_hash": "56312f749243c1a409c12cda4cfd1f75"
+  },
+  "D:\\repository\\crm-vibe-back\\AGENTS.md": {
+    "mtime": 1782374025.907927,
+    "ast_hash": "e1d795e402439bdb1f3cdf4f198a6d5c",
+    "semantic_hash": "e1d795e402439bdb1f3cdf4f198a6d5c"
+  },
+  "D:\\repository\\crm-vibe-back\\CLAUDE.md": {
+    "mtime": 1782374023.7642865,
+    "ast_hash": "49682557f58a0b6cf94dcfae6011714d",
+    "semantic_hash": "49682557f58a0b6cf94dcfae6011714d"
+  },
+  "D:\\repository\\crm-vibe-back\\README.md": {
+    "mtime": 1776237392.833064,
+    "ast_hash": "f56536cedf4b9a8b3fff2c5013b00a4a",
+    "semantic_hash": "f56536cedf4b9a8b3fff2c5013b00a4a"
+  }
+}
