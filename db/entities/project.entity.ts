@@ -23,6 +23,9 @@ export class Project {
   @Column({ nullable: true })
   previewUrl: string | null;
 
+  @Column({ nullable: true })
+  previewKey: string | null;
+
   @Column({ nullable: false, default: true })
   isPublished: boolean;
 

@@ -1,6 +1,6 @@
 // r2-storage.service.ts
 import { Injectable } from '@nestjs/common';
-import { PutObjectCommand } from '@aws-sdk/client-s3';
+import { DeleteObjectCommand, PutObjectCommand } from '@aws-sdk/client-s3';
 import { r2Client } from './r2.client';
 import { randomUUID } from 'crypto';
 import { lookup as mimeLookup, extension as mimeExt } from 'mime-types';
@@ -8,15 +8,23 @@ import { ConfigService } from '@nestjs/config';
 
 export type MulterFile = any;
 
+export interface R2UploadResult {
+  key: string;
+  url: string | null;
+  filename: string;
+  contentType: string;
+  size: number;
+}
+
 @Injectable()
 export class R2StorageService {
   private readonly bucket: string;
   private readonly publicBase: string;
   constructor(private readonly configService: ConfigService) {
     this.bucket = this.configService.get('r2.r2Bucket');
-    this.publicBase = this.configService
-      .get('r2.r2PublicBaseUrl')
-      .replace(/\/+$/, '');
+    this.publicBase = (
+      this.configService.get<string>('r2.r2PublicBaseUrl') || ''
+    ).replace(/\/+$/, '');
   }
 
   private buildKey(file: MulterFile, prefix?: string) {
@@ -36,10 +44,10 @@ export class R2StorageService {
   async uploadMany(
     files: MulterFile[],
     options?: { prefix?: string; makePublicUrl?: boolean },
-  ) {
+  ): Promise<R2UploadResult[]> {
     if (!files?.length) return [];
 
-    const results = [];
+    const results: R2UploadResult[] = [];
     for (const f of files) {
       const key = this.buildKey(f, options?.prefix);
       const contentType =
@@ -65,5 +73,27 @@ export class R2StorageService {
       });
     }
     return results;
+  }
+
+  async uploadOne(
+    file: MulterFile,
+    options?: { prefix?: string; makePublicUrl?: boolean },
+  ) {
+    const [uploaded] = await this.uploadMany(file ? [file] : [], options);
+
+    return uploaded || null;
+  }
+
+  async deleteOne(key?: string | null): Promise<void> {
+    if (!key) {
+      return;
+    }
+
+    await r2Client.send(
+      new DeleteObjectCommand({
+        Bucket: this.bucket,
+        Key: key,
+      }),
+    );
   }
 }

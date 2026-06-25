@@ -7,7 +7,9 @@ import {
   Patch,
   Post,
   Query,
+  UploadedFiles,
   UseGuards,
+  UseInterceptors,
 } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { Roles } from 'src/common/decorators/roles.decorator';
@@ -16,6 +18,16 @@ import { GetProjectsDto, GetProjectTagsDto } from './dto/getProjectsDto';
 import { CreateProjectDto, UpdateProjectDto } from './dto/projectWriteDto';
 import { CreateTagDto, UpdateTagDto } from './dto/tagWriteDto';
 import { ProjectsService } from './projects.service';
+import { FileUploadInterceptor } from 'src/common/interseptors/file-upload.interceptor';
+import { MulterFile } from 'src/r2/storage.service';
+
+const ProjectImageInterceptor = FileUploadInterceptor('files', {
+  maxFiles: 1,
+  maxFileSize: 20 * 1024 * 1024,
+  allowedTypes: ['image/jpeg', 'image/png'],
+  allowedExtensions: ['jpg', 'jpeg', 'png'],
+  useMemoryStorage: true,
+});
 
 @Controller('/projects')
 export class ProjectsController {
@@ -34,15 +46,24 @@ export class ProjectsController {
   @UseGuards(AuthGuard('jwt'), RolesGuard)
   @Roles('admin')
   @Post()
-  createProject(@Body() body: CreateProjectDto) {
-    return this.projectsService.createProject(body);
+  @UseInterceptors(ProjectImageInterceptor)
+  createProject(
+    @Body() body: CreateProjectDto,
+    @UploadedFiles() files?: MulterFile[],
+  ) {
+    return this.projectsService.createProject(body, files?.[0]);
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)
   @Roles('admin')
   @Patch('/:id')
-  updateProject(@Param('id') id: string, @Body() body: UpdateProjectDto) {
-    return this.projectsService.updateProject(+id, body);
+  @UseInterceptors(ProjectImageInterceptor)
+  updateProject(
+    @Param('id') id: string,
+    @Body() body: UpdateProjectDto,
+    @UploadedFiles() files?: MulterFile[],
+  ) {
+    return this.projectsService.updateProject(+id, body, files?.[0]);
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)

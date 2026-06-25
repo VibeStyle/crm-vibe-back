@@ -11,6 +11,11 @@ import {
   TagsRepository,
 } from 'src/common/repositories';
 import { ErrorCodes } from 'src/common/statusCodes';
+import {
+  MulterFile,
+  R2StorageService,
+  R2UploadResult,
+} from 'src/r2/storage.service';
 import { In, Not } from 'typeorm';
 import { GetProjectsDto, GetProjectTagsDto } from './dto/getProjectsDto';
 import { CreateProjectDto, UpdateProjectDto } from './dto/projectWriteDto';
@@ -21,6 +26,7 @@ export class ProjectsService {
   constructor(
     private projectsRepository: ProjectsRepository,
     private tagsRepository: TagsRepository,
+    private r2StorageService: R2StorageService,
   ) {}
 
   getProjects(query: GetProjectsDto) {
@@ -59,20 +65,34 @@ export class ProjectsService {
     );
   }
 
-  async createProject(body: CreateProjectDto) {
-    const tags = await this.getTagsByIds(body.tagIds || []);
-    const project = this.projectsRepository.create({
-      name: body.name,
-      description: body.description,
-      previewUrl: body.previewUrl,
-      isPublished: body.isPublished ?? true,
-      tags,
-    });
+  async createProject(body: CreateProjectDto, imageFile?: MulterFile) {
+    const projectBody = this.normalizeProjectBody(body);
+    const tags = await this.getTagsByIds(projectBody.tagIds || []);
+    const uploadedImage = await this.uploadProjectImage(imageFile);
 
-    return this.projectsRepository.save(project);
+    try {
+      const project = this.projectsRepository.create({
+        name: projectBody.name,
+        description: projectBody.description,
+        previewUrl: uploadedImage?.url || projectBody.previewUrl,
+        previewKey: uploadedImage?.key || null,
+        isPublished: projectBody.isPublished ?? true,
+        tags,
+      });
+
+      return await this.projectsRepository.save(project);
+    } catch (e) {
+      await this.cleanupUploadedImage(uploadedImage);
+      throw e;
+    }
   }
 
-  async updateProject(id: number, body: UpdateProjectDto) {
+  async updateProject(
+    id: number,
+    body: UpdateProjectDto,
+    imageFile?: MulterFile,
+  ) {
+    const projectBody = this.normalizeProjectBody(body);
     const project = await this.projectsRepository.findOne({
       where: { id },
       relations: { tags: true },
@@ -82,18 +102,51 @@ export class ProjectsService {
       throw new NotFoundAppException(ErrorCodes.DataNotFound);
     }
 
-    this.assignDefined(project, {
-      name: body.name,
-      description: body.description,
-      previewUrl: body.previewUrl,
-      isPublished: body.isPublished,
-    });
+    const previousPreviewKey = project.previewKey;
+    const previousPreviewUrl = project.previewUrl;
+    const nextTags =
+      projectBody.tagIds !== undefined
+        ? await this.getTagsByIds(projectBody.tagIds)
+        : undefined;
+    const uploadedImage = await this.uploadProjectImage(imageFile);
+    let savedProject: Project;
 
-    if (body.tagIds !== undefined) {
-      project.tags = await this.getTagsByIds(body.tagIds);
+    try {
+      this.assignDefined(project, {
+        name: projectBody.name,
+        description: projectBody.description,
+        isPublished: projectBody.isPublished,
+      });
+
+      if (uploadedImage) {
+        project.previewUrl = uploadedImage.url;
+        project.previewKey = uploadedImage.key;
+      } else if (projectBody.previewUrl !== undefined) {
+        project.previewUrl = projectBody.previewUrl;
+        project.previewKey = null;
+      }
+
+      if (nextTags !== undefined) {
+        project.tags = nextTags;
+      }
+
+      savedProject = await this.projectsRepository.save(project);
+    } catch (e) {
+      await this.cleanupUploadedImage(uploadedImage);
+      throw e;
     }
 
-    return this.projectsRepository.save(project);
+    if (uploadedImage && previousPreviewKey) {
+      await this.r2StorageService.deleteOne(previousPreviewKey);
+    } else if (
+      projectBody.previewUrl !== undefined &&
+      projectBody.previewUrl !== previousPreviewUrl &&
+      previousPreviewKey
+    ) {
+      await this.r2StorageService.deleteOne(previousPreviewKey);
+    }
+
+    return savedProject;
   }
 
   async deleteProject(id: number) {
@@ -103,7 +156,10 @@ export class ProjectsService {
       throw new NotFoundAppException(ErrorCodes.DataNotFound);
     }
 
+    const previewKey = project.previewKey;
+
     await this.projectsRepository.delete(id);
+    await this.r2StorageService.deleteOne(previewKey);
     return {};
   }
 
@@ -169,6 +225,85 @@ export class ProjectsService {
     }
 
     return tags;
+  }
+
+  private uploadProjectImage(imageFile?: MulterFile) {
+    if (!imageFile) {
+      return null;
+    }
+
+    return this.r2StorageService.uploadOne(imageFile, {
+      prefix: 'projects-image',
+      makePublicUrl: true,
+    });
+  }
+
+  private async cleanupUploadedImage(uploadedImage: R2UploadResult | null) {
+    if (!uploadedImage?.key) {
+      return;
+    }
+
+    try {
+      await this.r2StorageService.deleteOne(uploadedImage.key);
+    } catch {}
+  }
+
+  private normalizeProjectBody<T extends CreateProjectDto | UpdateProjectDto>(
+    body: T,
+  ): T {
+    return {
+      ...body,
+      isPublished: this.normalizeBoolean(body.isPublished),
+      tagIds: this.normalizeTagIds(body.tagIds),
+    };
+  }
+
+  private normalizeBoolean(value: unknown) {
+    if (value === undefined || value === null || value === '') {
+      return undefined;
+    }
+
+    if (typeof value === 'boolean') {
+      return value;
+    }
+
+    if (typeof value === 'string') {
+      return value.trim().toLowerCase() === 'true';
+    }
+
+    return Boolean(value);
+  }
+
+  private normalizeTagIds(value: unknown) {
+    if (value === undefined || value === null || value === '') {
+      return undefined;
+    }
+
+    if (Array.isArray(value)) {
+      return Array.from(new Set(value.map(Number)));
+    }
+
+    if (typeof value === 'number') {
+      return [value];
+    }
+
+    if (typeof value === 'string') {
+      const trimmed = value.trim();
+
+      if (!trimmed) {
+        return undefined;
+      }
+
+      if (trimmed.startsWith('[')) {
+        return Array.from(new Set(JSON.parse(trimmed).map(Number)));
+      }
+
+      return Array.from(
+        new Set(trimmed.split(',').map(item => Number(item.trim()))),
+      );
+    }
+
+    return undefined;
   }
 
   private async checkTagUnique(

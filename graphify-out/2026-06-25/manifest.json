@@ -220,9 +220,9 @@
     "semantic_hash": "c0a876d1b07d80ebe99c8818135c57c7"
   },
   "src/common/repositories/users.repository.ts": {
-    "mtime": 1777279341.5431616,
-    "ast_hash": "a7fbd2dd4ae67531808a8f4e0f597375",
-    "semantic_hash": "a7fbd2dd4ae67531808a8f4e0f597375"
+    "mtime": 1782396689.9480867,
+    "ast_hash": "ccd7adbbc7375937515f13309a6f7dba",
+    "semantic_hash": ""
   },
   "src/common/statusCodes/errors.ts": {
     "mtime": 1768917325.6003332,
@@ -290,9 +290,9 @@
     "semantic_hash": "6a3286c50826b5e8c8ee6b5565e5a46e"
   },
   "src/r2/storage.service.ts": {
-    "mtime": 1764752180.9340963,
-    "ast_hash": "45392106e3d10d75c41f437d4d79e9f3",
-    "semantic_hash": "45392106e3d10d75c41f437d4d79e9f3"
+    "mtime": 1782401068.695176,
+    "ast_hash": "b07fffc1a3f59c19934dfae974de49ab",
+    "semantic_hash": ""
   },
   "src/recaptcha/recaptcha.controller.ts": {
     "mtime": 1764752180.9340963,
@@ -335,8 +335,8 @@
     "semantic_hash": "31880fb6567fe7993e1b88972f903437"
   },
   "src/users/dto/createUserDto.ts": {
-    "mtime": 1782392559.6509418,
-    "ast_hash": "662b951b6ae151540bda12d2c45d6dc3",
+    "mtime": 1782393985.2877462,
+    "ast_hash": "45b0c992fc1dbaa68f23d22a0fa9d666",
     "semantic_hash": ""
   },
   "src/users/dto/getUserDto.ts": {
@@ -415,8 +415,8 @@
     "semantic_hash": "f56536cedf4b9a8b3fff2c5013b00a4a"
   },
   "db/entities/project.entity.ts": {
-    "mtime": 1782380519.3906574,
-    "ast_hash": "e656d8ebc51322117e93ab0d13c5be96",
+    "mtime": 1782401051.2470574,
+    "ast_hash": "ccd0c6fe064ce36c391b7c41157facc8",
     "semantic_hash": ""
   },
   "db/entities/tag.entity.ts": {
@@ -445,23 +445,23 @@
     "semantic_hash": ""
   },
   "src/projects/projects.controller.ts": {
-    "mtime": 1782381184.9038959,
-    "ast_hash": "89f876d13caa5bba2a67fd871471a235",
+    "mtime": 1782401150.6181164,
+    "ast_hash": "3b21b6faa3d78404802daa43853a1f86",
     "semantic_hash": ""
   },
   "src/projects/projects.module.ts": {
-    "mtime": 1782380530.0384152,
-    "ast_hash": "8a66317662ce3f1a4e7a4067e69362a8",
+    "mtime": 1782400442.2763896,
+    "ast_hash": "21b44783c32159e7d547f9b9533ae7eb",
     "semantic_hash": ""
   },
   "src/projects/projects.service.ts": {
-    "mtime": 1782381629.235977,
-    "ast_hash": "7951995dc1a69ece49171627a7940e69",
+    "mtime": 1782401130.5972712,
+    "ast_hash": "5592f5abd5000d83209c11799a13af44",
     "semantic_hash": ""
   },
   "src/projects/dto/projectWriteDto.ts": {
-    "mtime": 1782381182.3473573,
-    "ast_hash": "cbaff1b75806eaf8c76ea077eb63fd86",
+    "mtime": 1782401083.9036634,
+    "ast_hash": "6e3441ea5404911d47d8e2fa58d32502",
     "semantic_hash": ""
   },
   "src/projects/dto/tagWriteDto.ts": {
@@ -517,6 +517,11 @@
   ".codex/skills/graphify/references/update.md": {
     "mtime": 1782377010.3187423,
     "ast_hash": "c698309979460d0f02ba616417844399",
+    "semantic_hash": ""
+  },
+  "db/migrations/1782376487419-addProjectPreviewKey.ts": {
+    "mtime": 1782401052.2608721,
+    "ast_hash": "389af7caf0187659d40160f3db70ca24",
     "semantic_hash": ""
   }
 }
