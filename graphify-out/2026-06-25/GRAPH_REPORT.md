@@ -1,11 +1,11 @@
 # Graph Report - crm-vibe-back  (2026-06-25)
 
 ## Corpus Check
-- 94 files · ~10,579 words
+- 92 files · ~10,018 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 506 nodes · 823 edges · 29 communities (20 shown, 9 thin omitted)
+- 485 nodes · 761 edges · 29 communities (20 shown, 9 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
@@ -47,12 +47,12 @@
 2. `AuthService` - 20 edges
 3. `UsersRepository` - 19 edges
 4. `compilerOptions` - 18 edges
-5. `ErrorCodes` - 17 edges
-6. `ProjectsService` - 17 edges
-7. `scripts` - 15 edges
-8. `UsersController` - 13 edges
-9. `TagCategory` - 11 edges
-10. `ProjectsController` - 11 edges
+5. `ErrorCodes` - 16 edges
+6. `scripts` - 15 edges
+7. `UsersController` - 13 edges
+8. `Users` - 10 edges
+9. `jest` - 8 edges
+10. `AppException` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Verify Before Reporting Done` --semantically_similar_to--> `Testing`  [INFERRED] [semantically similar]
@@ -77,16 +77,16 @@
 ## Communities (29 total, 9 thin omitted)
 
 ### Community 0 - "User DTOs"
-Cohesion: 0.06
-Nodes (18): Roles(), ChangePasswordDto, RegisterDto, AppraiserFilter, GetAllAppraisersDto, GetRegisterUsers, RestorePasswordDto, UpdateUserDto (+10 more)
+Cohesion: 0.10
+Nodes (14): Roles(), ChangePasswordDto, RegisterDto, AppraiserFilter, GetAllAppraisersDto, GetRegisterUsers, RestorePasswordDto, UpdateUserDto (+6 more)
 
 ### Community 1 - "Auth Controller Service"
 Cohesion: 0.08
 Nodes (17): AuthController, AuthService, AppleJwtDecode, AuthInfo, GeneratedTokens, GoogleProfile, JwtPayload, LoginAdminDto (+9 more)
 
 ### Community 2 - "Auth Database Wiring"
-Cohesion: 0.09
-Nodes (15): GetProjectsDto, GetProjectTagsDto, CreateProjectDto, UpdateProjectDto, CreateTagDto, UpdateTagDto, Project, Tag (+7 more)
+Cohesion: 0.11
+Nodes (14): GetProjectsDto, GetProjectTagsDto, Project, Roles, Tag, TagCategory, Users, ProjectsController (+6 more)
 
 ### Community 3 - "Runtime Dependencies"
 Cohesion: 0.05
@@ -97,20 +97,20 @@ Cohesion: 0.09
 Nodes (9): UserAccessGuard, JwtAuthGuard, HardCodeGuard, RecaptchaGuard, RolesGuard, RecaptchaController, RecaptchaModule, RecaptchaService (+1 more)
 
 ### Community 5 - "Package Test Config"
-Cohesion: 0.06
-Nodes (30): author, description, jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment (+22 more)
+Cohesion: 0.13
+Nodes (15): scripts, build, format, lint, migrate:dev, migrate:undo:dev, migration:generate:dev, start (+7 more)
 
 ### Community 6 - "Agent Working Rules"
 Cohesion: 0.05
-Nodes (43): 1. Analyze the Request, 2. Ask for Clarification (if needed), 3. Present an Implementation Plan, 4. Wait for Approval, 5. Execute, Analyze Request, Ask For Clarification, Codex Working Rules (+35 more)
+Nodes (38): 1. Analyze the Request, 2. Ask for Clarification (if needed), 3. Present an Implementation Plan, 4. Wait for Approval, 5. Execute, Analyze Request, Ask For Clarification, Codex Working Rules (+30 more)
 
 ### Community 7 - "Auth Errors Common"
 Cohesion: 0.11
 Nodes (15): IAdmin, AppException, BadRequestAppException, ConflictAppException, ForbiddenAppException, NotFoundAppException, UnauthorizedAppException, RolesRepository (+7 more)
 
 ### Community 8 - "Dev Tooling Dependencies"
-Cohesion: 0.09
-Nodes (23): devDependencies, eslint, eslint-config-prettier, eslint-plugin-prettier, jest, @nestjs/cli, @nestjs/schematics, @nestjs/testing (+15 more)
+Cohesion: 0.05
+Nodes (38): author, description, devDependencies, eslint, eslint-config-prettier, eslint-plugin-prettier, jest, @nestjs/cli (+30 more)
 
 ### Community 9 - "TypeScript Compiler Config"
 Cohesion: 0.10
@@ -125,16 +125,16 @@ Cohesion: 0.25
 Nodes (4): r2Client, StorageModule, MulterFile, R2StorageService
 
 ### Community 12 - "README Commands"
-Cohesion: 0.16
-Nodes (13): Endpoint, Endpoint Generation, Installation, Migration, nest g resource --no-spec, npm install, npm run migration:generate:dev, npm run start (+5 more)
+Cohesion: 0.12
+Nodes (18): Verify Before Reporting Done, Endpoint, Endpoint Generation, Installation, Migration, nest g resource --no-spec, npm install, npm run migration:generate:dev (+10 more)
 
 ### Community 13 - "Environment Config"
 Cohesion: 0.08
 Nodes (19): AuthModule, data, db, gpt, jwt, r2, recaptcha, resend (+11 more)
 
 ### Community 14 - "OpenAI Invoice Extraction"
-Cohesion: 0.29
-Nodes (3): Roles, Users, UsersRepository
+Cohesion: 0.16
+Nodes (4): UsersService, emailMessages, generateEmailMessage(), Replacements
 
 ### Community 16 - "Nest CLI Config"
 Cohesion: 0.33
@@ -152,17 +152,17 @@ Nodes (3): ClaimFile, IFile, IFilesData
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UsersService` connect `User DTOs` to `Auth Controller Service`, `Auth Errors Common`?**
+- **Why does `UsersService` connect `OpenAI Invoice Extraction` to `User DTOs`, `Auth Controller Service`, `Auth Errors Common`?**
   _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **Why does `AuthService` connect `Auth Controller Service` to `Auth Errors Common`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **Why does `dependencies` connect `Runtime Dependencies` to `Dev Tooling Dependencies`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
   _185 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User DTOs` be split into smaller, more focused modules?**
-  _Cohesion score 0.06386066763425254 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09848484848484848 - nodes in this community are weakly interconnected._
 - **Should `Auth Controller Service` be split into smaller, more focused modules?**
   _Cohesion score 0.07560975609756097 - nodes in this community are weakly interconnected._
 - **Should `Auth Database Wiring` be split into smaller, more focused modules?**
-  _Cohesion score 0.09294199860237597 - nodes in this community are weakly interconnected._
-- **Should `Runtime Dependencies` be split into smaller, more focused modules?**
-  _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10808080808080808 - nodes in this community are weakly interconnected._

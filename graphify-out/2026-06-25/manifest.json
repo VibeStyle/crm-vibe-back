@@ -445,8 +445,8 @@
     "semantic_hash": ""
   },
   "src/projects/projects.controller.ts": {
-    "mtime": 1782381184.9038959,
-    "ast_hash": "89f876d13caa5bba2a67fd871471a235",
+    "mtime": 1782380528.7893198,
+    "ast_hash": "7e17a9f96bbc2da1539f944a2a4e0d90",
     "semantic_hash": ""
   },
   "src/projects/projects.module.ts": {
@@ -455,18 +455,8 @@
     "semantic_hash": ""
   },
   "src/projects/projects.service.ts": {
-    "mtime": 1782381186.2953143,
-    "ast_hash": "0b057daa504e24f9f7583e06c8dfb761",
-    "semantic_hash": ""
-  },
-  "src/projects/dto/projectWriteDto.ts": {
-    "mtime": 1782381182.3473573,
-    "ast_hash": "cbaff1b75806eaf8c76ea077eb63fd86",
-    "semantic_hash": ""
-  },
-  "src/projects/dto/tagWriteDto.ts": {
-    "mtime": 1782381183.597536,
-    "ast_hash": "9cf3c2b0edcc5d46491c69005f6abf12",
+    "mtime": 1782380603.014523,
+    "ast_hash": "4a3af7fbcdc6a0bb6da8c385c75844e4",
     "semantic_hash": ""
   }
 }

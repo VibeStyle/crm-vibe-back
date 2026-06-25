@@ -10,6 +10,7 @@ import { RecaptchaModule } from './recaptcha/recaptcha.module';
 import dbConfig from './common/configs/postgres.config';
 import envConfig from './common/configs/env.config';
 import { OpenAiModule } from './openai/openai.module';
+import { ProjectsModule } from './projects/projects.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { OpenAiModule } from './openai/openai.module';
     SharedModule,
     RecaptchaModule,
     OpenAiModule,
+    ProjectsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

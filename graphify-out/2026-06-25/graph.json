@@ -105,7 +105,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "entities_roles_entity",
-      "community": 14,
+      "community": 2,
       "norm_label": "roles.entity.ts"
     },
     {
@@ -115,7 +115,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "entities_roles_entity_roles",
-      "community": 14,
+      "community": 2,
       "norm_label": "roles"
     },
     {
@@ -155,7 +155,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "entities_users_entity",
-      "community": 14,
+      "community": 2,
       "norm_label": "users.entity.ts"
     },
     {
@@ -165,7 +165,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "entities_users_entity_users",
-      "community": 14,
+      "community": 2,
       "norm_label": "users"
     },
     {
@@ -315,7 +315,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "package",
-      "community": 5,
+      "community": 8,
       "norm_label": "package.json"
     },
     {
@@ -325,7 +325,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "package_name",
-      "community": 5,
+      "community": 8,
       "norm_label": "name"
     },
     {
@@ -335,7 +335,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "package_version",
-      "community": 5,
+      "community": 8,
       "norm_label": "version"
     },
     {
@@ -345,7 +345,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "package_description",
-      "community": 5,
+      "community": 8,
       "norm_label": "description"
     },
     {
@@ -355,7 +355,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "package_author",
-      "community": 5,
+      "community": 8,
       "norm_label": "author"
     },
     {
@@ -365,7 +365,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "package_private",
-      "community": 5,
+      "community": 8,
       "norm_label": "private"
     },
     {
@@ -375,7 +375,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "package_license",
-      "community": 5,
+      "community": 8,
       "norm_label": "license"
     },
     {
@@ -1135,7 +1135,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "package_jest",
-      "community": 5,
+      "community": 8,
       "norm_label": "jest"
     },
     {
@@ -1145,7 +1145,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "package_jest_modulefileextensions",
-      "community": 5,
+      "community": 8,
       "norm_label": "modulefileextensions"
     },
     {
@@ -1155,7 +1155,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "package_jest_rootdir",
-      "community": 5,
+      "community": 8,
       "norm_label": "rootdir"
     },
     {
@@ -1165,7 +1165,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "package_jest_testregex",
-      "community": 5,
+      "community": 8,
       "norm_label": "testregex"
     },
     {
@@ -1175,7 +1175,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "package_jest_transform",
-      "community": 5,
+      "community": 8,
       "norm_label": "transform"
     },
     {
@@ -1185,7 +1185,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "package_transform_t_j_s",
-      "community": 5,
+      "community": 8,
       "norm_label": "^.+\\\\.(t|j)s$"
     },
     {
@@ -1195,7 +1195,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "package_jest_collectcoveragefrom",
-      "community": 5,
+      "community": 8,
       "norm_label": "collectcoveragefrom"
     },
     {
@@ -1205,7 +1205,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "package_jest_coveragedirectory",
-      "community": 5,
+      "community": 8,
       "norm_label": "coveragedirectory"
     },
     {
@@ -1215,7 +1215,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "package_jest_testenvironment",
-      "community": 5,
+      "community": 8,
       "norm_label": "testenvironment"
     },
     {
@@ -2555,7 +2555,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_roles_repository",
-      "community": 14,
+      "community": 2,
       "norm_label": "roles.repository.ts"
     },
     {
@@ -2635,7 +2635,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_users_repository",
-      "community": 14,
+      "community": 2,
       "norm_label": "users.repository.ts"
     },
     {
@@ -2645,7 +2645,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository",
-      "community": 14,
+      "community": 2,
       "norm_label": "usersrepository"
     },
     {
@@ -2655,7 +2655,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_constructor",
-      "community": 14,
+      "community": 2,
       "norm_label": ".constructor()"
     },
     {
@@ -2665,7 +2665,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserbyid",
-      "community": 14,
+      "community": 2,
       "norm_label": ".getuserbyid()"
     },
     {
@@ -2675,7 +2675,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuser",
-      "community": 14,
+      "community": 2,
       "norm_label": ".getuser()"
     },
     {
@@ -2685,7 +2685,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserinfo",
-      "community": 14,
+      "community": 2,
       "norm_label": ".getuserinfo()"
     },
     {
@@ -2695,7 +2695,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserwithrole",
-      "community": 14,
+      "community": 2,
       "norm_label": ".getuserwithrole()"
     },
     {
@@ -2845,7 +2845,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "utils_emailmessages",
-      "community": 0,
+      "community": 14,
       "norm_label": "emailmessages.ts"
     },
     {
@@ -2855,7 +2855,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "utils_emailmessages_replacements",
-      "community": 0,
+      "community": 14,
       "norm_label": "replacements"
     },
     {
@@ -2865,7 +2865,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "utils_emailmessages_wrap",
-      "community": 0,
+      "community": 14,
       "norm_label": "wrap()"
     },
     {
@@ -2875,7 +2875,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "utils_emailmessages_badge",
-      "community": 0,
+      "community": 14,
       "norm_label": "badge()"
     },
     {
@@ -2885,7 +2885,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "utils_emailmessages_emailmessages",
-      "community": 0,
+      "community": 14,
       "norm_label": "emailmessages"
     },
     {
@@ -2895,7 +2895,7 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "utils_emailmessages_generateemailmessage",
-      "community": 0,
+      "community": 14,
       "norm_label": "generateemailmessage()"
     },
     {
@@ -3059,66 +3059,6 @@
       "norm_label": "getprojecttagsdto"
     },
     {
-      "label": "projectWriteDto.ts",
-      "file_type": "code",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "dto_projectwritedto",
-      "community": 2,
-      "norm_label": "projectwritedto.ts"
-    },
-    {
-      "label": "CreateProjectDto",
-      "file_type": "code",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "dto_projectwritedto_createprojectdto",
-      "community": 2,
-      "norm_label": "createprojectdto"
-    },
-    {
-      "label": "UpdateProjectDto",
-      "file_type": "code",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "dto_projectwritedto_updateprojectdto",
-      "community": 2,
-      "norm_label": "updateprojectdto"
-    },
-    {
-      "label": "tagWriteDto.ts",
-      "file_type": "code",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "dto_tagwritedto",
-      "community": 2,
-      "norm_label": "tagwritedto.ts"
-    },
-    {
-      "label": "CreateTagDto",
-      "file_type": "code",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "dto_tagwritedto_createtagdto",
-      "community": 2,
-      "norm_label": "createtagdto"
-    },
-    {
-      "label": "UpdateTagDto",
-      "file_type": "code",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "dto_tagwritedto_updatetagdto",
-      "community": 2,
-      "norm_label": "updatetagdto"
-    },
-    {
       "label": "projects.controller.ts",
       "file_type": "code",
       "source_file": "src/projects/projects.controller.ts",
@@ -3132,7 +3072,7 @@
       "label": "ProjectsController",
       "file_type": "code",
       "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L21",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "projects_projects_controller_projectscontroller",
       "community": 2,
@@ -3142,7 +3082,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L22",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "projects_projects_controller_projectscontroller_constructor",
       "community": 2,
@@ -3152,7 +3092,7 @@
       "label": ".getProjects()",
       "file_type": "code",
       "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L25",
+      "source_location": "L10",
       "_origin": "ast",
       "id": "projects_projects_controller_projectscontroller_getprojects",
       "community": 2,
@@ -3162,71 +3102,11 @@
       "label": ".getTags()",
       "file_type": "code",
       "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L30",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "projects_projects_controller_projectscontroller_gettags",
       "community": 2,
       "norm_label": ".gettags()"
-    },
-    {
-      "label": ".createProject()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "projects_projects_controller_projectscontroller_createproject",
-      "community": 2,
-      "norm_label": ".createproject()"
-    },
-    {
-      "label": ".updateProject()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L44",
-      "_origin": "ast",
-      "id": "projects_projects_controller_projectscontroller_updateproject",
-      "community": 2,
-      "norm_label": ".updateproject()"
-    },
-    {
-      "label": ".deleteProject()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L51",
-      "_origin": "ast",
-      "id": "projects_projects_controller_projectscontroller_deleteproject",
-      "community": 2,
-      "norm_label": ".deleteproject()"
-    },
-    {
-      "label": ".createTag()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L58",
-      "_origin": "ast",
-      "id": "projects_projects_controller_projectscontroller_createtag",
-      "community": 2,
-      "norm_label": ".createtag()"
-    },
-    {
-      "label": ".updateTag()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L65",
-      "_origin": "ast",
-      "id": "projects_projects_controller_projectscontroller_updatetag",
-      "community": 2,
-      "norm_label": ".updatetag()"
-    },
-    {
-      "label": ".deleteTag()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L72",
-      "_origin": "ast",
-      "id": "projects_projects_controller_projectscontroller_deletetag",
-      "community": 2,
-      "norm_label": ".deletetag()"
     },
     {
       "label": "projects.module.ts",
@@ -3262,7 +3142,7 @@
       "label": "ProjectsService",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L20",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice",
       "community": 2,
@@ -3272,7 +3152,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L21",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_constructor",
       "community": 2,
@@ -3282,7 +3162,7 @@
       "label": ".getProjects()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L26",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_getprojects",
       "community": 2,
@@ -3292,111 +3172,21 @@
       "label": ".getTags()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L45",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_gettags",
       "community": 2,
       "norm_label": ".gettags()"
     },
     {
-      "label": ".createProject()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L62",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_createproject",
-      "community": 2,
-      "norm_label": ".createproject()"
-    },
-    {
-      "label": ".updateProject()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L75",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_updateproject",
-      "community": 2,
-      "norm_label": ".updateproject()"
-    },
-    {
-      "label": ".deleteProject()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L99",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_deleteproject",
-      "community": 2,
-      "norm_label": ".deleteproject()"
-    },
-    {
-      "label": ".createTag()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L110",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_createtag",
-      "community": 2,
-      "norm_label": ".createtag()"
-    },
-    {
-      "label": ".updateTag()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L122",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_updatetag",
-      "community": 2,
-      "norm_label": ".updatetag()"
-    },
-    {
-      "label": ".deleteTag()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L142",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_deletetag",
-      "community": 2,
-      "norm_label": ".deletetag()"
-    },
-    {
       "label": ".parseList()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L153",
+      "source_location": "L53",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_parselist",
       "community": 2,
       "norm_label": ".parselist()"
-    },
-    {
-      "label": ".getTagsByIds()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L160",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_gettagsbyids",
-      "community": 2,
-      "norm_label": ".gettagsbyids()"
-    },
-    {
-      "label": ".checkTagUnique()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L174",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_checktagunique",
-      "community": 2,
-      "norm_label": ".checktagunique()"
-    },
-    {
-      "label": ".assignDefined()",
-      "file_type": "code",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L192",
-      "_origin": "ast",
-      "id": "projects_projects_service_projectsservice_assigndefined",
-      "community": 2,
-      "norm_label": ".assigndefined()"
     },
     {
       "label": "r2.client.ts",
@@ -4105,7 +3895,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "users_users_service_usersservice",
-      "community": 0,
+      "community": 14,
       "norm_label": "usersservice"
     },
     {
@@ -4125,7 +3915,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "users_users_service_usersservice_generaterandomcode",
-      "community": 0,
+      "community": 14,
       "norm_label": ".generaterandomcode()"
     },
     {
@@ -4135,7 +3925,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "users_users_service_usersservice_registeruser",
-      "community": 0,
+      "community": 14,
       "norm_label": ".registeruser()"
     },
     {
@@ -4145,7 +3935,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "users_users_service_usersservice_checkuser",
-      "community": 0,
+      "community": 14,
       "norm_label": ".checkuser()"
     },
     {
@@ -4155,7 +3945,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "users_users_service_usersservice_verifyuser",
-      "community": 0,
+      "community": 14,
       "norm_label": ".verifyuser()"
     },
     {
@@ -4165,7 +3955,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "users_users_service_usersservice_validateverificationcode",
-      "community": 0,
+      "community": 14,
       "norm_label": ".validateverificationcode()"
     },
     {
@@ -4175,7 +3965,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "users_users_service_usersservice_updateuserverifycode",
-      "community": 0,
+      "community": 14,
       "norm_label": ".updateuserverifycode()"
     },
     {
@@ -4185,7 +3975,7 @@
       "source_location": "L140",
       "_origin": "ast",
       "id": "users_users_service_usersservice_sendverifycode",
-      "community": 0,
+      "community": 14,
       "norm_label": ".sendverifycode()"
     },
     {
@@ -4195,7 +3985,7 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "users_users_service_usersservice_sendresetlink",
-      "community": 0,
+      "community": 14,
       "norm_label": ".sendresetlink()"
     },
     {
@@ -4205,7 +3995,7 @@
       "source_location": "L166",
       "_origin": "ast",
       "id": "users_users_service_usersservice_restorepassword",
-      "community": 0,
+      "community": 14,
       "norm_label": ".restorepassword()"
     },
     {
@@ -4215,7 +4005,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "users_users_service_usersservice_getuserinfo",
-      "community": 0,
+      "community": 14,
       "norm_label": ".getuserinfo()"
     },
     {
@@ -4225,7 +4015,7 @@
       "source_location": "L195",
       "_origin": "ast",
       "id": "users_users_service_usersservice_changepassword",
-      "community": 0,
+      "community": 14,
       "norm_label": ".changepassword()"
     },
     {
@@ -4235,7 +4025,7 @@
       "source_location": "L222",
       "_origin": "ast",
       "id": "users_users_service_usersservice_update",
-      "community": 0,
+      "community": 14,
       "norm_label": ".update()"
     },
     {
@@ -4245,7 +4035,7 @@
       "source_location": "L226",
       "_origin": "ast",
       "id": "users_users_service_usersservice_blockuser",
-      "community": 0,
+      "community": 14,
       "norm_label": ".blockuser()"
     },
     {
@@ -5050,7 +4840,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 12,
       "norm_label": "verify before reporting done",
       "id": "claude_verify_before_reporting_done"
     },
@@ -5076,7 +4866,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 12,
       "norm_label": "testing",
       "id": "readme_testing"
     },
@@ -5154,7 +4944,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 12,
       "norm_label": "npm run test",
       "id": "readme_npm_run_test"
     },
@@ -5167,7 +4957,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 12,
       "norm_label": "npm run test:e2e",
       "id": "readme_npm_run_test_e2e"
     },
@@ -5180,7 +4970,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 12,
       "norm_label": "npm run test:cov",
       "id": "readme_npm_run_test_cov"
     },
@@ -5241,9 +5031,9 @@
       "source_file": "db/entities/index.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_index",
-      "target": "entities_project_entity"
+      "target": "entities_project_entity",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -5252,9 +5042,9 @@
       "source_file": "db/entities/index.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_index",
-      "target": "entities_project_entity_project"
+      "target": "entities_project_entity_project",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -5285,9 +5075,9 @@
       "source_file": "db/entities/index.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_index",
-      "target": "entities_tag_entity"
+      "target": "entities_tag_entity",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -5296,9 +5086,9 @@
       "source_file": "db/entities/index.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_index",
-      "target": "entities_tag_entity_tag"
+      "target": "entities_tag_entity_tag",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -5329,18 +5119,7 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "entities_index"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "projects_projects_service",
       "target": "entities_index",
       "confidence_score": 1.0
     },
@@ -5351,9 +5130,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository",
-      "target": "entities_index"
+      "target": "entities_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5362,9 +5141,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository",
-      "target": "entities_index"
+      "target": "entities_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5394,9 +5173,9 @@
       "source_file": "db/entities/project.entity.ts",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_project_entity",
-      "target": "entities_project_entity_project"
+      "target": "entities_project_entity_project",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5405,9 +5184,9 @@
       "source_file": "db/entities/project.entity.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_project_entity",
-      "target": "entities_tag_entity"
+      "target": "entities_tag_entity",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5416,9 +5195,9 @@
       "source_file": "db/entities/project.entity.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_project_entity",
-      "target": "entities_tag_entity_tag"
+      "target": "entities_tag_entity_tag",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5427,9 +5206,9 @@
       "source_file": "db/entities/project.entity.ts",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_project_entity_project",
-      "target": "entities_tag_entity_tag"
+      "target": "entities_tag_entity_tag",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5438,9 +5217,9 @@
       "source_file": "db/entities/tag.entity.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_tag_entity",
-      "target": "entities_project_entity_project"
+      "target": "entities_project_entity_project",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5449,18 +5228,7 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "entities_project_entity_project"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "projects_projects_service",
       "target": "entities_project_entity_project",
       "confidence_score": 1.0
     },
@@ -5471,9 +5239,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository",
-      "target": "entities_project_entity_project"
+      "target": "entities_project_entity_project",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5558,18 +5326,7 @@
       "source_file": "src/projects/dto/getProjectsDto.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "dto_getprojectsdto",
-      "target": "entities_tag_entity"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "dto_tagwritedto",
       "target": "entities_tag_entity",
       "confidence_score": 1.0
     },
@@ -5579,9 +5336,9 @@
       "source_file": "db/entities/tag.entity.ts",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_tag_entity",
-      "target": "entities_tag_entity_tag"
+      "target": "entities_tag_entity_tag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5589,9 +5346,9 @@
       "source_file": "db/entities/tag.entity.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "entities_tag_entity",
-      "target": "entities_tag_entity_tagcategory"
+      "target": "entities_tag_entity_tagcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5600,9 +5357,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "entities_tag_entity"
+      "target": "entities_tag_entity",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5611,9 +5368,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository",
-      "target": "entities_tag_entity"
+      "target": "entities_tag_entity",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -5622,9 +5379,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository",
-      "target": "entities_tag_entity"
+      "target": "entities_tag_entity",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5633,9 +5390,9 @@
       "source_file": "src/projects/dto/getProjectsDto.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "dto_getprojectsdto",
-      "target": "entities_tag_entity_tagcategory"
+      "target": "entities_tag_entity_tagcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5644,40 +5401,7 @@
       "source_file": "src/projects/dto/getProjectsDto.ts",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "dto_getprojectsdto_getprojecttagsdto",
-      "target": "entities_tag_entity_tagcategory"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "dto_tagwritedto",
-      "target": "entities_tag_entity_tagcategory",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "dto_tagwritedto_createtagdto",
-      "target": "entities_tag_entity_tagcategory",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "dto_tagwritedto_updatetagdto",
       "target": "entities_tag_entity_tagcategory",
       "confidence_score": 1.0
     },
@@ -5688,18 +5412,7 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "entities_tag_entity_tagcategory"
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L174",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_checktagunique",
       "target": "entities_tag_entity_tagcategory",
       "confidence_score": 1.0
     },
@@ -5710,9 +5423,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository",
-      "target": "entities_tag_entity_tagcategory"
+      "target": "entities_tag_entity_tagcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5721,9 +5434,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository",
-      "target": "entities_tag_entity_tagcategory"
+      "target": "entities_tag_entity_tagcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -5732,9 +5445,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository_tagsrepository_gettags",
-      "target": "entities_tag_entity_tagcategory"
+      "target": "entities_tag_entity_tagcategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -5743,18 +5456,7 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "entities_tag_entity_tag"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "projects_projects_service",
       "target": "entities_tag_entity_tag",
       "confidence_score": 1.0
     },
@@ -5765,9 +5467,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository",
-      "target": "entities_tag_entity_tag"
+      "target": "entities_tag_entity_tag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5881,9 +5583,9 @@
       "source_file": "db/migrations/1782376487418-addProjectsAndTags.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrations_1782376487418_addprojectsandtags",
-      "target": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418"
+      "target": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5891,9 +5593,9 @@
       "source_file": "db/migrations/1782376487418-addProjectsAndTags.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418",
-      "target": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418_down"
+      "target": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418_down",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5901,9 +5603,9 @@
       "source_file": "db/migrations/1782376487418-addProjectsAndTags.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418",
-      "target": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418_up"
+      "target": "migrations_1782376487418_addprojectsandtags_addprojectsandtags1782376487418_up",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7057,9 +6759,9 @@
       "source_file": "src/app.module.ts",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_module",
-      "target": "projects_projects_module"
+      "target": "projects_projects_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7068,9 +6770,9 @@
       "source_file": "src/app.module.ts",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app_module",
-      "target": "projects_projects_module_projectsmodule"
+      "target": "projects_projects_module_projectsmodule",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -8688,34 +8390,12 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "decorators_roles_decorator",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/users/users.controller.ts",
       "source_location": "L26",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "users_users_controller",
       "target": "decorators_roles_decorator"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "decorators_roles_decorator_roles",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8987,17 +8667,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "exceptions_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/shared/services/sendEmail.service.ts",
       "source_location": "L4",
       "weight": 1.0,
@@ -9025,17 +8694,6 @@
       "confidence_score": 1.0,
       "source": "exceptions_index_badrequestappexception",
       "target": "exceptions_index_badrequestappexception_constructor"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "exceptions_index_badrequestappexception",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -9154,17 +8812,6 @@
       "confidence_score": 1.0,
       "source": "exceptions_index_notfoundappexception",
       "target": "exceptions_index_notfoundappexception_constructor"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "exceptions_index_notfoundappexception",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -9497,17 +9144,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "guards_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/users/users.controller.ts",
       "source_location": "L28",
       "weight": 1.0,
@@ -9629,17 +9265,6 @@
       "confidence_score": 1.0,
       "source": "guards_roles_guard_rolesguard",
       "target": "guards_roles_guard_rolesguard_constructor"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "guards_roles_guard_rolesguard",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -9817,9 +9442,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "repositories_index"
+      "target": "repositories_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -9828,9 +9453,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "repositories_index"
+      "target": "repositories_index",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -9839,9 +9464,9 @@
       "source_file": "src/common/repositories/index.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_index",
-      "target": "repositories_projects_repository"
+      "target": "repositories_projects_repository",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -9850,9 +9475,9 @@
       "source_file": "src/common/repositories/index.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_index",
-      "target": "repositories_projects_repository_projectcategoryfilters"
+      "target": "repositories_projects_repository_projectcategoryfilters",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -9861,9 +9486,9 @@
       "source_file": "src/common/repositories/index.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_index",
-      "target": "repositories_projects_repository_projectsrepository"
+      "target": "repositories_projects_repository_projectsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -9894,9 +9519,9 @@
       "source_file": "src/common/repositories/index.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_index",
-      "target": "repositories_tags_repository"
+      "target": "repositories_tags_repository",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -9905,9 +9530,9 @@
       "source_file": "src/common/repositories/index.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_index",
-      "target": "repositories_tags_repository_tagsrepository"
+      "target": "repositories_tags_repository_tagsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -9970,9 +9595,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository",
-      "target": "repositories_projects_repository_findprojectsparams"
+      "target": "repositories_projects_repository_findprojectsparams",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9980,9 +9605,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository",
-      "target": "repositories_projects_repository_projectcategoryfilters"
+      "target": "repositories_projects_repository_projectcategoryfilters",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9990,9 +9615,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository",
-      "target": "repositories_projects_repository_projectsrepository"
+      "target": "repositories_projects_repository_projectsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10001,9 +9626,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "repositories_projects_repository_projectcategoryfilters"
+      "target": "repositories_projects_repository_projectcategoryfilters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10012,9 +9637,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "repositories_projects_repository_projectsrepository"
+      "target": "repositories_projects_repository_projectsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10023,9 +9648,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "repositories_projects_repository_projectsrepository"
+      "target": "repositories_projects_repository_projectsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10034,9 +9659,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice_constructor",
-      "target": "repositories_projects_repository_projectsrepository"
+      "target": "repositories_projects_repository_projectsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -10044,9 +9669,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository_projectsrepository",
-      "target": "repositories_projects_repository_projectsrepository_constructor"
+      "target": "repositories_projects_repository_projectsrepository_constructor",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -10054,9 +9679,9 @@
       "source_file": "src/common/repositories/projects.repository.ts",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_projects_repository_projectsrepository",
-      "target": "repositories_projects_repository_projectsrepository_getprojects"
+      "target": "repositories_projects_repository_projectsrepository_getprojects",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10127,9 +9752,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository",
-      "target": "repositories_tags_repository_tagsrepository"
+      "target": "repositories_tags_repository_tagsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10138,9 +9763,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "repositories_tags_repository_tagsrepository"
+      "target": "repositories_tags_repository_tagsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10149,9 +9774,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "repositories_tags_repository_tagsrepository"
+      "target": "repositories_tags_repository_tagsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10160,9 +9785,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice_constructor",
-      "target": "repositories_tags_repository_tagsrepository"
+      "target": "repositories_tags_repository_tagsrepository",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -10170,9 +9795,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository_tagsrepository",
-      "target": "repositories_tags_repository_tagsrepository_constructor"
+      "target": "repositories_tags_repository_tagsrepository_constructor",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -10180,9 +9805,9 @@
       "source_file": "src/common/repositories/tags.repository.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "repositories_tags_repository_tagsrepository",
-      "target": "repositories_tags_repository_tagsrepository_gettags"
+      "target": "repositories_tags_repository_tagsrepository_gettags",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10334,17 +9959,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "statuscodes_errors_errorcodes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/shared/services/sendEmail.service.ts",
       "source_location": "L5",
       "weight": 1.0,
@@ -10373,17 +9987,6 @@
       "confidence_score": 1.0,
       "source": "users_users_service",
       "target": "statuscodes_errors_errorcodes"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "statuscodes_index",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -10723,9 +10326,9 @@
       "source_file": "src/projects/dto/getProjectsDto.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "dto_getprojectsdto",
-      "target": "dto_getprojectsdto_getprojectsdto"
+      "target": "dto_getprojectsdto_getprojectsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10733,9 +10336,9 @@
       "source_file": "src/projects/dto/getProjectsDto.ts",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "dto_getprojectsdto",
-      "target": "dto_getprojectsdto_getprojecttagsdto"
+      "target": "dto_getprojectsdto_getprojecttagsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -10744,9 +10347,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller",
-      "target": "dto_getprojectsdto"
+      "target": "dto_getprojectsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -10755,9 +10358,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "dto_getprojectsdto"
+      "target": "dto_getprojectsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10766,9 +10369,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller",
-      "target": "dto_getprojectsdto_getprojectsdto"
+      "target": "dto_getprojectsdto_getprojectsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10777,9 +10380,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller_projectscontroller_getprojects",
-      "target": "dto_getprojectsdto_getprojectsdto"
+      "target": "dto_getprojectsdto_getprojectsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10788,9 +10391,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "dto_getprojectsdto_getprojectsdto"
+      "target": "dto_getprojectsdto_getprojectsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10799,9 +10402,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice_getprojects",
-      "target": "dto_getprojectsdto_getprojectsdto"
+      "target": "dto_getprojectsdto_getprojectsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10810,9 +10413,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller",
-      "target": "dto_getprojectsdto_getprojecttagsdto"
+      "target": "dto_getprojectsdto_getprojecttagsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10821,9 +10424,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller_projectscontroller_gettags",
-      "target": "dto_getprojectsdto_getprojecttagsdto"
+      "target": "dto_getprojectsdto_getprojecttagsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -10832,9 +10435,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "dto_getprojectsdto_getprojecttagsdto"
+      "target": "dto_getprojectsdto_getprojecttagsdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10843,268 +10446,8 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice_gettags",
-      "target": "dto_getprojectsdto_getprojecttagsdto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "dto_projectwritedto",
-      "target": "dto_projectwritedto_createprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "dto_projectwritedto",
-      "target": "dto_projectwritedto_updateprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "dto_projectwritedto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "dto_projectwritedto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "dto_projectwritedto_createprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller_createproject",
-      "target": "dto_projectwritedto_createprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "dto_projectwritedto_createprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_createproject",
-      "target": "dto_projectwritedto_createprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "dto_projectwritedto_updateprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller_updateproject",
-      "target": "dto_projectwritedto_updateprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "dto_projectwritedto_updateprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L75",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_updateproject",
-      "target": "dto_projectwritedto_updateprojectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "dto_tagwritedto",
-      "target": "dto_tagwritedto_createtagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/tagWriteDto.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "dto_tagwritedto",
-      "target": "dto_tagwritedto_updatetagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "dto_tagwritedto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "dto_tagwritedto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "dto_tagwritedto_createtagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L58",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller_createtag",
-      "target": "dto_tagwritedto_createtagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "dto_tagwritedto_createtagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L110",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_createtag",
-      "target": "dto_tagwritedto_createtagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "projects_projects_controller",
-      "target": "dto_tagwritedto_updatetagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller_updatetag",
-      "target": "dto_tagwritedto_updatetagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "dto_tagwritedto_updatetagdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_updatetag",
-      "target": "dto_tagwritedto_updatetagdto",
+      "target": "dto_getprojectsdto_getprojecttagsdto",
       "confidence_score": 1.0
     },
     {
@@ -11113,9 +10456,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller",
-      "target": "projects_projects_controller_projectscontroller"
+      "target": "projects_projects_controller_projectscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -11124,9 +10467,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller",
-      "target": "projects_projects_service"
+      "target": "projects_projects_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -11135,9 +10478,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller",
-      "target": "projects_projects_service_projectsservice"
+      "target": "projects_projects_service_projectsservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -11146,9 +10489,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "projects_projects_controller"
+      "target": "projects_projects_controller",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11156,48 +10499,8 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_createproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L58",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_createtag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_deleteproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L72",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_deletetag",
+      "target": "projects_projects_controller_projectscontroller_constructor",
       "confidence_score": 1.0
     },
     {
@@ -11206,9 +10509,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_getprojects"
+      "target": "projects_projects_controller_projectscontroller_getprojects",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11216,28 +10519,8 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_gettags"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_updateproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.controller.ts",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "projects_projects_controller_projectscontroller",
-      "target": "projects_projects_controller_projectscontroller_updatetag",
+      "target": "projects_projects_controller_projectscontroller_gettags",
       "confidence_score": 1.0
     },
     {
@@ -11247,9 +10530,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "projects_projects_controller_projectscontroller"
+      "target": "projects_projects_controller_projectscontroller",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -11258,9 +10541,9 @@
       "source_file": "src/projects/projects.controller.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_controller_projectscontroller_constructor",
-      "target": "projects_projects_service_projectsservice"
+      "target": "projects_projects_service_projectsservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11268,9 +10551,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "projects_projects_module_projectsmodule"
+      "target": "projects_projects_module_projectsmodule",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -11279,9 +10562,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "projects_projects_service"
+      "target": "projects_projects_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -11290,9 +10573,9 @@
       "source_file": "src/projects/projects.module.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_module",
-      "target": "projects_projects_service_projectsservice"
+      "target": "projects_projects_service_projectsservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11300,28 +10583,8 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service",
-      "target": "projects_projects_service_projectsservice"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L192",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_assigndefined",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L174",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_checktagunique",
+      "target": "projects_projects_service_projectsservice",
       "confidence_score": 1.0
     },
     {
@@ -11330,48 +10593,8 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_createproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L110",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_createtag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L99",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_deleteproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L142",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_deletetag",
+      "target": "projects_projects_service_projectsservice_constructor",
       "confidence_score": 1.0
     },
     {
@@ -11380,9 +10603,9 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_getprojects"
+      "target": "projects_projects_service_projectsservice_getprojects",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -11390,18 +10613,8 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_gettags"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L160",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_gettagsbyids",
+      "target": "projects_projects_service_projectsservice_gettags",
       "confidence_score": 1.0
     },
     {
@@ -11410,28 +10623,8 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_parselist"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L75",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_updateproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice",
-      "target": "projects_projects_service_projectsservice_updatetag",
+      "target": "projects_projects_service_projectsservice_parselist",
       "confidence_score": 1.0
     },
     {
@@ -11441,74 +10634,8 @@
       "source_file": "src/projects/projects.service.ts",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "projects_projects_service_projectsservice_getprojects",
-      "target": "projects_projects_service_projectsservice_parselist"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_createproject",
-      "target": "projects_projects_service_projectsservice_gettagsbyids",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_updateproject",
-      "target": "projects_projects_service_projectsservice_assigndefined",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_updateproject",
-      "target": "projects_projects_service_projectsservice_gettagsbyids",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L111",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_createtag",
-      "target": "projects_projects_service_projectsservice_checktagunique",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L133",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_updatetag",
-      "target": "projects_projects_service_projectsservice_assigndefined",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L131",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_updatetag",
-      "target": "projects_projects_service_projectsservice_checktagunique",
+      "target": "projects_projects_service_projectsservice_parselist",
       "confidence_score": 1.0
     },
     {
@@ -13221,9 +12348,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents",
-      "target": "agents_codex_working_rules"
+      "target": "agents_codex_working_rules",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -13241,9 +12368,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_codex_working_rules",
-      "target": "agents_graphify"
+      "target": "agents_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13251,9 +12378,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_codex_working_rules",
-      "target": "agents_workflow_before_making_any_changes"
+      "target": "agents_workflow_before_making_any_changes",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -13281,9 +12408,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_workflow_before_making_any_changes",
-      "target": "agents_1_analyze_the_request"
+      "target": "agents_1_analyze_the_request",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13291,9 +12418,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_workflow_before_making_any_changes",
-      "target": "agents_2_ask_for_clarification_if_needed"
+      "target": "agents_2_ask_for_clarification_if_needed",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13301,9 +12428,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_workflow_before_making_any_changes",
-      "target": "agents_3_present_an_implementation_plan"
+      "target": "agents_3_present_an_implementation_plan",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13311,9 +12438,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_workflow_before_making_any_changes",
-      "target": "agents_4_wait_for_approval"
+      "target": "agents_4_wait_for_approval",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13321,9 +12448,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_workflow_before_making_any_changes",
-      "target": "agents_5_execute"
+      "target": "agents_5_execute",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -13391,9 +12518,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_claude_working_rules"
+      "target": "claude_claude_working_rules",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -13411,9 +12538,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_claude_working_rules",
-      "target": "claude_workflow_before_making_any_changes"
+      "target": "claude_workflow_before_making_any_changes",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -13431,9 +12558,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_workflow_before_making_any_changes",
-      "target": "claude_1_analyze_the_request"
+      "target": "claude_1_analyze_the_request",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13441,9 +12568,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_workflow_before_making_any_changes",
-      "target": "claude_2_ask_for_clarification_if_needed"
+      "target": "claude_2_ask_for_clarification_if_needed",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13451,9 +12578,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_workflow_before_making_any_changes",
-      "target": "claude_3_present_an_implementation_plan"
+      "target": "claude_3_present_an_implementation_plan",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13461,9 +12588,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_workflow_before_making_any_changes",
-      "target": "claude_4_wait_for_approval"
+      "target": "claude_4_wait_for_approval",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13471,9 +12598,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_workflow_before_making_any_changes",
-      "target": "claude_5_execute"
+      "target": "claude_5_execute",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -13531,9 +12658,9 @@
       "source_file": "README.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_endpoint"
+      "target": "readme_endpoint",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13541,9 +12668,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_installation"
+      "target": "readme_installation",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13551,9 +12678,9 @@
       "source_file": "README.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_migration"
+      "target": "readme_migration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13561,9 +12688,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_running_the_app"
+      "target": "readme_running_the_app",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13571,9 +12698,9 @@
       "source_file": "README.md",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_test"
+      "target": "readme_test",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
