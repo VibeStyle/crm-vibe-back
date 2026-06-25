@@ -14,8 +14,6 @@ import { LoginDto } from './dto/Login.dto';
 import { GeneratedTokensDto } from './dto/Tokens.dto';
 import { AuthService } from './auth.service';
 import { UsersService } from 'src/users/users.service';
-import { ForbiddenAppException } from 'src/common/exceptions';
-import { ErrorCodes } from 'src/common/statusCodes';
 import { RecaptchaAction } from 'src/common/decorators/recaptcha.decorator';
 
 @Controller('/auth')
@@ -35,12 +33,6 @@ export class AuthController {
 
     const userInfo = await this.usersRepository.getUserWithRole(body.email);
 
-    if (userInfo.status === 'pending') {
-      throw new ForbiddenAppException(ErrorCodes.WaitingApproving);
-    }
-    if (userInfo.status === 'denied') {
-      throw new ForbiddenAppException(ErrorCodes.userAccessDenied);
-    }
     const mappedData = {
       ...userInfo,
     };

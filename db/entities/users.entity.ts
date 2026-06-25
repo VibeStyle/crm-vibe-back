@@ -36,6 +36,9 @@ export class Users {
   @Column({ nullable: false, default: false })
   blocked: boolean;
 
+  @Column({ nullable: false, default: false })
+  active: boolean;
+
   @Column({ type: 'int', default: 0 })
   failedLoginAttempts: number;
 
