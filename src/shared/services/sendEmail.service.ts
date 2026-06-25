@@ -15,7 +15,7 @@ export class MailService {
     const resendAddress = this.configService.get<string>(
       'resend.resendFromEmail',
     );
-    this.fromEmail = resendAddress;
+    this.fromEmail = this.formatFromEmail(resendAddress);
     this.resend = new Resend(apiKey);
   }
 
@@ -31,6 +31,13 @@ export class MailService {
       console.log({ e });
       throw new BadRequestAppException(ErrorCodes.SendEmailError);
     }
+  }
+
+  private formatFromEmail(address?: string): string {
+    const trimmedAddress = address?.trim();
+    const email = trimmedAddress?.match(/<([^>]+)>/)?.[1] || trimmedAddress;
+
+    return email ? `VibeStyle <${email}>` : 'VibeStyle';
   }
 }
 

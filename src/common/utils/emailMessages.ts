@@ -1,5 +1,12 @@
 type Replacements = Record<string, string | number | null | undefined>;
 
+const BRAND_NAME = 'VibeStyle';
+const PRIMARY_COLOR = '#000000';
+const ACCENT_COLOR = '#c4f934';
+const MUTED_COLOR = '#5F5F5F';
+const PAGE_BG = '#F4F4F4';
+const PANEL_BG = '#FFFFFF';
+
 const wrap = (title: string, contentHtml: string) => `<!doctype html>
 <html>
   <head>
@@ -7,38 +14,44 @@ const wrap = (title: string, contentHtml: string) => `<!doctype html>
     <meta name="viewport" content="width=device-width" />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap');
-      a{color:#FFFFFF;
-      text-decoration: none;}
+      a{color:${PRIMARY_COLOR};text-decoration:none;}
     </style>
   </head>
-  <body style="margin:0;padding:0;background:#EAEFF6;">
-    <div style="background:#EAEFF6;padding:24px 12px;">
-      <div style="max-width:640px;margin:0 auto;background:#FFFFFF;border-radius:16px;overflow:hidden;box-shadow:0 4px 29.8px rgba(227,234,243,0.65);font-family:Urbanist, Arial, sans-serif;">
-        <div style="background:#1D3557;padding:16px 20px;">
-          <div style="color:#FFFFFF;font-size:16px;font-weight:700;line-height:1.2;">Get Claim</div>
-          <div style="color:#FFFFFF;opacity:.85;font-size:12px;margin-top:4px;">${title}</div>
+  <body style="margin:0;padding:0;background:${PAGE_BG};">
+    <div style="background:${PAGE_BG};padding:24px 12px;">
+      <div style="max-width:640px;margin:0 auto;background:${PANEL_BG};border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);font-family:Urbanist, Arial, sans-serif;border:1px solid #E8E8E8;">
+        <div style="background:${PRIMARY_COLOR};padding:18px 20px;border-bottom:4px solid ${ACCENT_COLOR};">
+          <div style="color:${ACCENT_COLOR};font-size:18px;font-weight:700;line-height:1.2;letter-spacing:0.2px;">${BRAND_NAME}</div>
+          <div style="color:#FFFFFF;opacity:.9;font-size:12px;margin-top:4px;">${title}</div>
         </div>
-        <div style="padding:20px;color:#1D3557;font-size:14px;line-height:1.7;">
+        <div style="padding:22px;color:${PRIMARY_COLOR};font-size:14px;line-height:1.7;">
           ${contentHtml}
         </div>
       </div>
-      <div style="max-width:640px;margin:10px auto 0;color:#6C7B92;font-family:Urbanist, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;">
-        © ${new Date().getFullYear()} Get Claim. All rights reserved.
+      <div style="max-width:640px;margin:10px auto 0;color:${MUTED_COLOR};font-family:Urbanist, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;">
+        (c) ${new Date().getFullYear()} ${BRAND_NAME}. All rights reserved.
       </div>
     </div>
   </body>
 </html>`;
 
 const badge = (value: string) => `
-  <div style="display:inline-block;margin-top:8px;padding:10px 16px;background:#1D3557;color:#FFFFFF;border-radius:10px;font-size:16px;font-weight:700;letter-spacing:0.5px;">
+  <div style="display:inline-block;margin-top:8px;padding:10px 18px;background:${ACCENT_COLOR};color:${PRIMARY_COLOR};border-radius:10px;font-size:16px;font-weight:700;letter-spacing:0.5px;border:1px solid ${PRIMARY_COLOR};">
     ${value}
   </div>
 `;
 
-const sigGetClaim = `
+const button = (href: string, label: string) => `
+  <a href="${href}"
+     style="display:inline-block;background:${ACCENT_COLOR};color:${PRIMARY_COLOR};text-decoration:none;padding:12px 18px;border-radius:12px;font-weight:700;border:1px solid ${PRIMARY_COLOR};">
+    ${label}
+  </a>
+`;
+
+const signature = `
   <p style="margin:18px 0 0;">Best regards,</p>
-  <p style="margin:0;font-weight:700;">Get Claim Team</p>
-  <p style="margin:0;color:#6C7B92;">Automated Notification</p>
+  <p style="margin:0;font-weight:700;">${BRAND_NAME} Team</p>
+  <p style="margin:0;color:${MUTED_COLOR};">Automated Notification</p>
 `;
 
 export const emailMessages: Record<string, string> = {
@@ -46,7 +59,7 @@ export const emailMessages: Record<string, string> = {
     'Email Verification Code',
     `
       <p style="margin:0 0 12px;"><strong>Your verification code</strong></p>
-      <p style="margin:0 0 12px;color:#6C7B92;">
+      <p style="margin:0 0 12px;color:${MUTED_COLOR};">
         Please use the code below to verify your email address.
       </p>
 
@@ -54,7 +67,7 @@ export const emailMessages: Record<string, string> = {
         ${badge('{verificationCode}')}
       </div>
 
-      ${sigGetClaim}
+      ${signature}
     `,
   ),
 
@@ -62,7 +75,7 @@ export const emailMessages: Record<string, string> = {
     'Password Reset Code',
     `
       <p style="margin:0 0 12px;"><strong>Your verification code</strong></p>
-      <p style="margin:0 0 12px;color:#6C7B92;">
+      <p style="margin:0 0 12px;color:${MUTED_COLOR};">
         Please use the code below to reset your password.
       </p>
 
@@ -70,11 +83,11 @@ export const emailMessages: Record<string, string> = {
         ${badge('{verificationCode}')}
       </div>
 
-      <p style="margin:14px 0 0;color:#6C7B92;">
+      <p style="margin:14px 0 0;color:${MUTED_COLOR};">
         If you have not sent a password recovery request, you can safely ignore this email.
       </p>
 
-      ${sigGetClaim}
+      ${signature}
     `,
   ),
 
@@ -82,7 +95,7 @@ export const emailMessages: Record<string, string> = {
     'Email Verification',
     `
       <p style="margin:0 0 12px;"><strong>Email Verification</strong></p>
-      <p style="margin:0 0 12px;color:#6C7B92;">
+      <p style="margin:0 0 12px;color:${MUTED_COLOR};">
         Thank you for registration. To complete your registration, please enter the verification code below.
       </p>
 
@@ -90,11 +103,11 @@ export const emailMessages: Record<string, string> = {
         ${badge('{verificationCode}')}
       </div>
 
-      <p style="margin:14px 0 0;color:#6C7B92;">
-        If you didn't sign up for Get Claim, you can safely ignore this email.
+      <p style="margin:14px 0 0;color:${MUTED_COLOR};">
+        If you didn't sign up for ${BRAND_NAME}, you can safely ignore this email.
       </p>
 
-      ${sigGetClaim}
+      ${signature}
     `,
   ),
 
@@ -102,11 +115,11 @@ export const emailMessages: Record<string, string> = {
     'Welcome',
     `
       <p style="margin:0 0 12px;"><strong>Welcome</strong></p>
-      <p style="margin:0 0 12px;color:#6C7B92;">
-        Congratulations, you have become a member of Get Claim.
+      <p style="margin:0 0 12px;color:${MUTED_COLOR};">
+        Congratulations, you have become a member of ${BRAND_NAME}.
       </p>
 
-      ${sigGetClaim}
+      ${signature}
     `,
   ),
 
@@ -114,7 +127,7 @@ export const emailMessages: Record<string, string> = {
     'You are in the team!',
     `
       <p style="margin:0 0 12px;"><strong>You have been added to the team</strong></p>
-      <p style="margin:0 0 12px;color:#6C7B92;">
+      <p style="margin:0 0 12px;color:${MUTED_COLOR};">
         Your account has been created in our system. You can now log in using the credentials below.
       </p>
 
@@ -132,56 +145,55 @@ export const emailMessages: Record<string, string> = {
         </div>
       </div>
 
-      <p style="margin:16px 0 0;color:#6C7B92;">
+      <p style="margin:16px 0 0;color:${MUTED_COLOR};">
         For security reasons, we recommend changing your password after your first login.
       </p>
 
-      ${sigGetClaim}
+      ${signature}
     `,
   ),
+
   'join-team-confirm-email': wrap(
     'Confirm your email',
     `
       <p style="margin:0 0 12px;"><strong>Hello!</strong></p>
-      <p style="margin:0 0 12px;color:#6C7B92;">
+      <p style="margin:0 0 12px;color:${MUTED_COLOR};">
         We received your request to join our team. Please confirm your email address by clicking the button below.
       </p>
 
       <div style="margin:18px 0 10px;text-align:center;">
-        <a href="{confirmUrl}"
-           style="display:inline-block;background:#1D3557;color:#FFFFFF;text-decoration:none;padding:12px 18px;border-radius:12px;font-weight:700;">
-          Confirm Email
-        </a>
+        ${button('{confirmUrl}', 'Confirm Email')}
       </div>
 
-      <p style="margin:14px 0 0;color:#6C7B92;">
+      <p style="margin:14px 0 0;color:${MUTED_COLOR};">
         If you did not request this, you can safely ignore this email.
       </p>
 
-      ${sigGetClaim}
+      ${signature}
     `,
   ),
+
   'join-team-admin-notification': wrap(
     'New Join Team Application',
     `
       <p style="margin:0 0 12px;"><strong>New application submitted</strong></p>
 
-      <p style="margin:0 0 12px;color:#6C7B92;">
+      <p style="margin:0 0 12px;color:${MUTED_COLOR};">
         A new user has submitted a request to join the team.
       </p>
 
-      <div style="margin:14px 0 0;padding:14px;border-radius:12px;background:#F6F8FC;border:1px solid #E3EAF3;">
+      <div style="margin:14px 0 0;padding:14px;border-radius:12px;background:#F8F8F8;border:1px solid ${ACCENT_COLOR};">
         <p style="margin:0 0 8px;"><strong>Applicant:</strong> {fullName}</p>
         <p style="margin:0 0 8px;"><strong>Email:</strong> {email}</p>
         <p style="margin:0 0 8px;"><strong>Phone:</strong> {phone}</p>
         <p style="margin:0;"><strong>Submitted at:</strong> {createdAt}</p>
       </div>
 
-      <p style="margin:16px 0 0;color:#6C7B92;">
+      <p style="margin:16px 0 0;color:${MUTED_COLOR};">
         Please review the application in the admin panel.
       </p>
 
-      ${sigGetClaim}
+      ${signature}
     `,
   ),
 };
