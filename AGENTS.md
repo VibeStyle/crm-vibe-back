@@ -56,6 +56,15 @@ than making unilateral decisions.
 - **Verify before reporting done** — if a change can be tested, test it; do not
   claim success based on code inspection alone.
 
+## API Documentation
+
+- When adding, changing, or deleting backend endpoints, update the frontend API
+  guide in `D:\repository\crm-vibe-admin\API_GUIDE.md` in the same task.
+- Keep the guide current for frontend usage: method, URL, auth/admin
+  requirements, query params, request body, response shape, and important
+  behavioral notes.
+- Do not update the guide for backend changes that do not affect API contracts.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
