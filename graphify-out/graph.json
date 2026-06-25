@@ -2692,7 +2692,7 @@
       "label": ".getUserWithRole()",
       "file_type": "code",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L59",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserwithrole",
       "community": 14,
@@ -15071,5 +15071,5 @@
       "source_file": "AGENTS.md"
     }
   ],
-  "built_at_commit": "274724bcea33b1a1bbc505b0660bb8db427d4c71"
+  "built_at_commit": "9db55c00f01f24423604512dc699569062f32c2f"
 }

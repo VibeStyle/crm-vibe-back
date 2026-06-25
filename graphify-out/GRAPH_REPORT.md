@@ -1,7 +1,7 @@
 # Graph Report - crm-vibe-back  (2026-06-25)
 
 ## Corpus Check
-- 104 files · ~20,260 words
+- 104 files · ~20,238 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `274724bc`
+- Built from commit: `9db55c00`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

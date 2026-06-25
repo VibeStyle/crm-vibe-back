@@ -12,9 +12,6 @@ export class RegisterDto {
   phone: string;
 
   @IsString()
-  company: string;
-
-  @IsString()
   @IsEmail()
   @Transform(({ value }) => value.toLowerCase())
   email: string;

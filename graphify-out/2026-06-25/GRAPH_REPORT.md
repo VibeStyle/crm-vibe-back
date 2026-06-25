@@ -1,7 +1,7 @@
 # Graph Report - crm-vibe-back  (2026-06-25)
 
 ## Corpus Check
-- 104 files · ~20,252 words
+- 104 files · ~20,260 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
