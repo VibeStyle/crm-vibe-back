@@ -189,10 +189,7 @@ export class ProjectsService {
     }
   }
 
-  private assignDefined<T extends Project | Tag>(
-    target: T,
-    data: Partial<T>,
-  ) {
+  private assignDefined<T extends Project | Tag>(target: T, data: Partial<T>) {
     Object.entries(data).forEach(([key, value]) => {
       if (value !== undefined) {
         target[key] = value;
