@@ -76,6 +76,9 @@ export class ProjectsService {
         description: projectBody.description,
         previewUrl: uploadedImage?.url || projectBody.previewUrl,
         previewKey: uploadedImage?.key || null,
+        liveLink: projectBody.liveLink ?? '',
+        status: projectBody.status ?? '',
+        nda: projectBody.nda ?? false,
         isPublished: projectBody.isPublished ?? true,
         tags,
       });
@@ -115,6 +118,9 @@ export class ProjectsService {
       this.assignDefined(project, {
         name: projectBody.name,
         description: projectBody.description,
+        liveLink: projectBody.liveLink,
+        status: projectBody.status,
+        nda: projectBody.nda,
         isPublished: projectBody.isPublished,
       });
 
@@ -254,6 +260,7 @@ export class ProjectsService {
     return {
       ...body,
       isPublished: this.normalizeBoolean(body.isPublished),
+      nda: this.normalizeBoolean(body.nda),
       tagIds: this.normalizeTagIds(body.tagIds),
     };
   }

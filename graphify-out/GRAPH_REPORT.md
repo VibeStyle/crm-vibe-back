@@ -1,16 +1,16 @@
 # Graph Report - crm-vibe-back  (2026-06-26)
 
 ## Corpus Check
-- 106 files · ~21,406 words
+- 107 files · ~21,577 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 601 nodes · 948 edges · 37 communities (24 shown, 13 thin omitted)
+- 605 nodes · 951 edges · 39 communities (25 shown, 14 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `80b10392`
+- Built from commit: `6ee093da`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,11 +29,13 @@
 - [[_COMMUNITY_R2 Storage Uploads|R2 Storage Uploads]]
 - [[_COMMUNITY_README Commands|README Commands]]
 - [[_COMMUNITY_Environment Config|Environment Config]]
+- [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_App Starter Service|App Starter Service]]
 - [[_COMMUNITY_Nest CLI Config|Nest CLI Config]]
 - [[_COMMUNITY_Initial Migration|Initial Migration]]
 - [[_COMMUNITY_File Claim Types|File Claim Types]]
 - [[_COMMUNITY_Multipart Request DTO|Multipart Request DTO]]
+- [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Build TS Config|Build TS Config]]
 - [[_COMMUNITY_Uploaded File Types|Uploaded File Types]]
 - [[_COMMUNITY_Base Error DTO|Base Error DTO]]
@@ -82,10 +84,10 @@
 - **Project Command Workflow** — readme_installation, readme_running_the_app, readme_testing, readme_migration, readme_endpoint_generation [EXTRACTED 1.00]
 - **Verification Practice** — agents_verify_before_reporting_done, claude_verify_before_reporting_done, readme_testing [INFERRED 0.75]
 
-## Communities (37 total, 13 thin omitted)
+## Communities (39 total, 14 thin omitted)
 
 ### Community 0 - "User DTOs"
-Cohesion: 0.06
+Cohesion: 0.05
 Nodes (21): Roles(), ChangePasswordDto, RegisterDto, AppraiserFilter, GetAllAppraisersDto, GetRegisterUsers, GetUsersDto, RestorePasswordDto (+13 more)
 
 ### Community 1 - "Auth Controller Service"
@@ -94,31 +96,31 @@ Nodes (17): AuthController, AuthService, AppleJwtDecode, AuthInfo, GeneratedToke
 
 ### Community 2 - "Auth Database Wiring"
 Cohesion: 0.06
-Nodes (23): GetProjectsDto, GetProjectTagsDto, CreateProjectDto, UpdateProjectDto, CreateTagDto, UpdateTagDto, Project, Tag (+15 more)
+Nodes (24): GetProjectsDto, GetProjectTagsDto, CreateProjectDto, UpdateProjectDto, CreateTagDto, UpdateTagDto, Project, Tag (+16 more)
 
 ### Community 3 - "Runtime Dependencies"
 Cohesion: 0.05
 Nodes (37): dependencies, @aws-sdk/client-s3, @aws-sdk/s3-request-presigner, bcrypt, class-transformer, class-validator, cross-env, dotenv (+29 more)
 
 ### Community 4 - "Access Guards Recaptcha"
-Cohesion: 0.09
-Nodes (15): IAdmin, AppException, BadRequestAppException, ConflictAppException, ForbiddenAppException, NotFoundAppException, UnauthorizedAppException, UserAccessGuard (+7 more)
+Cohesion: 0.10
+Nodes (15): IAdmin, AppException, BadRequestAppException, ConflictAppException, ForbiddenAppException, NotFoundAppException, UnauthorizedAppException, RolesRepository (+7 more)
 
 ### Community 5 - "Package Test Config"
-Cohesion: 0.13
-Nodes (15): scripts, build, format, lint, migrate:dev, migrate:undo:dev, migration:generate:dev, start (+7 more)
+Cohesion: 0.06
+Nodes (30): author, description, jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment (+22 more)
 
 ### Community 6 - "Agent Working Rules"
 Cohesion: 0.05
 Nodes (44): 1. Analyze the Request, 2. Ask for Clarification (if needed), 3. Present an Implementation Plan, 4. Wait for Approval, 5. Execute, Analyze Request, API Documentation, Ask For Clarification (+36 more)
 
 ### Community 7 - "Auth Errors Common"
-Cohesion: 0.06
-Nodes (24): AuthModule, data, db, gpt, jwt, r2, recaptcha, resend (+16 more)
+Cohesion: 0.08
+Nodes (19): AuthModule, data, db, gpt, jwt, r2, recaptcha, resend (+11 more)
 
 ### Community 8 - "Dev Tooling Dependencies"
-Cohesion: 0.05
-Nodes (38): author, description, devDependencies, eslint, eslint-config-prettier, eslint-plugin-prettier, jest, @nestjs/cli (+30 more)
+Cohesion: 0.09
+Nodes (23): devDependencies, eslint, eslint-config-prettier, eslint-plugin-prettier, jest, @nestjs/cli, @nestjs/schematics, @nestjs/testing (+15 more)
 
 ### Community 9 - "TypeScript Compiler Config"
 Cohesion: 0.10
@@ -133,8 +135,12 @@ Cohesion: 0.16
 Nodes (13): Endpoint, Endpoint Generation, Installation, Migration, nest g resource --no-spec, npm install, npm run migration:generate:dev, npm run start (+5 more)
 
 ### Community 13 - "Environment Config"
-Cohesion: 0.12
-Nodes (8): Roles, Users, RolesRepository, GetUsersListParams, UsersRepository, MailService, NodemailerService, UsersModule
+Cohesion: 0.24
+Nodes (3): Roles, Users, UsersRepository
+
+### Community 14 - "Community 14"
+Cohesion: 0.09
+Nodes (9): UserAccessGuard, JwtAuthGuard, HardCodeGuard, RecaptchaGuard, RolesGuard, RecaptchaController, RecaptchaModule, RecaptchaService (+1 more)
 
 ### Community 16 - "Nest CLI Config"
 Cohesion: 0.33
@@ -171,7 +177,7 @@ Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphif
 ## Knowledge Gaps
 - **210 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+205 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -183,10 +189,10 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
   _228 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User DTOs` be split into smaller, more focused modules?**
-  _Cohesion score 0.05874125874125874 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05384615384615385 - nodes in this community are weakly interconnected._
 - **Should `Auth Controller Service` be split into smaller, more focused modules?**
-  _Cohesion score 0.07560975609756097 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0782051282051282 - nodes in this community are weakly interconnected._
 - **Should `Auth Database Wiring` be split into smaller, more focused modules?**
-  _Cohesion score 0.06037000973709834 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.058333333333333334 - nodes in this community are weakly interconnected._
 - **Should `Runtime Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._

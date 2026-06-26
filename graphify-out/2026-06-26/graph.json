@@ -395,7 +395,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "package",
-      "community": 20,
+      "community": 8,
       "norm_label": "package.json"
     },
     {
@@ -405,7 +405,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "package_name",
-      "community": 20,
+      "community": 8,
       "norm_label": "name"
     },
     {
@@ -415,7 +415,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "package_version",
-      "community": 20,
+      "community": 8,
       "norm_label": "version"
     },
     {
@@ -425,7 +425,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "package_description",
-      "community": 20,
+      "community": 8,
       "norm_label": "description"
     },
     {
@@ -435,7 +435,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "package_author",
-      "community": 20,
+      "community": 8,
       "norm_label": "author"
     },
     {
@@ -445,7 +445,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "package_private",
-      "community": 20,
+      "community": 8,
       "norm_label": "private"
     },
     {
@@ -455,7 +455,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "package_license",
-      "community": 20,
+      "community": 8,
       "norm_label": "license"
     },
     {
@@ -1215,7 +1215,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "package_jest",
-      "community": 14,
+      "community": 8,
       "norm_label": "jest"
     },
     {
@@ -1225,7 +1225,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "package_jest_modulefileextensions",
-      "community": 14,
+      "community": 8,
       "norm_label": "modulefileextensions"
     },
     {
@@ -1235,7 +1235,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "package_jest_rootdir",
-      "community": 14,
+      "community": 8,
       "norm_label": "rootdir"
     },
     {
@@ -1245,7 +1245,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "package_jest_testregex",
-      "community": 14,
+      "community": 8,
       "norm_label": "testregex"
     },
     {
@@ -1255,7 +1255,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "package_jest_transform",
-      "community": 14,
+      "community": 8,
       "norm_label": "transform"
     },
     {
@@ -1265,7 +1265,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "package_transform_t_j_s",
-      "community": 14,
+      "community": 8,
       "norm_label": "^.+\\\\.(t|j)s$"
     },
     {
@@ -1275,7 +1275,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "package_jest_collectcoveragefrom",
-      "community": 14,
+      "community": 8,
       "norm_label": "collectcoveragefrom"
     },
     {
@@ -1285,7 +1285,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "package_jest_coveragedirectory",
-      "community": 14,
+      "community": 8,
       "norm_label": "coveragedirectory"
     },
     {
@@ -1295,7 +1295,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "package_jest_testenvironment",
-      "community": 14,
+      "community": 8,
       "norm_label": "testenvironment"
     },
     {
@@ -1305,7 +1305,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_controller_spec",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.controller.spec.ts"
     },
     {
@@ -1315,7 +1315,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_controller",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.controller.ts"
     },
     {
@@ -1325,7 +1325,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_app_controller_appcontroller",
-      "community": 13,
+      "community": 7,
       "norm_label": "appcontroller"
     },
     {
@@ -1335,7 +1335,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_app_controller_appcontroller_constructor",
-      "community": 13,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -1345,7 +1345,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_app_controller_appcontroller_gethello",
-      "community": 13,
+      "community": 7,
       "norm_label": ".gethello()"
     },
     {
@@ -1355,7 +1355,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_module",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.module.ts"
     },
     {
@@ -1365,7 +1365,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_app_module_appmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "appmodule"
     },
     {
@@ -1375,7 +1375,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_service",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.service.ts"
     },
     {
@@ -1385,7 +1385,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_app_service_appservice",
-      "community": 13,
+      "community": 7,
       "norm_label": "appservice"
     },
     {
@@ -1395,7 +1395,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_app_service_appservice_gethello",
-      "community": 13,
+      "community": 7,
       "norm_label": ".gethello()"
     },
     {
@@ -1465,7 +1465,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "auth_auth_module_authmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "authmodule"
     },
     {
@@ -1475,7 +1475,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "auth_auth_service",
-      "community": 1,
+      "community": 4,
       "norm_label": "auth.service.ts"
     },
     {
@@ -1602,7 +1602,7 @@
       "label": "UserInterface",
       "file_type": "code",
       "source_file": "src/auth/auth.types.ts",
-      "source_location": "L14",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "auth_auth_types_userinterface",
       "community": 1,
@@ -1612,7 +1612,7 @@
       "label": "LoginOutdata",
       "file_type": "code",
       "source_file": "src/auth/auth.types.ts",
-      "source_location": "L18",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "auth_auth_types_loginoutdata",
       "community": 1,
@@ -1622,7 +1622,7 @@
       "label": "GeneratedTokens",
       "file_type": "code",
       "source_file": "src/auth/auth.types.ts",
-      "source_location": "L26",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "auth_auth_types_generatedtokens",
       "community": 1,
@@ -1632,7 +1632,7 @@
       "label": "LoginAuthOut",
       "file_type": "code",
       "source_file": "src/auth/auth.types.ts",
-      "source_location": "L31",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "auth_auth_types_loginauthout",
       "community": 1,
@@ -1642,7 +1642,7 @@
       "label": "AppleJwtDecode",
       "file_type": "code",
       "source_file": "src/auth/auth.types.ts",
-      "source_location": "L36",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "auth_auth_types_applejwtdecode",
       "community": 1,
@@ -1652,7 +1652,7 @@
       "label": "GoogleProfile",
       "file_type": "code",
       "source_file": "src/auth/auth.types.ts",
-      "source_location": "L50",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "auth_auth_types_googleprofile",
       "community": 1,
@@ -1662,7 +1662,7 @@
       "label": "LoginAdminDto",
       "file_type": "code",
       "source_file": "src/auth/auth.types.ts",
-      "source_location": "L61",
+      "source_location": "L62",
       "_origin": "ast",
       "id": "auth_auth_types_loginadmindto",
       "community": 1,
@@ -1725,7 +1725,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dto_common",
-      "community": 1,
+      "community": 4,
       "norm_label": "common.ts"
     },
     {
@@ -1735,7 +1735,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dto_common_iadmin",
-      "community": 1,
+      "community": 4,
       "norm_label": "iadmin"
     },
     {
@@ -1795,7 +1795,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "strategies_jwtrefresh_strategy",
-      "community": 1,
+      "community": 4,
       "norm_label": "jwtrefresh.strategy.ts"
     },
     {
@@ -1965,7 +1965,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "configs_postgres_config",
-      "community": 13,
+      "community": 7,
       "norm_label": "postgres.config.ts"
     },
     {
@@ -2055,7 +2055,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "exceptions_app_exception",
-      "community": 1,
+      "community": 4,
       "norm_label": "app.exception.ts"
     },
     {
@@ -2065,7 +2065,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "exceptions_app_exception_appexception",
-      "community": 1,
+      "community": 4,
       "norm_label": "appexception"
     },
     {
@@ -2075,7 +2075,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "exceptions_app_exception_appexception_constructor",
-      "community": 1,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -2085,7 +2085,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "exceptions_index",
-      "community": 1,
+      "community": 4,
       "norm_label": "index.ts"
     },
     {
@@ -2095,7 +2095,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "exceptions_index_badrequestappexception",
-      "community": 1,
+      "community": 4,
       "norm_label": "badrequestappexception"
     },
     {
@@ -2105,7 +2105,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "exceptions_index_badrequestappexception_constructor",
-      "community": 1,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -2115,7 +2115,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "exceptions_index_unauthorizedappexception",
-      "community": 1,
+      "community": 4,
       "norm_label": "unauthorizedappexception"
     },
     {
@@ -2125,7 +2125,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "exceptions_index_unauthorizedappexception_constructor",
-      "community": 1,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -2135,7 +2135,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "exceptions_index_forbiddenappexception",
-      "community": 1,
+      "community": 4,
       "norm_label": "forbiddenappexception"
     },
     {
@@ -2145,7 +2145,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "exceptions_index_forbiddenappexception_constructor",
-      "community": 1,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -2155,7 +2155,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "exceptions_index_notfoundappexception",
-      "community": 1,
+      "community": 4,
       "norm_label": "notfoundappexception"
     },
     {
@@ -2165,7 +2165,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "exceptions_index_notfoundappexception_constructor",
-      "community": 1,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -2175,7 +2175,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "exceptions_index_conflictappexception",
-      "community": 1,
+      "community": 4,
       "norm_label": "conflictappexception"
     },
     {
@@ -2185,7 +2185,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "exceptions_index_conflictappexception_constructor",
-      "community": 1,
+      "community": 4,
       "norm_label": ".constructor()"
     },
     {
@@ -2255,7 +2255,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "guards_access_guard",
-      "community": 1,
+      "community": 4,
       "norm_label": "access.guard.ts"
     },
     {
@@ -2385,7 +2385,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "guards_recaptcha_guard",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptcha.guard.ts"
     },
     {
@@ -2395,7 +2395,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "guards_recaptcha_guard_recaptchaguard",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptchaguard"
     },
     {
@@ -2405,7 +2405,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "guards_recaptcha_guard_recaptchaguard_constructor",
-      "community": 4,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2415,7 +2415,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "guards_recaptcha_guard_recaptchaguard_canactivate",
-      "community": 4,
+      "community": 7,
       "norm_label": ".canactivate()"
     },
     {
@@ -2425,7 +2425,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "guards_roles_guard",
-      "community": 1,
+      "community": 4,
       "norm_label": "roles.guard.ts"
     },
     {
@@ -2805,7 +2805,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_errors",
-      "community": 1,
+      "community": 4,
       "norm_label": "errors.ts"
     },
     {
@@ -2815,7 +2815,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_errors_errorcodes",
-      "community": 1,
+      "community": 4,
       "norm_label": "errorcodes"
     },
     {
@@ -2825,7 +2825,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "statuscodes_errors_errordescriptionsarray",
-      "community": 1,
+      "community": 4,
       "norm_label": "errordescriptionsarray"
     },
     {
@@ -2835,7 +2835,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_index",
-      "community": 1,
+      "community": 4,
       "norm_label": "index.ts"
     },
     {
@@ -2845,7 +2845,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_infos",
-      "community": 1,
+      "community": 4,
       "norm_label": "infos.ts"
     },
     {
@@ -2855,7 +2855,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_infos_infocodes",
-      "community": 1,
+      "community": 4,
       "norm_label": "infocodes"
     },
     {
@@ -2865,7 +2865,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "statuscodes_infos_generateinforesponse",
-      "community": 1,
+      "community": 4,
       "norm_label": "generateinforesponse()"
     },
     {
@@ -3055,7 +3055,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service",
-      "community": 13,
+      "community": 7,
       "norm_label": "openai-invoice-extraction.service.ts"
     },
     {
@@ -3065,7 +3065,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_invoiceextractionschema",
-      "community": 13,
+      "community": 7,
       "norm_label": "invoiceextractionschema"
     },
     {
@@ -3075,7 +3075,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_invoiceextractionresult",
-      "community": 13,
+      "community": 7,
       "norm_label": "invoiceextractionresult"
     },
     {
@@ -3085,7 +3085,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice",
-      "community": 13,
+      "community": 7,
       "norm_label": "openaiinvoiceextractionservice"
     },
     {
@@ -3095,7 +3095,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice_constructor",
-      "community": 13,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -3105,7 +3105,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice_extractinvoicedata",
-      "community": 13,
+      "community": 7,
       "norm_label": ".extractinvoicedata()"
     },
     {
@@ -3115,7 +3115,7 @@
       "source_location": "L124",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice_isimage",
-      "community": 13,
+      "community": 7,
       "norm_label": ".isimage()"
     },
     {
@@ -3125,7 +3125,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "openai_openai_module",
-      "community": 13,
+      "community": 7,
       "norm_label": "openai.module.ts"
     },
     {
@@ -3135,7 +3135,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "openai_openai_module_openaimodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "openaimodule"
     },
     {
@@ -3385,7 +3385,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "projects_projects_module_projectsmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "projectsmodule"
     },
     {
@@ -3735,7 +3735,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_controller",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptcha.controller.ts"
     },
     {
@@ -3745,7 +3745,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_controller_recaptchacontroller",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptchacontroller"
     },
     {
@@ -3755,7 +3755,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_controller_recaptchacontroller_constructor",
-      "community": 4,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -3765,7 +3765,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_module",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptcha.module.ts"
     },
     {
@@ -3775,7 +3775,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_module_recaptchamodule",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptchamodule"
     },
     {
@@ -3785,7 +3785,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_service",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptcha.service.ts"
     },
     {
@@ -3795,7 +3795,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_service_verifyresp",
-      "community": 4,
+      "community": 7,
       "norm_label": "verifyresp"
     },
     {
@@ -3805,7 +3805,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_service_recaptchaservice",
-      "community": 4,
+      "community": 7,
       "norm_label": "recaptchaservice"
     },
     {
@@ -3815,7 +3815,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_service_recaptchaservice_constructor",
-      "community": 4,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -3825,7 +3825,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "recaptcha_recaptcha_service_recaptchaservice_verify",
-      "community": 4,
+      "community": 7,
       "norm_label": ".verify()"
     },
     {
@@ -3845,7 +3845,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_sendemail_service",
-      "community": 1,
+      "community": 4,
       "norm_label": "sendemail.service.ts"
     },
     {
@@ -3925,7 +3925,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shared_shared_module",
-      "community": 13,
+      "community": 7,
       "norm_label": "shared.module.ts"
     },
     {
@@ -3935,7 +3935,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shared_shared_module_providers",
-      "community": 13,
+      "community": 7,
       "norm_label": "providers"
     },
     {
@@ -3945,7 +3945,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "shared_shared_module_sharedmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "sharedmodule"
     },
     {
@@ -4112,7 +4112,7 @@
       "label": "UpdateUserDto",
       "file_type": "code",
       "source_file": "src/users/dto/updateUserDto.ts",
-      "source_location": "L3",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "dto_updateuserdto_updateuserdto",
       "community": 0,
@@ -4122,7 +4122,7 @@
       "label": "UserStatus",
       "file_type": "code",
       "source_file": "src/users/dto/updateUserDto.ts",
-      "source_location": "L80",
+      "source_location": "L86",
       "_origin": "ast",
       "id": "dto_updateuserdto_userstatus",
       "community": 0,
@@ -4132,7 +4132,7 @@
       "label": "UpdateUserStatusDto",
       "file_type": "code",
       "source_file": "src/users/dto/updateUserDto.ts",
-      "source_location": "L85",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "dto_updateuserdto_updateuserstatusdto",
       "community": 0,
@@ -4142,11 +4142,21 @@
       "label": "UpdateUserActivationDto",
       "file_type": "code",
       "source_file": "src/users/dto/updateUserDto.ts",
-      "source_location": "L95",
+      "source_location": "L101",
       "_origin": "ast",
       "id": "dto_updateuserdto_updateuseractivationdto",
       "community": 0,
       "norm_label": "updateuseractivationdto"
+    },
+    {
+      "label": "UpdateUserRoleDto",
+      "file_type": "code",
+      "source_file": "src/users/dto/updateUserDto.ts",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "dto_updateuserdto_updateuserroledto",
+      "community": 0,
+      "norm_label": "updateuserroledto"
     },
     {
       "label": "verifyUserDto.ts",
@@ -4202,7 +4212,7 @@
       "label": "UsersController",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller",
       "community": 0,
@@ -4212,7 +4222,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_constructor",
       "community": 0,
@@ -4222,7 +4232,7 @@
       "label": ".register()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L39",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_register",
       "community": 0,
@@ -4232,7 +4242,7 @@
       "label": ".verify()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L51",
+      "source_location": "L55",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_verify",
       "community": 0,
@@ -4242,7 +4252,7 @@
       "label": ".validateCode()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L60",
+      "source_location": "L64",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_validatecode",
       "community": 0,
@@ -4252,7 +4262,7 @@
       "label": ".sendVerifyCode()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L68",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_sendverifycode",
       "community": 0,
@@ -4262,7 +4272,7 @@
       "label": ".sendResetLink()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L76",
+      "source_location": "L80",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_sendresetlink",
       "community": 0,
@@ -4272,7 +4282,7 @@
       "label": ".restorePassword()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L83",
+      "source_location": "L87",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_restorepassword",
       "community": 0,
@@ -4282,7 +4292,7 @@
       "label": ".changePassword()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L91",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_changepassword",
       "community": 0,
@@ -4292,7 +4302,7 @@
       "label": ".blockUser()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L100",
+      "source_location": "L104",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_blockuser",
       "community": 0,
@@ -4302,7 +4312,7 @@
       "label": ".getUsers()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L107",
+      "source_location": "L111",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_getusers",
       "community": 0,
@@ -4312,17 +4322,27 @@
       "label": ".updateActivation()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L114",
+      "source_location": "L118",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_updateactivation",
       "community": 0,
       "norm_label": ".updateactivation()"
     },
     {
+      "label": ".updateRole()",
+      "file_type": "code",
+      "source_file": "src/users/users.controller.ts",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "users_users_controller_userscontroller_updaterole",
+      "community": 0,
+      "norm_label": ".updaterole()"
+    },
+    {
       "label": ".getUserInfo()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L124",
+      "source_location": "L135",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_getuserinfo",
       "community": 0,
@@ -4332,7 +4352,7 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L134",
+      "source_location": "L145",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_update",
       "community": 0,
@@ -4365,7 +4385,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_users_service",
-      "community": 1,
+      "community": 0,
       "norm_label": "users.service.ts"
     },
     {
@@ -4529,10 +4549,20 @@
       "norm_label": ".updateactivation()"
     },
     {
-      "label": ".blockUser()",
+      "label": ".updateRole()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
       "source_location": "L249",
+      "_origin": "ast",
+      "id": "users_users_service_usersservice_updaterole",
+      "community": 0,
+      "norm_label": ".updaterole()"
+    },
+    {
+      "label": ".blockUser()",
+      "file_type": "code",
+      "source_file": "src/users/users.service.ts",
+      "source_location": "L266",
       "_origin": "ast",
       "id": "users_users_service_usersservice_blockuser",
       "community": 0,
@@ -4542,7 +4572,7 @@
       "label": ".parsePositiveInteger()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L258",
+      "source_location": "L275",
       "_origin": "ast",
       "id": "users_users_service_usersservice_parsepositiveinteger",
       "community": 0,
@@ -4552,7 +4582,7 @@
       "label": ".parseBooleanFilter()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L269",
+      "source_location": "L286",
       "_origin": "ast",
       "id": "users_users_service_usersservice_parsebooleanfilter",
       "community": 0,
@@ -4565,7 +4595,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_users_types",
-      "community": 1,
+      "community": 4,
       "norm_label": "users.types.ts"
     },
     {
@@ -4575,7 +4605,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_users_types_tokeninfo",
-      "community": 1,
+      "community": 4,
       "norm_label": "tokeninfo"
     },
     {
@@ -4585,7 +4615,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "test_app_e2e_spec",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.e2e-spec.ts"
     },
     {
@@ -6861,9 +6891,9 @@
       "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "migrations_1782376487420_adduseremailverified",
-      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420",
-      "confidence_score": 1.0
+      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420"
     },
     {
       "relation": "method",
@@ -6871,9 +6901,9 @@
       "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420",
-      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_down",
-      "confidence_score": 1.0
+      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_down"
     },
     {
       "relation": "method",
@@ -6881,9 +6911,9 @@
       "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420",
-      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_up",
-      "confidence_score": 1.0
+      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_up"
     },
     {
       "relation": "contains",
@@ -11192,9 +11222,9 @@
       "source_file": "src/common/repositories/users.repository.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_users_repository",
-      "target": "repositories_users_repository_getuserslistparams",
-      "confidence_score": 1.0
+      "target": "repositories_users_repository_getuserslistparams"
     },
     {
       "relation": "contains",
@@ -11252,9 +11282,9 @@
       "source_file": "src/common/repositories/users.repository.ts",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_users_repository_usersrepository",
-      "target": "repositories_users_repository_usersrepository_getuserslist",
-      "confidence_score": 1.0
+      "target": "repositories_users_repository_usersrepository_getuserslist"
     },
     {
       "relation": "method",
@@ -13617,9 +13647,9 @@
       "source_file": "src/users/dto/getUserDto.ts",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dto_getuserdto",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
+      "target": "dto_getuserdto_getusersdto"
     },
     {
       "relation": "imports_from",
@@ -13639,9 +13669,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service",
-      "target": "dto_getuserdto",
-      "confidence_score": 1.0
+      "target": "dto_getuserdto"
     },
     {
       "relation": "imports",
@@ -13672,9 +13702,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
+      "target": "dto_getuserdto_getusersdto"
     },
     {
       "relation": "references",
@@ -13683,9 +13713,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller_userscontroller_getusers",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
+      "target": "dto_getuserdto_getusersdto"
     },
     {
       "relation": "imports",
@@ -13694,9 +13724,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
+      "target": "dto_getuserdto_getusersdto"
     },
     {
       "relation": "references",
@@ -13705,9 +13735,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L228",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_getusers",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
+      "target": "dto_getuserdto_getusersdto"
     },
     {
       "relation": "contains",
@@ -13791,9 +13821,9 @@
       "source_file": "src/users/dto/updateUserDto.ts",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dto_updateuserdto",
-      "target": "dto_updateuserdto_updateuseractivationdto",
-      "confidence_score": 1.0
+      "target": "dto_updateuserdto_updateuseractivationdto"
     },
     {
       "relation": "contains",
@@ -13804,6 +13834,16 @@
       "confidence_score": 1.0,
       "source": "dto_updateuserdto",
       "target": "dto_updateuserdto_updateuserdto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/users/dto/updateUserDto.ts",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "dto_updateuserdto",
+      "target": "dto_updateuserdto_updateuserroledto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13909,9 +13949,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller",
-      "target": "dto_updateuserdto_updateuseractivationdto",
-      "confidence_score": 1.0
+      "target": "dto_updateuserdto_updateuseractivationdto"
     },
     {
       "relation": "references",
@@ -13920,8 +13960,30 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller_userscontroller_updateactivation",
-      "target": "dto_updateuserdto_updateuseractivationdto",
+      "target": "dto_updateuserdto_updateuseractivationdto"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/users/users.controller.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "users_users_controller",
+      "target": "dto_updateuserdto_updateuserroledto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/users/users.controller.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "users_users_controller_userscontroller_updaterole",
+      "target": "dto_updateuserdto_updateuserroledto",
       "confidence_score": 1.0
     },
     {
@@ -14131,9 +14193,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller_userscontroller",
-      "target": "users_users_controller_userscontroller_getusers",
-      "confidence_score": 1.0
+      "target": "users_users_controller_userscontroller_getusers"
     },
     {
       "relation": "method",
@@ -14191,8 +14253,18 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller_userscontroller",
-      "target": "users_users_controller_userscontroller_updateactivation",
+      "target": "users_users_controller_userscontroller_updateactivation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/users/users.controller.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "users_users_controller_userscontroller",
+      "target": "users_users_controller_userscontroller_updaterole",
       "confidence_score": 1.0
     },
     {
@@ -14356,9 +14428,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L228",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_getusers",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_getusers"
     },
     {
       "relation": "method",
@@ -14366,9 +14438,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L269",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_parsebooleanfilter",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_parsebooleanfilter"
     },
     {
       "relation": "method",
@@ -14376,9 +14448,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_parsepositiveinteger",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_parsepositiveinteger"
     },
     {
       "relation": "method",
@@ -14436,8 +14508,18 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_updateactivation",
+      "target": "users_users_service_usersservice_updateactivation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/users/users.service.ts",
+      "source_location": "L249",
+      "weight": 1.0,
+      "source": "users_users_service_usersservice",
+      "target": "users_users_service_usersservice_updaterole",
       "confidence_score": 1.0
     },
     {
@@ -14554,9 +14636,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L246",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_updateactivation",
-      "target": "users_users_service_usersservice_getuserinfo",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_getuserinfo"
     },
     {
       "relation": "calls",
@@ -14587,7 +14669,18 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L245",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_updateactivation",
+      "target": "users_users_service_usersservice_update"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/users/users.service.ts",
+      "source_location": "L262",
+      "weight": 1.0,
+      "source": "users_users_service_usersservice_updaterole",
       "target": "users_users_service_usersservice_update",
       "confidence_score": 1.0
     },
@@ -14598,9 +14691,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_getusers",
-      "target": "users_users_service_usersservice_parsebooleanfilter",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_parsebooleanfilter"
     },
     {
       "relation": "calls",
@@ -14609,9 +14702,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_getusers",
-      "target": "users_users_service_usersservice_parsepositiveinteger",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_parsepositiveinteger"
     },
     {
       "relation": "contains",
@@ -16038,5 +16131,5 @@
       "source_file": "AGENTS.md"
     }
   ],
-  "built_at_commit": "537a7319ea5faee3af024e8c78ed28bd929b41b8"
+  "built_at_commit": "80b1039212524582e88ebc628f737e7089aa5a7c"
 }

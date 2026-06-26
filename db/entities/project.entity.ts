@@ -26,6 +26,15 @@ export class Project {
   @Column({ nullable: true })
   previewKey: string | null;
 
+  @Column({ nullable: false, default: '' })
+  liveLink: string;
+
+  @Column({ nullable: false, default: '' })
+  status: string;
+
+  @Column({ nullable: false, default: false })
+  nda: boolean;
+
   @Column({ nullable: false, default: true })
   isPublished: boolean;
 

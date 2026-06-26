@@ -80,6 +80,19 @@ export class CreateProjectDto {
   @IsOptional()
   previewUrl?: string;
 
+  @IsString()
+  @IsOptional()
+  liveLink?: string;
+
+  @IsString()
+  @IsOptional()
+  status?: string;
+
+  @IsBoolean()
+  @Transform(({ value }) => toOptionalBoolean(value))
+  @IsOptional()
+  nda?: boolean;
+
   @IsBoolean()
   @Transform(({ value }) => toOptionalBoolean(value))
   @IsOptional()
@@ -105,6 +118,19 @@ export class UpdateProjectDto {
   @IsString()
   @IsOptional()
   previewUrl?: string;
+
+  @IsString()
+  @IsOptional()
+  liveLink?: string;
+
+  @IsString()
+  @IsOptional()
+  status?: string;
+
+  @IsBoolean()
+  @Transform(({ value }) => toOptionalBoolean(value))
+  @IsOptional()
+  nda?: boolean;
 
   @IsBoolean()
   @Transform(({ value }) => toOptionalBoolean(value))
