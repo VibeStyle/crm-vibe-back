@@ -9,6 +9,8 @@ import {
   Patch,
   Param,
   Query,
+  UploadedFiles,
+  UseInterceptors,
 } from '@nestjs/common';
 
 import { AuthGuard } from '@nestjs/passport';
@@ -30,6 +32,16 @@ import {
 import { Roles } from 'src/common/decorators/roles.decorator';
 import { GetUsersDto } from './dto/getUserDto';
 import { RolesGuard } from 'src/common/guards';
+import { FileUploadInterceptor } from 'src/common/interseptors/file-upload.interceptor';
+import { MulterFile } from 'src/r2/storage.service';
+
+const UserAvatarInterceptor = FileUploadInterceptor('files', {
+  maxFiles: 1,
+  maxFileSize: 20 * 1024 * 1024,
+  allowedTypes: ['image/jpeg', 'image/png'],
+  allowedExtensions: ['jpg', 'jpeg', 'png'],
+  useMemoryStorage: true,
+});
 
 @Controller('/users')
 export class UsersController {
@@ -142,8 +154,13 @@ export class UsersController {
 
   @UseGuards(AuthGuard('jwt'))
   @Patch('/edit')
-  update(@Request() req, @Body() updateUserDto: UpdateUserDto) {
+  @UseInterceptors(UserAvatarInterceptor)
+  update(
+    @Request() req,
+    @Body() updateUserDto: UpdateUserDto,
+    @UploadedFiles() files?: MulterFile[],
+  ) {
     const { user } = req;
-    return this.usersService.update(+user.id, updateUserDto);
+    return this.usersService.update(+user.id, updateUserDto, files?.[0]);
   }
 }

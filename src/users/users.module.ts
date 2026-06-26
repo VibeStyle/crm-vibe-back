@@ -9,6 +9,7 @@ import { RolesRepository, UsersRepository } from 'src/common/repositories';
 import { MailService, NodemailerService } from 'src/shared/services';
 import { AuthService } from 'src/auth/auth.service';
 import { HttpModule } from '@nestjs/axios';
+import { R2StorageService } from 'src/r2/storage.service';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { HttpModule } from '@nestjs/axios';
     AuthService,
     RolesRepository,
     MailService,
+    R2StorageService,
   ],
   exports: [UsersService],
 })

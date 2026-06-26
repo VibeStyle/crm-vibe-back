@@ -18,6 +18,11 @@ import {
   NotFoundAppException,
 } from 'src/common/exceptions';
 import { MailService } from 'src/shared/services';
+import {
+  MulterFile,
+  R2StorageService,
+  R2UploadResult,
+} from 'src/r2/storage.service';
 
 @Injectable()
 export class UsersService {
@@ -28,6 +33,7 @@ export class UsersService {
     private usersRepository: UsersRepository,
     private readonly mailerService: MailService,
     private rolesRepository: RolesRepository,
+    private r2StorageService: R2StorageService,
   ) {
     this.frontendUrl = this.configService.get('data.frontendUrl');
   }
@@ -221,8 +227,44 @@ export class UsersService {
     return await this.usersRepository.update(id, { password: newPassword });
   }
 
-  async update(id: number, updateUserDTO: UpdateUserDto) {
-    return this.usersRepository.update({ id }, updateUserDTO);
+  async update(
+    id: number,
+    updateUserDTO: UpdateUserDto,
+    avatarFile?: MulterFile,
+  ) {
+    const user = await this.usersRepository.findOneBy({ id });
+
+    if (!user) {
+      throw new NotFoundAppException(ErrorCodes.UserNotFound);
+    }
+
+    const previousAvatarKey = user.avatarKey;
+    const uploadedAvatar = await this.uploadUserAvatar(avatarFile);
+    let result;
+
+    try {
+      result = await this.usersRepository.update(
+        { id },
+        {
+          ...updateUserDTO,
+          ...(uploadedAvatar
+            ? {
+                avatarUrl: uploadedAvatar.url,
+                avatarKey: uploadedAvatar.key,
+              }
+            : {}),
+        },
+      );
+    } catch (e) {
+      await this.cleanupUploadedAvatar(uploadedAvatar);
+      throw e;
+    }
+
+    if (uploadedAvatar && previousAvatarKey) {
+      await this.r2StorageService.deleteOne(previousAvatarKey);
+    }
+
+    return result;
   }
 
   async getUsers(query: GetUsersDto) {
@@ -288,5 +330,26 @@ export class UsersService {
       return undefined;
     }
     return value === 'true';
+  }
+
+  private uploadUserAvatar(avatarFile?: MulterFile) {
+    if (!avatarFile) {
+      return null;
+    }
+
+    return this.r2StorageService.uploadOne(avatarFile, {
+      prefix: 'users-avatar',
+      makePublicUrl: true,
+    });
+  }
+
+  private async cleanupUploadedAvatar(uploadedAvatar: R2UploadResult | null) {
+    if (!uploadedAvatar?.key) {
+      return;
+    }
+
+    try {
+      await this.r2StorageService.deleteOne(uploadedAvatar.key);
+    } catch {}
   }
 }

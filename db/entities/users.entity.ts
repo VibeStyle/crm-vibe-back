@@ -30,6 +30,12 @@ export class Users {
   @Column({ nullable: true })
   phone: string;
 
+  @Column({ nullable: true })
+  avatarUrl: string | null;
+
+  @Column({ nullable: true })
+  avatarKey: string | null;
+
   @Column({ nullable: true, type: 'timestamp' })
   dateOfBirth: Date | null;
 

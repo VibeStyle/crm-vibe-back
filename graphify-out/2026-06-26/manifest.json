@@ -415,8 +415,8 @@
     "semantic_hash": "f56536cedf4b9a8b3fff2c5013b00a4a"
   },
   "db/entities/project.entity.ts": {
-    "mtime": 1782476279.9656236,
-    "ast_hash": "2ddccc70a952643df1911610e2c7777f",
+    "mtime": 1782478059.677054,
+    "ast_hash": "6089185169148b9d8c250e8e84752133",
     "semantic_hash": ""
   },
   "db/entities/tag.entity.ts": {
@@ -445,8 +445,8 @@
     "semantic_hash": ""
   },
   "src/projects/projects.controller.ts": {
-    "mtime": 1782401150.6181164,
-    "ast_hash": "3b21b6faa3d78404802daa43853a1f86",
+    "mtime": 1782476892.1680338,
+    "ast_hash": "c1513832fc59b313eb6db8bd1f595a2f",
     "semantic_hash": ""
   },
   "src/projects/projects.module.ts": {
@@ -455,13 +455,13 @@
     "semantic_hash": ""
   },
   "src/projects/projects.service.ts": {
-    "mtime": 1782476283.038612,
-    "ast_hash": "a55a616016ad6c01f1c79b3b60dd28dd",
+    "mtime": 1782478063.4686913,
+    "ast_hash": "cfa5724d7b54281c38ec54a79b48699a",
     "semantic_hash": ""
   },
   "src/projects/dto/projectWriteDto.ts": {
-    "mtime": 1782476282.0340219,
-    "ast_hash": "3d424cf016acfbba21f39f05c1a8fa4b",
+    "mtime": 1782478062.2037654,
+    "ast_hash": "ff31137433278382a399fd250b70a291",
     "semantic_hash": ""
   },
   "src/projects/dto/tagWriteDto.ts": {
@@ -530,8 +530,8 @@
     "semantic_hash": ""
   },
   "db/migrations/1782376487421-addProjectFields.ts": {
-    "mtime": 1782476280.96711,
-    "ast_hash": "8706d9424fc049aa231e073fcf56801b",
+    "mtime": 1782478060.9500732,
+    "ast_hash": "a2fa33d6be5544b0d408300c9e052932",
     "semantic_hash": ""
   }
 }

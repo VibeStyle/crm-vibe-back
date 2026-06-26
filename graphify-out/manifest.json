@@ -20,8 +20,8 @@
     "semantic_hash": "d70201e5449e059b87adfca614435f0a"
   },
   "db/entities/users.entity.ts": {
-    "mtime": 1782458737.1405232,
-    "ast_hash": "6eb3b688505bbd3f05d6d0f3d6ab2f03",
+    "mtime": 1782481312.9935842,
+    "ast_hash": "5acc1b04a51ebb55e2a6a950883e05dc",
     "semantic_hash": ""
   },
   "db/migrations/1782376487417-inite.ts": {
@@ -220,8 +220,8 @@
     "semantic_hash": "c0a876d1b07d80ebe99c8818135c57c7"
   },
   "src/common/repositories/users.repository.ts": {
-    "mtime": 1782458770.9530315,
-    "ast_hash": "7614e1e6a76c8ab1c5dbd1c9e78c1f97",
+    "mtime": 1782481221.732059,
+    "ast_hash": "255c06c6b17cb6fc212d7c0f4feb4880",
     "semantic_hash": ""
   },
   "src/common/statusCodes/errors.ts": {
@@ -360,18 +360,18 @@
     "semantic_hash": "c04300eaa72cb541f1f214fae82f4f4a"
   },
   "src/users/users.controller.ts": {
-    "mtime": 1782460041.5569644,
-    "ast_hash": "4148a239d8a24eeea06e6e74bd4bc6a7",
+    "mtime": 1782481313.0682638,
+    "ast_hash": "58eff457956d74df7620dd0a11f4bc37",
     "semantic_hash": ""
   },
   "src/users/users.module.ts": {
-    "mtime": 1782374825.086966,
-    "ast_hash": "dd3b17aa24a2c8f04f677c166d0d5f4a",
-    "semantic_hash": "dd3b17aa24a2c8f04f677c166d0d5f4a"
+    "mtime": 1782481313.0838046,
+    "ast_hash": "e51eb99dc342e262fce18cf9a2d2a250",
+    "semantic_hash": ""
   },
   "src/users/users.service.ts": {
-    "mtime": 1782460041.625583,
-    "ast_hash": "ec2186e7d499c413fd8ade3543378eb5",
+    "mtime": 1782481313.129348,
+    "ast_hash": "ccbd8813d5c7df161d1e63c498f0e232",
     "semantic_hash": ""
   },
   "src/users/users.types.ts": {
@@ -532,6 +532,11 @@
   "db/migrations/1782376487421-addProjectFields.ts": {
     "mtime": 1782478060.9500732,
     "ast_hash": "a2fa33d6be5544b0d408300c9e052932",
+    "semantic_hash": ""
+  },
+  "db/migrations/1782376487422-addUserAvatarFields.ts": {
+    "mtime": 1782481220.5294633,
+    "ast_hash": "1e941ee6cac67072f2d15ac6efd005a6",
     "semantic_hash": ""
   }
 }
