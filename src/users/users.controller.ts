@@ -22,9 +22,9 @@ import { RestorePasswordDto } from './dto/restorePasswordDto';
 import { UsersRepository } from 'src/common/repositories';
 import { UsersService } from './users.service';
 import { RegisterDto } from './dto/createUserDto';
-import { UpdateUserDto, UpdateUserStatusDto } from './dto/updateUserDto';
+import { UpdateUserActivationDto, UpdateUserDto } from './dto/updateUserDto';
 import { Roles } from 'src/common/decorators/roles.decorator';
-import { GetAllAppraisersDto, GetRegisterUsers } from './dto/getUserDto';
+import { GetUsersDto } from './dto/getUserDto';
 import { RolesGuard } from 'src/common/guards';
 
 @Controller('/users')
@@ -41,6 +41,7 @@ export class UsersController {
     return {
       active: user.active,
       blocked: user.blocked,
+      emailVerified: user.emailVerified,
       email: user.email,
     };
   }
@@ -98,6 +99,23 @@ export class UsersController {
   @Post('block/:id')
   blockUser(@Param('id') id: string) {
     return this.usersService.blockUser(+id);
+  }
+
+  @UseGuards(AuthGuard('jwt'), RolesGuard)
+  @Roles('admin')
+  @Get()
+  getUsers(@Query() query: GetUsersDto) {
+    return this.usersService.getUsers(query);
+  }
+
+  @UseGuards(AuthGuard('jwt'), RolesGuard)
+  @Roles('admin')
+  @Patch(':id/activation')
+  updateActivation(
+    @Param('id') id: string,
+    @Body() body: UpdateUserActivationDto,
+  ) {
+    return this.usersService.updateActivation(+id, body.active);
   }
 
   @UseGuards(AuthGuard('jwt'))

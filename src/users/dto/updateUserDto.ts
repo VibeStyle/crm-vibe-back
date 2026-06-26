@@ -91,3 +91,8 @@ export class UpdateUserStatusDto {
   status: UserStatus;
   // status: string;
 }
+
+export class UpdateUserActivationDto {
+  @IsBoolean()
+  active: boolean;
+}

@@ -1,16 +1,16 @@
-# Graph Report - crm-vibe-back  (2026-06-26)
+# Graph Report - crm-vibe-back  (2026-06-25)
 
 ## Corpus Check
-- 106 files · ~21,318 words
+- 105 files · ~20,912 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 598 nodes · 942 edges · 39 communities (26 shown, 13 thin omitted)
+- 584 nodes · 918 edges · 38 communities (25 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `537a7319`
+- Built from commit: `0e9ae85c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -35,16 +35,15 @@
 - [[_COMMUNITY_Initial Migration|Initial Migration]]
 - [[_COMMUNITY_File Claim Types|File Claim Types]]
 - [[_COMMUNITY_Multipart Request DTO|Multipart Request DTO]]
-- [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Build TS Config|Build TS Config]]
 - [[_COMMUNITY_Uploaded File Types|Uploaded File Types]]
 - [[_COMMUNITY_Base Error DTO|Base Error DTO]]
 - [[_COMMUNITY_Body Token DTO|Body Token DTO]]
 - [[_COMMUNITY_Express Request Types|Express Request Types]]
 - [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
 - [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
 - [[_COMMUNITY_Community 34|Community 34]]
 - [[_COMMUNITY_Community 35|Community 35]]
 - [[_COMMUNITY_Community 36|Community 36]]
@@ -53,14 +52,14 @@
 - [[_COMMUNITY_Community 39|Community 39]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `UsersService` - 27 edges
+1. `UsersService` - 23 edges
 2. `ProjectsService` - 22 edges
 3. `AuthService` - 20 edges
-4. `UsersRepository` - 20 edges
+4. `UsersRepository` - 19 edges
 5. `compilerOptions` - 18 edges
 6. `ErrorCodes` - 17 edges
 7. `scripts` - 15 edges
-8. `UsersController` - 15 edges
+8. `UsersController` - 13 edges
 9. `What You Must Do When Invoked` - 12 edges
 10. `TagCategory` - 11 edges
 
@@ -84,15 +83,15 @@
 - **Project Command Workflow** — readme_installation, readme_running_the_app, readme_testing, readme_migration, readme_endpoint_generation [EXTRACTED 1.00]
 - **Verification Practice** — agents_verify_before_reporting_done, claude_verify_before_reporting_done, readme_testing [INFERRED 0.75]
 
-## Communities (39 total, 13 thin omitted)
+## Communities (38 total, 13 thin omitted)
 
 ### Community 0 - "User DTOs"
-Cohesion: 0.06
-Nodes (20): Roles(), ChangePasswordDto, RegisterDto, AppraiserFilter, GetAllAppraisersDto, GetRegisterUsers, GetUsersDto, RestorePasswordDto (+12 more)
+Cohesion: 0.07
+Nodes (16): Roles(), ChangePasswordDto, RegisterDto, AppraiserFilter, GetAllAppraisersDto, GetRegisterUsers, RestorePasswordDto, UpdateUserDto (+8 more)
 
 ### Community 1 - "Auth Controller Service"
-Cohesion: 0.06
-Nodes (28): AuthController, AuthService, AppleJwtDecode, AuthInfo, GeneratedTokens, GoogleProfile, JwtPayload, LoginAdminDto (+20 more)
+Cohesion: 0.08
+Nodes (17): AuthController, AuthService, AppleJwtDecode, AuthInfo, GeneratedTokens, GoogleProfile, JwtPayload, LoginAdminDto (+9 more)
 
 ### Community 2 - "Auth Database Wiring"
 Cohesion: 0.06
@@ -115,12 +114,12 @@ Cohesion: 0.05
 Nodes (44): 1. Analyze the Request, 2. Ask for Clarification (if needed), 3. Present an Implementation Plan, 4. Wait for Approval, 5. Execute, Analyze Request, API Documentation, Ask For Clarification (+36 more)
 
 ### Community 7 - "Auth Errors Common"
-Cohesion: 0.22
-Nodes (8): data, db, gpt, jwt, r2, recaptcha, resend, smtp
+Cohesion: 0.10
+Nodes (16): AuthModule, IAdmin, AppException, BadRequestAppException, ConflictAppException, ForbiddenAppException, NotFoundAppException, UnauthorizedAppException (+8 more)
 
 ### Community 8 - "Dev Tooling Dependencies"
-Cohesion: 0.09
-Nodes (23): devDependencies, eslint, eslint-config-prettier, eslint-plugin-prettier, jest, @nestjs/cli, @nestjs/schematics, @nestjs/testing (+15 more)
+Cohesion: 0.05
+Nodes (38): author, description, devDependencies, eslint, eslint-config-prettier, eslint-plugin-prettier, jest, @nestjs/cli (+30 more)
 
 ### Community 9 - "TypeScript Compiler Config"
 Cohesion: 0.10
@@ -135,12 +134,12 @@ Cohesion: 0.16
 Nodes (13): Endpoint, Endpoint Generation, Installation, Migration, nest g resource --no-spec, npm install, npm run migration:generate:dev, npm run start (+5 more)
 
 ### Community 13 - "Environment Config"
-Cohesion: 0.06
-Nodes (19): AuthModule, Roles, Users, InvoiceExtractionResult, InvoiceExtractionSchema, OpenAiInvoiceExtractionService, OpenAiModule, ProjectsModule (+11 more)
+Cohesion: 0.08
+Nodes (18): data, db, gpt, jwt, r2, recaptcha, resend, smtp (+10 more)
 
 ### Community 14 - "OpenAI Invoice Extraction"
-Cohesion: 0.22
-Nodes (9): jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment, testRegex, transform (+1 more)
+Cohesion: 0.29
+Nodes (3): Roles, Users, UsersRepository
 
 ### Community 16 - "Nest CLI Config"
 Cohesion: 0.33
@@ -149,10 +148,6 @@ Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 ### Community 18 - "File Claim Types"
 Cohesion: 0.50
 Nodes (3): ClaimFile, IFile, IFilesData
-
-### Community 20 - "Community 20"
-Cohesion: 0.29
-Nodes (6): author, description, license, name, private, version
 
 ### Community 29 - "Community 29"
 Cohesion: 0.08
@@ -179,23 +174,23 @@ Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
 ## Knowledge Gaps
-- **210 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+205 more)
+- **209 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+204 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UsersService` connect `User DTOs` to `Auth Controller Service`, `Environment Config`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
-- **Why does `AuthService` connect `Auth Controller Service` to `Environment Config`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+- **Why does `UsersService` connect `User DTOs` to `Auth Controller Service`, `Auth Errors Common`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Why does `AuthService` connect `Auth Controller Service` to `Auth Errors Common`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _228 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _227 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User DTOs` be split into smaller, more focused modules?**
-  _Cohesion score 0.05605499735589635 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07358156028368794 - nodes in this community are weakly interconnected._
 - **Should `Auth Controller Service` be split into smaller, more focused modules?**
-  _Cohesion score 0.05868544600938967 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07560975609756097 - nodes in this community are weakly interconnected._
 - **Should `Auth Database Wiring` be split into smaller, more focused modules?**
   _Cohesion score 0.06037000973709834 - nodes in this community are weakly interconnected._
 - **Should `Runtime Dependencies` be split into smaller, more focused modules?**

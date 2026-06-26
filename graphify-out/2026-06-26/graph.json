@@ -105,7 +105,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "entities_roles_entity",
-      "community": 13,
+      "community": 14,
       "norm_label": "roles.entity.ts"
     },
     {
@@ -115,7 +115,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "entities_roles_entity_roles",
-      "community": 13,
+      "community": 14,
       "norm_label": "roles"
     },
     {
@@ -155,7 +155,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "entities_users_entity",
-      "community": 13,
+      "community": 14,
       "norm_label": "users.entity.ts"
     },
     {
@@ -165,7 +165,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "entities_users_entity_users",
-      "community": 13,
+      "community": 14,
       "norm_label": "users"
     },
     {
@@ -289,46 +289,6 @@
       "norm_label": ".down()"
     },
     {
-      "label": "1782376487420-addUserEmailVerified.ts",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "migrations_1782376487420_adduseremailverified",
-      "community": 30,
-      "norm_label": "1782376487420-adduseremailverified.ts"
-    },
-    {
-      "label": "AddUserEmailVerified1782376487420",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420",
-      "community": 30,
-      "norm_label": "adduseremailverified1782376487420"
-    },
-    {
-      "label": ".up()",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_up",
-      "community": 30,
-      "norm_label": ".up()"
-    },
-    {
-      "label": ".down()",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_down",
-      "community": 30,
-      "norm_label": ".down()"
-    },
-    {
       "label": "nest-cli.json",
       "file_type": "code",
       "source_file": "nest-cli.json",
@@ -395,7 +355,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "package",
-      "community": 20,
+      "community": 8,
       "norm_label": "package.json"
     },
     {
@@ -405,7 +365,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "package_name",
-      "community": 20,
+      "community": 8,
       "norm_label": "name"
     },
     {
@@ -415,7 +375,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "package_version",
-      "community": 20,
+      "community": 8,
       "norm_label": "version"
     },
     {
@@ -425,7 +385,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "package_description",
-      "community": 20,
+      "community": 8,
       "norm_label": "description"
     },
     {
@@ -435,7 +395,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "package_author",
-      "community": 20,
+      "community": 8,
       "norm_label": "author"
     },
     {
@@ -445,7 +405,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "package_private",
-      "community": 20,
+      "community": 8,
       "norm_label": "private"
     },
     {
@@ -455,7 +415,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "package_license",
-      "community": 20,
+      "community": 8,
       "norm_label": "license"
     },
     {
@@ -1215,7 +1175,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "package_jest",
-      "community": 14,
+      "community": 8,
       "norm_label": "jest"
     },
     {
@@ -1225,7 +1185,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "package_jest_modulefileextensions",
-      "community": 14,
+      "community": 8,
       "norm_label": "modulefileextensions"
     },
     {
@@ -1235,7 +1195,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "package_jest_rootdir",
-      "community": 14,
+      "community": 8,
       "norm_label": "rootdir"
     },
     {
@@ -1245,7 +1205,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "package_jest_testregex",
-      "community": 14,
+      "community": 8,
       "norm_label": "testregex"
     },
     {
@@ -1255,7 +1215,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "package_jest_transform",
-      "community": 14,
+      "community": 8,
       "norm_label": "transform"
     },
     {
@@ -1265,7 +1225,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "package_transform_t_j_s",
-      "community": 14,
+      "community": 8,
       "norm_label": "^.+\\\\.(t|j)s$"
     },
     {
@@ -1275,7 +1235,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "package_jest_collectcoveragefrom",
-      "community": 14,
+      "community": 8,
       "norm_label": "collectcoveragefrom"
     },
     {
@@ -1285,7 +1245,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "package_jest_coveragedirectory",
-      "community": 14,
+      "community": 8,
       "norm_label": "coveragedirectory"
     },
     {
@@ -1295,7 +1255,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "package_jest_testenvironment",
-      "community": 14,
+      "community": 8,
       "norm_label": "testenvironment"
     },
     {
@@ -1455,7 +1415,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "auth_auth_module",
-      "community": 13,
+      "community": 7,
       "norm_label": "auth.module.ts"
     },
     {
@@ -1465,7 +1425,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "auth_auth_module_authmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "authmodule"
     },
     {
@@ -1475,14 +1435,14 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "auth_auth_service",
-      "community": 1,
+      "community": 7,
       "norm_label": "auth.service.ts"
     },
     {
       "label": "AuthService",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L18",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "auth_auth_service_authservice",
       "community": 1,
@@ -1492,7 +1452,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L21",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_constructor",
       "community": 1,
@@ -1502,7 +1462,7 @@
       "label": ".generateTokens()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L30",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_generatetokens",
       "community": 1,
@@ -1512,7 +1472,7 @@
       "label": ".getLockDurationMs()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L49",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_getlockdurationms",
       "community": 1,
@@ -1522,7 +1482,7 @@
       "label": ".validateUser()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L64",
+      "source_location": "L65",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_validateuser",
       "community": 1,
@@ -1532,7 +1492,7 @@
       "label": ".validateUserById()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L172",
+      "source_location": "L170",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_validateuserbyid",
       "community": 1,
@@ -1542,7 +1502,7 @@
       "label": ".executeUserWithToken()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L184",
+      "source_location": "L176",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_executeuserwithtoken",
       "community": 1,
@@ -1552,7 +1512,7 @@
       "label": ".getGoogleProfileByToken()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L208",
+      "source_location": "L195",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_getgoogleprofilebytoken",
       "community": 1,
@@ -1562,7 +1522,7 @@
       "label": ".validateSocialProfile()",
       "file_type": "code",
       "source_file": "src/auth/auth.service.ts",
-      "source_location": "L240",
+      "source_location": "L227",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_validatesocialprofile",
       "community": 1,
@@ -1725,7 +1685,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dto_common",
-      "community": 1,
+      "community": 7,
       "norm_label": "common.ts"
     },
     {
@@ -1735,7 +1695,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "dto_common_iadmin",
-      "community": 1,
+      "community": 7,
       "norm_label": "iadmin"
     },
     {
@@ -1795,14 +1755,14 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "strategies_jwtrefresh_strategy",
-      "community": 1,
+      "community": 7,
       "norm_label": "jwtrefresh.strategy.ts"
     },
     {
       "label": "JwtRefreshStrategy",
       "file_type": "code",
       "source_file": "src/auth/strategies/jwtRefresh.strategy.ts",
-      "source_location": "L9",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "strategies_jwtrefresh_strategy_jwtrefreshstrategy",
       "community": 1,
@@ -1812,7 +1772,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/auth/strategies/jwtRefresh.strategy.ts",
-      "source_location": "L13",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "strategies_jwtrefresh_strategy_jwtrefreshstrategy_constructor",
       "community": 1,
@@ -1822,7 +1782,7 @@
       "label": ".validate()",
       "file_type": "code",
       "source_file": "src/auth/strategies/jwtRefresh.strategy.ts",
-      "source_location": "L21",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "strategies_jwtrefresh_strategy_jwtrefreshstrategy_validate",
       "community": 1,
@@ -1875,7 +1835,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "configs_env_config",
-      "community": 7,
+      "community": 13,
       "norm_label": "env.config.ts"
     },
     {
@@ -1885,7 +1845,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "configs_env_config_db",
-      "community": 7,
+      "community": 13,
       "norm_label": "db"
     },
     {
@@ -1895,7 +1855,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "configs_env_config_jwt",
-      "community": 7,
+      "community": 13,
       "norm_label": "jwt"
     },
     {
@@ -1905,7 +1865,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "configs_env_config_data",
-      "community": 7,
+      "community": 13,
       "norm_label": "data"
     },
     {
@@ -1915,7 +1875,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "configs_env_config_smtp",
-      "community": 7,
+      "community": 13,
       "norm_label": "smtp"
     },
     {
@@ -1925,7 +1885,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "configs_env_config_resend",
-      "community": 7,
+      "community": 13,
       "norm_label": "resend"
     },
     {
@@ -1935,7 +1895,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "configs_env_config_recaptcha",
-      "community": 7,
+      "community": 13,
       "norm_label": "recaptcha"
     },
     {
@@ -1945,7 +1905,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "configs_env_config_r2",
-      "community": 7,
+      "community": 13,
       "norm_label": "r2"
     },
     {
@@ -1955,7 +1915,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "configs_env_config_gpt",
-      "community": 7,
+      "community": 13,
       "norm_label": "gpt"
     },
     {
@@ -2055,7 +2015,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "exceptions_app_exception",
-      "community": 1,
+      "community": 7,
       "norm_label": "app.exception.ts"
     },
     {
@@ -2065,7 +2025,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "exceptions_app_exception_appexception",
-      "community": 1,
+      "community": 7,
       "norm_label": "appexception"
     },
     {
@@ -2075,7 +2035,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "exceptions_app_exception_appexception_constructor",
-      "community": 1,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2085,7 +2045,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "exceptions_index",
-      "community": 1,
+      "community": 7,
       "norm_label": "index.ts"
     },
     {
@@ -2095,7 +2055,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "exceptions_index_badrequestappexception",
-      "community": 1,
+      "community": 7,
       "norm_label": "badrequestappexception"
     },
     {
@@ -2105,7 +2065,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "exceptions_index_badrequestappexception_constructor",
-      "community": 1,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2115,7 +2075,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "exceptions_index_unauthorizedappexception",
-      "community": 1,
+      "community": 7,
       "norm_label": "unauthorizedappexception"
     },
     {
@@ -2125,7 +2085,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "exceptions_index_unauthorizedappexception_constructor",
-      "community": 1,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2135,7 +2095,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "exceptions_index_forbiddenappexception",
-      "community": 1,
+      "community": 7,
       "norm_label": "forbiddenappexception"
     },
     {
@@ -2145,7 +2105,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "exceptions_index_forbiddenappexception_constructor",
-      "community": 1,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2155,7 +2115,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "exceptions_index_notfoundappexception",
-      "community": 1,
+      "community": 7,
       "norm_label": "notfoundappexception"
     },
     {
@@ -2165,7 +2125,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "exceptions_index_notfoundappexception_constructor",
-      "community": 1,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2175,7 +2135,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "exceptions_index_conflictappexception",
-      "community": 1,
+      "community": 7,
       "norm_label": "conflictappexception"
     },
     {
@@ -2185,7 +2145,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "exceptions_index_conflictappexception_constructor",
-      "community": 1,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2255,7 +2215,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "guards_access_guard",
-      "community": 1,
+      "community": 7,
       "norm_label": "access.guard.ts"
     },
     {
@@ -2425,7 +2385,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "guards_roles_guard",
-      "community": 1,
+      "community": 7,
       "norm_label": "roles.guard.ts"
     },
     {
@@ -2635,7 +2595,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_roles_repository",
-      "community": 13,
+      "community": 14,
       "norm_label": "roles.repository.ts"
     },
     {
@@ -2645,7 +2605,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "repositories_roles_repository_rolesrepository",
-      "community": 13,
+      "community": 7,
       "norm_label": "rolesrepository"
     },
     {
@@ -2655,7 +2615,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "repositories_roles_repository_rolesrepository_constructor",
-      "community": 13,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -2665,7 +2625,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "repositories_roles_repository_rolesrepository_getrole",
-      "community": 13,
+      "community": 7,
       "norm_label": ".getrole()"
     },
     {
@@ -2715,88 +2675,68 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_users_repository",
-      "community": 13,
+      "community": 14,
       "norm_label": "users.repository.ts"
-    },
-    {
-      "label": "GetUsersListParams",
-      "file_type": "code",
-      "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "repositories_users_repository_getuserslistparams",
-      "community": 13,
-      "norm_label": "getuserslistparams"
     },
     {
       "label": "UsersRepository",
       "file_type": "code",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L15",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository",
-      "community": 13,
+      "community": 14,
       "norm_label": "usersrepository"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L16",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_constructor",
-      "community": 13,
+      "community": 14,
       "norm_label": ".constructor()"
     },
     {
       "label": ".getUserById()",
       "file_type": "code",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L20",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserbyid",
-      "community": 13,
+      "community": 14,
       "norm_label": ".getuserbyid()"
     },
     {
       "label": ".getUser()",
       "file_type": "code",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L28",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuser",
-      "community": 13,
+      "community": 14,
       "norm_label": ".getuser()"
     },
     {
       "label": ".getUserInfo()",
       "file_type": "code",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L36",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserinfo",
-      "community": 13,
+      "community": 14,
       "norm_label": ".getuserinfo()"
     },
     {
       "label": ".getUserWithRole()",
       "file_type": "code",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L59",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserwithrole",
-      "community": 13,
+      "community": 14,
       "norm_label": ".getuserwithrole()"
-    },
-    {
-      "label": ".getUsersList()",
-      "file_type": "code",
-      "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L85",
-      "_origin": "ast",
-      "id": "repositories_users_repository_usersrepository_getuserslist",
-      "community": 13,
-      "norm_label": ".getuserslist()"
     },
     {
       "label": "errors.ts",
@@ -2805,7 +2745,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_errors",
-      "community": 1,
+      "community": 7,
       "norm_label": "errors.ts"
     },
     {
@@ -2815,7 +2755,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_errors_errorcodes",
-      "community": 1,
+      "community": 7,
       "norm_label": "errorcodes"
     },
     {
@@ -2825,7 +2765,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "statuscodes_errors_errordescriptionsarray",
-      "community": 1,
+      "community": 7,
       "norm_label": "errordescriptionsarray"
     },
     {
@@ -2835,7 +2775,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_index",
-      "community": 1,
+      "community": 7,
       "norm_label": "index.ts"
     },
     {
@@ -2845,7 +2785,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_infos",
-      "community": 1,
+      "community": 7,
       "norm_label": "infos.ts"
     },
     {
@@ -2855,7 +2795,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "statuscodes_infos_infocodes",
-      "community": 1,
+      "community": 7,
       "norm_label": "infocodes"
     },
     {
@@ -2865,7 +2805,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "statuscodes_infos_generateinforesponse",
-      "community": 1,
+      "community": 7,
       "norm_label": "generateinforesponse()"
     },
     {
@@ -2945,7 +2885,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "utils_emailmessages",
-      "community": 0,
+      "community": 33,
       "norm_label": "emailmessages.ts"
     },
     {
@@ -2955,7 +2895,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "utils_emailmessages_replacements",
-      "community": 0,
+      "community": 33,
       "norm_label": "replacements"
     },
     {
@@ -2965,7 +2905,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "utils_emailmessages_wrap",
-      "community": 0,
+      "community": 33,
       "norm_label": "wrap()"
     },
     {
@@ -2975,7 +2915,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "utils_emailmessages_badge",
-      "community": 0,
+      "community": 33,
       "norm_label": "badge()"
     },
     {
@@ -2985,7 +2925,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "utils_emailmessages_button",
-      "community": 0,
+      "community": 33,
       "norm_label": "button()"
     },
     {
@@ -2995,7 +2935,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "utils_emailmessages_emailmessages",
-      "community": 0,
+      "community": 33,
       "norm_label": "emailmessages"
     },
     {
@@ -3835,7 +3775,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_index",
-      "community": 13,
+      "community": 7,
       "norm_label": "index.ts"
     },
     {
@@ -3845,7 +3785,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_sendemail_service",
-      "community": 1,
+      "community": 7,
       "norm_label": "sendemail.service.ts"
     },
     {
@@ -3855,7 +3795,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "services_sendemail_service_mailservice",
-      "community": 13,
+      "community": 7,
       "norm_label": "mailservice"
     },
     {
@@ -3865,7 +3805,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "services_sendemail_service_mailservice_constructor",
-      "community": 13,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -3875,7 +3815,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "services_sendemail_service_mailservice_sendmail",
-      "community": 13,
+      "community": 7,
       "norm_label": ".sendmail()"
     },
     {
@@ -3885,7 +3825,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "services_sendemail_service_mailservice_formatfromemail",
-      "community": 13,
+      "community": 7,
       "norm_label": ".formatfromemail()"
     },
     {
@@ -3895,7 +3835,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "services_sendemail_service_nodemailerservice",
-      "community": 13,
+      "community": 7,
       "norm_label": "nodemailerservice"
     },
     {
@@ -3905,7 +3845,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "services_sendemail_service_nodemailerservice_constructor",
-      "community": 13,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -3915,7 +3855,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "services_sendemail_service_nodemailerservice_sendmail",
-      "community": 13,
+      "community": 7,
       "norm_label": ".sendmail()"
     },
     {
@@ -4042,7 +3982,7 @@
       "label": "AppraiserFilter",
       "file_type": "code",
       "source_file": "src/users/dto/getUserDto.ts",
-      "source_location": "L9",
+      "source_location": "L3",
       "_origin": "ast",
       "id": "dto_getuserdto_appraiserfilter",
       "community": 0,
@@ -4052,7 +3992,7 @@
       "label": "GetAllAppraisersDto",
       "file_type": "code",
       "source_file": "src/users/dto/getUserDto.ts",
-      "source_location": "L15",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "dto_getuserdto_getallappraisersdto",
       "community": 0,
@@ -4062,21 +4002,11 @@
       "label": "GetRegisterUsers",
       "file_type": "code",
       "source_file": "src/users/dto/getUserDto.ts",
-      "source_location": "L21",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "dto_getuserdto_getregisterusers",
       "community": 0,
       "norm_label": "getregisterusers"
-    },
-    {
-      "label": "GetUsersDto",
-      "file_type": "code",
-      "source_file": "src/users/dto/getUserDto.ts",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "dto_getuserdto_getusersdto",
-      "community": 0,
-      "norm_label": "getusersdto"
     },
     {
       "label": "restorePasswordDto.ts",
@@ -4137,16 +4067,6 @@
       "id": "dto_updateuserdto_updateuserstatusdto",
       "community": 0,
       "norm_label": "updateuserstatusdto"
-    },
-    {
-      "label": "UpdateUserActivationDto",
-      "file_type": "code",
-      "source_file": "src/users/dto/updateUserDto.ts",
-      "source_location": "L95",
-      "_origin": "ast",
-      "id": "dto_updateuserdto_updateuseractivationdto",
-      "community": 0,
-      "norm_label": "updateuseractivationdto"
     },
     {
       "label": "verifyUserDto.ts",
@@ -4232,7 +4152,7 @@
       "label": ".verify()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L51",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_verify",
       "community": 0,
@@ -4242,7 +4162,7 @@
       "label": ".validateCode()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L60",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_validatecode",
       "community": 0,
@@ -4252,7 +4172,7 @@
       "label": ".sendVerifyCode()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L68",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_sendverifycode",
       "community": 0,
@@ -4262,7 +4182,7 @@
       "label": ".sendResetLink()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L76",
+      "source_location": "L75",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_sendresetlink",
       "community": 0,
@@ -4272,7 +4192,7 @@
       "label": ".restorePassword()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L83",
+      "source_location": "L82",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_restorepassword",
       "community": 0,
@@ -4282,7 +4202,7 @@
       "label": ".changePassword()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L91",
+      "source_location": "L90",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_changepassword",
       "community": 0,
@@ -4292,37 +4212,17 @@
       "label": ".blockUser()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L100",
+      "source_location": "L99",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_blockuser",
       "community": 0,
       "norm_label": ".blockuser()"
     },
     {
-      "label": ".getUsers()",
-      "file_type": "code",
-      "source_file": "src/users/users.controller.ts",
-      "source_location": "L107",
-      "_origin": "ast",
-      "id": "users_users_controller_userscontroller_getusers",
-      "community": 0,
-      "norm_label": ".getusers()"
-    },
-    {
-      "label": ".updateActivation()",
-      "file_type": "code",
-      "source_file": "src/users/users.controller.ts",
-      "source_location": "L114",
-      "_origin": "ast",
-      "id": "users_users_controller_userscontroller_updateactivation",
-      "community": 0,
-      "norm_label": ".updateactivation()"
-    },
-    {
       "label": ".getUserInfo()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L124",
+      "source_location": "L106",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_getuserinfo",
       "community": 0,
@@ -4332,7 +4232,7 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L134",
+      "source_location": "L116",
       "_origin": "ast",
       "id": "users_users_controller_userscontroller_update",
       "community": 0,
@@ -4345,7 +4245,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_users_module",
-      "community": 13,
+      "community": 7,
       "norm_label": "users.module.ts"
     },
     {
@@ -4355,7 +4255,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "users_users_module_usersmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "usersmodule"
     },
     {
@@ -4365,14 +4265,14 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_users_service",
-      "community": 1,
+      "community": 7,
       "norm_label": "users.service.ts"
     },
     {
       "label": "UsersService",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L23",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "users_users_service_usersservice",
       "community": 0,
@@ -4382,17 +4282,17 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L26",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "users_users_service_usersservice_constructor",
-      "community": 13,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
       "label": ".generateRandomCode()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L35",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "users_users_service_usersservice_generaterandomcode",
       "community": 0,
@@ -4402,7 +4302,7 @@
       "label": ".registerUser()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L42",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "users_users_service_usersservice_registeruser",
       "community": 0,
@@ -4412,7 +4312,7 @@
       "label": ".checkUser()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L92",
+      "source_location": "L90",
       "_origin": "ast",
       "id": "users_users_service_usersservice_checkuser",
       "community": 0,
@@ -4422,7 +4322,7 @@
       "label": ".verifyUser()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L99",
+      "source_location": "L97",
       "_origin": "ast",
       "id": "users_users_service_usersservice_verifyuser",
       "community": 0,
@@ -4432,7 +4332,7 @@
       "label": ".validateVerificationCode()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L117",
+      "source_location": "L115",
       "_origin": "ast",
       "id": "users_users_service_usersservice_validateverificationcode",
       "community": 0,
@@ -4442,7 +4342,7 @@
       "label": ".updateUserVerifyCode()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L127",
+      "source_location": "L125",
       "_origin": "ast",
       "id": "users_users_service_usersservice_updateuserverifycode",
       "community": 0,
@@ -4452,7 +4352,7 @@
       "label": ".sendVerifyCode()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L142",
+      "source_location": "L140",
       "_origin": "ast",
       "id": "users_users_service_usersservice_sendverifycode",
       "community": 0,
@@ -4462,7 +4362,7 @@
       "label": ".sendResetLink()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L153",
+      "source_location": "L151",
       "_origin": "ast",
       "id": "users_users_service_usersservice_sendresetlink",
       "community": 0,
@@ -4472,7 +4372,7 @@
       "label": ".restorePassword()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L168",
+      "source_location": "L166",
       "_origin": "ast",
       "id": "users_users_service_usersservice_restorepassword",
       "community": 0,
@@ -4482,7 +4382,7 @@
       "label": ".getUserInfo()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L187",
+      "source_location": "L185",
       "_origin": "ast",
       "id": "users_users_service_usersservice_getuserinfo",
       "community": 0,
@@ -4492,7 +4392,7 @@
       "label": ".changePassword()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L197",
+      "source_location": "L195",
       "_origin": "ast",
       "id": "users_users_service_usersservice_changepassword",
       "community": 0,
@@ -4502,61 +4402,21 @@
       "label": ".update()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L224",
+      "source_location": "L222",
       "_origin": "ast",
       "id": "users_users_service_usersservice_update",
       "community": 0,
       "norm_label": ".update()"
     },
     {
-      "label": ".getUsers()",
-      "file_type": "code",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L228",
-      "_origin": "ast",
-      "id": "users_users_service_usersservice_getusers",
-      "community": 0,
-      "norm_label": ".getusers()"
-    },
-    {
-      "label": ".updateActivation()",
-      "file_type": "code",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L239",
-      "_origin": "ast",
-      "id": "users_users_service_usersservice_updateactivation",
-      "community": 0,
-      "norm_label": ".updateactivation()"
-    },
-    {
       "label": ".blockUser()",
       "file_type": "code",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L249",
+      "source_location": "L226",
       "_origin": "ast",
       "id": "users_users_service_usersservice_blockuser",
       "community": 0,
       "norm_label": ".blockuser()"
-    },
-    {
-      "label": ".parsePositiveInteger()",
-      "file_type": "code",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L258",
-      "_origin": "ast",
-      "id": "users_users_service_usersservice_parsepositiveinteger",
-      "community": 0,
-      "norm_label": ".parsepositiveinteger()"
-    },
-    {
-      "label": ".parseBooleanFilter()",
-      "file_type": "code",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L269",
-      "_origin": "ast",
-      "id": "users_users_service_usersservice_parsebooleanfilter",
-      "community": 0,
-      "norm_label": ".parsebooleanfilter()"
     },
     {
       "label": "users.types.ts",
@@ -4565,7 +4425,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_users_types",
-      "community": 1,
+      "community": 7,
       "norm_label": "users.types.ts"
     },
     {
@@ -4575,7 +4435,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "users_users_types_tokeninfo",
-      "community": 1,
+      "community": 7,
       "norm_label": "tokeninfo"
     },
     {
@@ -6854,36 +6714,6 @@
       "confidence_score": 1.0,
       "source": "migrations_1782376487419_addprojectpreviewkey_addprojectpreviewkey1782376487419",
       "target": "migrations_1782376487419_addprojectpreviewkey_addprojectpreviewkey1782376487419_up"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "migrations_1782376487420_adduseremailverified",
-      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420",
-      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_down",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrations/1782376487420-addUserEmailVerified.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420",
-      "target": "migrations_1782376487420_adduseremailverified_adduseremailverified1782376487420_up",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11190,16 +11020,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "repositories_users_repository",
-      "target": "repositories_users_repository_getuserslistparams",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/common/repositories/users.repository.ts",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -11245,16 +11065,6 @@
       "confidence_score": 1.0,
       "source": "repositories_users_repository_usersrepository",
       "target": "repositories_users_repository_usersrepository_getuserinfo"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/common/repositories/users.repository.ts",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "repositories_users_repository_usersrepository",
-      "target": "repositories_users_repository_usersrepository_getuserslist",
-      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -13612,16 +13422,6 @@
       "target": "dto_getuserdto_getregisterusers"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/dto/getUserDto.ts",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "dto_getuserdto",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -13631,17 +13431,6 @@
       "confidence_score": 1.0,
       "source": "users_users_controller",
       "target": "dto_getuserdto"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "users_users_service",
-      "target": "dto_getuserdto",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -13664,50 +13453,6 @@
       "confidence_score": 1.0,
       "source": "users_users_controller",
       "target": "dto_getuserdto_getregisterusers"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.controller.ts",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "users_users_controller",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.controller.ts",
-      "source_location": "L107",
-      "weight": 1.0,
-      "source": "users_users_controller_userscontroller_getusers",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "users_users_service",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L228",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice_getusers",
-      "target": "dto_getuserdto_getusersdto",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13784,16 +13529,6 @@
       "confidence_score": 1.0,
       "source": "users_users_service_usersservice_restorepassword",
       "target": "dto_restorepassworddto_restorepassworddto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/dto/updateUserDto.ts",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "dto_updateuserdto",
-      "target": "dto_updateuserdto_updateuseractivationdto",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13901,28 +13636,6 @@
       "confidence_score": 1.0,
       "source": "users_users_controller",
       "target": "dto_updateuserdto_updateuserstatusdto"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.controller.ts",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "users_users_controller",
-      "target": "dto_updateuserdto_updateuseractivationdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.controller.ts",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "users_users_controller_userscontroller_updateactivation",
-      "target": "dto_updateuserdto_updateuseractivationdto",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -14129,16 +13842,6 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/users/users.controller.ts",
-      "source_location": "L107",
-      "weight": 1.0,
-      "source": "users_users_controller_userscontroller",
-      "target": "users_users_controller_userscontroller_getusers",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.controller.ts",
       "source_location": "L39",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -14184,16 +13887,6 @@
       "confidence_score": 1.0,
       "source": "users_users_controller_userscontroller",
       "target": "users_users_controller_userscontroller_update"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.controller.ts",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "users_users_controller_userscontroller",
-      "target": "users_users_controller_userscontroller_updateactivation",
-      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14354,36 +14047,6 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L228",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_getusers",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L269",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_parsebooleanfilter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L258",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_parsepositiveinteger",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
       "source_location": "L41",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -14429,16 +14092,6 @@
       "confidence_score": 1.0,
       "source": "users_users_service_usersservice",
       "target": "users_users_service_usersservice_update"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L239",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_updateactivation",
-      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -14552,17 +14205,6 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/users/users.service.ts",
-      "source_location": "L246",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice_updateactivation",
-      "target": "users_users_service_usersservice_getuserinfo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
       "source_location": "L219",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -14579,39 +14221,6 @@
       "confidence_score": 1.0,
       "source": "users_users_service_usersservice_blockuser",
       "target": "users_users_service_usersservice_update"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L245",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice_updateactivation",
-      "target": "users_users_service_usersservice_update",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L233",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice_getusers",
-      "target": "users_users_service_usersservice_parsebooleanfilter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/users/users.service.ts",
-      "source_location": "L230",
-      "weight": 1.0,
-      "source": "users_users_service_usersservice_getusers",
-      "target": "users_users_service_usersservice_parsepositiveinteger",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -16038,5 +15647,5 @@
       "source_file": "AGENTS.md"
     }
   ],
-  "built_at_commit": "537a7319ea5faee3af024e8c78ed28bd929b41b8"
+  "built_at_commit": "0e9ae85cd1ba61d1138944fd49fb4ff11ddcceee"
 }

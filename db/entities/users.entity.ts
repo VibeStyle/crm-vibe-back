@@ -39,6 +39,9 @@ export class Users {
   @Column({ nullable: false, default: false })
   active: boolean;
 
+  @Column({ nullable: false, default: false })
+  emailVerified: boolean;
+
   @Column({ type: 'int', default: 0 })
   failedLoginAttempts: number;
 

@@ -8,7 +8,6 @@ import { promisify } from 'util';
 import { GeneratedTokensDto } from './dto/Tokens.dto';
 import { IAdmin } from './dto/common';
 import { GeneratedTokens, GoogleProfile } from './auth.types';
-import { InfoCodes } from 'src/common/statusCodes/infos';
 import { UsersService } from 'src/users/users.service';
 import { TokenInfo } from 'src/users/users.types';
 import {
@@ -70,8 +69,11 @@ export class AuthService {
     if (!user || !user.password) {
       throw new ForbiddenAppException(ErrorCodes.CredentialsNotValid);
     }
-    if (!user.active) {
+    if (!user.emailVerified) {
       throw new BadRequestAppException(ErrorCodes.EmailNotVerified);
+    }
+    if (!user.active) {
+      throw new BadRequestAppException(ErrorCodes.WaitingApproving);
     }
     if (user.blocked) {
       throw new ForbiddenAppException(ErrorCodes.NotEnoughPermissions);
@@ -168,28 +170,39 @@ export class AuthService {
   }
 
   async validateUserById(userId: number) {
-    return this.usersRepository.findOne({
+    const user = await this.usersRepository.findOne({
       where: { id: userId },
     });
+
+    if (!user || !user.emailVerified || !user.active || user.blocked) {
+      return null;
+    }
+
+    return user;
   }
 
-  async executeUserWithToken(user: TokenInfo, social?: boolean) {
+  async executeUserWithToken(user: TokenInfo) {
+    const userInfo = await this.usersRepository.getUserInfo(user.id);
+
+    if (!userInfo.emailVerified) {
+      throw new BadRequestAppException(ErrorCodes.EmailNotVerified);
+    }
+    if (!userInfo.active) {
+      throw new BadRequestAppException(ErrorCodes.WaitingApproving);
+    }
+    if (userInfo.blocked) {
+      throw new ForbiddenAppException(ErrorCodes.NotEnoughPermissions);
+    }
+
     const tokens: GeneratedTokens = this.generateTokens({
       id: user.id,
       roleId: user.role.id,
     });
 
-    const userInfo = await this.usersRepository.getUserInfo(user.id);
-
-    const { active } = userInfo;
-    if (active || social) {
-      return {
-        ...tokens,
-        user: userInfo,
-      };
-    }
-
-    return { code: InfoCodes.NeedVerifyEmail };
+    return {
+      ...tokens,
+      user: userInfo,
+    };
   }
 
   async getGoogleProfileByToken(
@@ -232,7 +245,7 @@ export class AuthService {
     const existingUserWithMail =
       await this.usersRepository.getUserWithRole(email);
     if (existingUserWithMail) {
-      return this.executeUserWithToken(existingUserWithMail, true);
+      return this.executeUserWithToken(existingUserWithMail);
     }
 
     const tempPassword = this.usersService.generateRandomCode(6);
@@ -247,12 +260,9 @@ export class AuthService {
     };
 
     const user = await this.usersService.registerUser(newUser, true);
-    return this.executeUserWithToken(
-      {
-        id: user.id,
-        role: { id: user.roleId },
-      },
-      true,
-    );
+    return this.executeUserWithToken({
+      id: user.id,
+      role: { id: user.roleId },
+    });
   }
 }

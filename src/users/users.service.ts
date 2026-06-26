@@ -11,6 +11,7 @@ import { RestorePasswordDto } from './dto/restorePasswordDto';
 import { ChangePasswordDto } from './dto/changePasswordDto';
 import { generateEmailMessage } from 'src/common/utils/emailMessages';
 import { UpdateUserDto } from './dto/updateUserDto';
+import { GetUsersDto } from './dto/getUserDto';
 import {
   BadRequestAppException,
   ForbiddenAppException,
@@ -57,7 +58,8 @@ export class UsersService {
       ...body,
       email,
       token: '',
-      active: isSocial,
+      active: false,
+      emailVerified: isSocial,
       verificationCode,
       password: password
         ? await bcrypt.genSalt(10).then(salt => bcrypt.hash(password, salt))
@@ -104,7 +106,7 @@ export class UsersService {
     }
 
     const payload = {
-      active: true,
+      emailVerified: true,
       verificationCode: '',
     };
     await this.usersRepository.update(user.id, { ...payload });
@@ -223,8 +225,51 @@ export class UsersService {
     return this.usersRepository.update({ id }, updateUserDTO);
   }
 
+  async getUsers(query: GetUsersDto) {
+    return this.usersRepository.getUsersList({
+      page: this.parsePositiveInteger(query.page, 1, 1),
+      perPage: this.parsePositiveInteger(query.perPage, 20, 100),
+      search: query.search?.trim(),
+      emailVerified: this.parseBooleanFilter(query.emailVerified),
+      active: this.parseBooleanFilter(query.active),
+      blocked: this.parseBooleanFilter(query.blocked),
+    });
+  }
+
+  async updateActivation(id: number, active: boolean) {
+    const user = await this.usersRepository.findOneBy({ id });
+    if (!user) {
+      throw new NotFoundAppException(ErrorCodes.UserNotFound);
+    }
+
+    await this.usersRepository.update({ id }, { active });
+    return this.usersRepository.getUserInfo(id);
+  }
+
   async blockUser(id: number) {
     const user = await this.usersRepository.findOneBy({ id });
+    if (!user) {
+      throw new NotFoundAppException(ErrorCodes.UserNotFound);
+    }
+
     await this.usersRepository.update({ id }, { blocked: !user.blocked });
+  }
+
+  private parsePositiveInteger(
+    value: string | undefined,
+    fallback: number,
+    max?: number,
+  ) {
+    const parsed = Number(value ?? fallback);
+    const normalized =
+      Number.isFinite(parsed) && parsed > 0 ? Math.floor(parsed) : fallback;
+    return max ? Math.min(normalized, max) : normalized;
+  }
+
+  private parseBooleanFilter(value?: string) {
+    if (value === undefined) {
+      return undefined;
+    }
+    return value === 'true';
   }
 }
