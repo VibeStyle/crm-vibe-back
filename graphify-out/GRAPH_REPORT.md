@@ -1,16 +1,16 @@
 # Graph Report - crm-vibe-back  (2026-06-26)
 
 ## Corpus Check
-- 108 files · ~21,886 words
+- 108 files · ~21,893 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 612 nodes · 974 edges · 42 communities (26 shown, 16 thin omitted)
+- 612 nodes · 976 edges · 41 communities (26 shown, 15 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3b517361`
+- Built from commit: `e8ce9610`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -52,7 +52,6 @@
 - [[_COMMUNITY_Community 37|Community 37]]
 - [[_COMMUNITY_Community 38|Community 38]]
 - [[_COMMUNITY_Community 39|Community 39]]
-- [[_COMMUNITY_Community 40|Community 40]]
 - [[_COMMUNITY_Community 41|Community 41]]
 
 ## God Nodes (most connected - your core abstractions)
@@ -87,7 +86,7 @@
 - **Project Command Workflow** — readme_installation, readme_running_the_app, readme_testing, readme_migration, readme_endpoint_generation [EXTRACTED 1.00]
 - **Verification Practice** — agents_verify_before_reporting_done, claude_verify_before_reporting_done, readme_testing [INFERRED 0.75]
 
-## Communities (42 total, 16 thin omitted)
+## Communities (41 total, 15 thin omitted)
 
 ### Community 0 - "User DTOs"
 Cohesion: 0.08
@@ -98,7 +97,7 @@ Cohesion: 0.08
 Nodes (17): AuthController, AuthService, AppleJwtDecode, AuthInfo, GeneratedTokens, GoogleProfile, JwtPayload, LoginAdminDto (+9 more)
 
 ### Community 2 - "Auth Database Wiring"
-Cohesion: 0.08
+Cohesion: 0.07
 Nodes (19): GetProjectsDto, GetProjectTagsDto, CreateProjectDto, UpdateProjectDto, CreateTagDto, UpdateTagDto, Project, Tag (+11 more)
 
 ### Community 3 - "Runtime Dependencies"
@@ -106,7 +105,7 @@ Cohesion: 0.05
 Nodes (37): dependencies, @aws-sdk/client-s3, @aws-sdk/s3-request-presigner, bcrypt, class-transformer, class-validator, cross-env, dotenv (+29 more)
 
 ### Community 4 - "Access Guards Recaptcha"
-Cohesion: 0.16
+Cohesion: 0.15
 Nodes (11): IAdmin, AppException, BadRequestAppException, ConflictAppException, ForbiddenAppException, NotFoundAppException, UnauthorizedAppException, ErrorCodes (+3 more)
 
 ### Community 5 - "Package Test Config"
@@ -119,7 +118,7 @@ Nodes (44): 1. Analyze the Request, 2. Ask for Clarification (if needed), 3. Pre
 
 ### Community 7 - "Auth Errors Common"
 Cohesion: 0.08
-Nodes (19): AuthModule, data, db, gpt, jwt, r2, recaptcha, resend (+11 more)
+Nodes (18): data, db, gpt, jwt, r2, recaptcha, resend, smtp (+10 more)
 
 ### Community 8 - "Dev Tooling Dependencies"
 Cohesion: 0.09
@@ -138,8 +137,8 @@ Cohesion: 0.16
 Nodes (13): Endpoint, Endpoint Generation, Installation, Migration, nest g resource --no-spec, npm install, npm run migration:generate:dev, npm run start (+5 more)
 
 ### Community 13 - "Environment Config"
-Cohesion: 0.12
-Nodes (8): Roles, Users, RolesRepository, GetUsersListParams, UsersRepository, MailService, NodemailerService, UsersModule
+Cohesion: 0.09
+Nodes (11): AuthModule, Roles, Users, StorageModule, R2StorageService, RolesRepository, GetUsersListParams, UsersRepository (+3 more)
 
 ### Community 14 - "Community 14"
 Cohesion: 0.09
@@ -182,9 +181,9 @@ Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
 ## Knowledge Gaps
-- **211 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+206 more)
+- **210 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+205 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -194,12 +193,12 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `AuthService` connect `Auth Controller Service` to `Access Guards Recaptcha`, `Environment Config`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _229 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _228 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `User DTOs` be split into smaller, more focused modules?**
   _Cohesion score 0.07641196013289037 - nodes in this community are weakly interconnected._
 - **Should `Auth Controller Service` be split into smaller, more focused modules?**
   _Cohesion score 0.07560975609756097 - nodes in this community are weakly interconnected._
 - **Should `Auth Database Wiring` be split into smaller, more focused modules?**
-  _Cohesion score 0.07507914970601538 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07412587412587412 - nodes in this community are weakly interconnected._
 - **Should `Runtime Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._

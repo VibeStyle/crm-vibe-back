@@ -9,6 +9,7 @@ import * as Strategies from './strategies';
 import { UsersService } from 'src/users/users.service';
 import { MailService, NodemailerService } from 'src/shared/services';
 import { HttpModule } from '@nestjs/axios';
+import { StorageModule } from 'src/r2/storage.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { HttpModule } from '@nestjs/axios';
     TypeOrmModule.forFeature([UsersRepository]),
     UsersModule,
     HttpModule,
+    StorageModule,
   ],
   controllers: [AuthController],
   providers: [

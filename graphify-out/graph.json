@@ -1542,10 +1542,10 @@
       "label": "AuthModule",
       "file_type": "code",
       "source_file": "src/auth/auth.module.ts",
-      "source_location": "L32",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "auth_auth_module_authmodule",
-      "community": 7,
+      "community": 13,
       "norm_label": "authmodule"
     },
     {
@@ -1875,7 +1875,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "strategies_jwtrefresh_strategy",
-      "community": 4,
+      "community": 13,
       "norm_label": "jwtrefresh.strategy.ts"
     },
     {
@@ -2645,7 +2645,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_index",
-      "community": 2,
+      "community": 13,
       "norm_label": "index.ts"
     },
     {
@@ -3695,7 +3695,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "r2_storage_module",
-      "community": 40,
+      "community": 13,
       "norm_label": "storage.module.ts"
     },
     {
@@ -3705,7 +3705,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "r2_storage_module_storagemodule",
-      "community": 40,
+      "community": 13,
       "norm_label": "storagemodule"
     },
     {
@@ -3745,7 +3745,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "r2_storage_service_r2storageservice",
-      "community": 40,
+      "community": 13,
       "norm_label": "r2storageservice"
     },
     {
@@ -3755,7 +3755,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "r2_storage_service_r2storageservice_constructor",
-      "community": 40,
+      "community": 13,
       "norm_label": ".constructor()"
     },
     {
@@ -3765,7 +3765,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "r2_storage_service_r2storageservice_buildkey",
-      "community": 40,
+      "community": 13,
       "norm_label": ".buildkey()"
     },
     {
@@ -3775,7 +3775,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "r2_storage_service_r2storageservice_publicurl",
-      "community": 40,
+      "community": 13,
       "norm_label": ".publicurl()"
     },
     {
@@ -3785,7 +3785,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "r2_storage_service_r2storageservice_uploadmany",
-      "community": 40,
+      "community": 13,
       "norm_label": ".uploadmany()"
     },
     {
@@ -3795,7 +3795,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "r2_storage_service_r2storageservice_uploadone",
-      "community": 40,
+      "community": 13,
       "norm_label": ".uploadone()"
     },
     {
@@ -3805,7 +3805,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "r2_storage_service_r2storageservice_deleteone",
-      "community": 40,
+      "community": 13,
       "norm_label": ".deleteone()"
     },
     {
@@ -3915,7 +3915,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_index",
-      "community": 13,
+      "community": 4,
       "norm_label": "index.ts"
     },
     {
@@ -3925,7 +3925,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_sendemail_service",
-      "community": 13,
+      "community": 4,
       "norm_label": "sendemail.service.ts"
     },
     {
@@ -7061,9 +7061,9 @@
       "source_file": "db/migrations/1782376487422-addUserAvatarFields.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "migrations_1782376487422_adduseravatarfields",
-      "target": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422",
-      "confidence_score": 1.0
+      "target": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422"
     },
     {
       "relation": "method",
@@ -7071,9 +7071,9 @@
       "source_file": "db/migrations/1782376487422-addUserAvatarFields.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422",
-      "target": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422_down",
-      "confidence_score": 1.0
+      "target": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422_down"
     },
     {
       "relation": "method",
@@ -7081,9 +7081,9 @@
       "source_file": "db/migrations/1782376487422-addUserAvatarFields.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422",
-      "target": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422_up",
-      "confidence_score": 1.0
+      "target": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422_up"
     },
     {
       "relation": "contains",
@@ -8694,6 +8694,28 @@
       "confidence_score": 1.0,
       "source": "auth_auth_module",
       "target": "auth_auth_service_authservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/auth/auth.module.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "auth_auth_module",
+      "target": "r2_storage_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/auth/auth.module.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "auth_auth_module",
+      "target": "r2_storage_module_storagemodule",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -10870,9 +10892,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller",
-      "target": "interseptors_file_upload_interceptor",
-      "confidence_score": 1.0
+      "target": "interseptors_file_upload_interceptor"
     },
     {
       "relation": "imports",
@@ -10892,9 +10914,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller",
-      "target": "interseptors_file_upload_interceptor_fileuploadinterceptor",
-      "confidence_score": 1.0
+      "target": "interseptors_file_upload_interceptor_fileuploadinterceptor"
     },
     {
       "relation": "contains",
@@ -13199,9 +13221,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller",
-      "target": "r2_storage_service",
-      "confidence_score": 1.0
+      "target": "r2_storage_service"
     },
     {
       "relation": "imports_from",
@@ -13210,9 +13232,9 @@
       "source_file": "src/users/users.module.ts",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_module",
-      "target": "r2_storage_service",
-      "confidence_score": 1.0
+      "target": "r2_storage_service"
     },
     {
       "relation": "imports_from",
@@ -13221,9 +13243,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service",
-      "target": "r2_storage_service",
-      "confidence_score": 1.0
+      "target": "r2_storage_service"
     },
     {
       "relation": "imports",
@@ -13232,9 +13254,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller",
-      "target": "r2_storage_service_multerfile",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_multerfile"
     },
     {
       "relation": "references",
@@ -13243,9 +13265,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller_userscontroller_update",
-      "target": "r2_storage_service_multerfile",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_multerfile"
     },
     {
       "relation": "imports",
@@ -13254,9 +13276,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service",
-      "target": "r2_storage_service_multerfile",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_multerfile"
     },
     {
       "relation": "references",
@@ -13265,9 +13287,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L230",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_update",
-      "target": "r2_storage_service_multerfile",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_multerfile"
     },
     {
       "relation": "references",
@@ -13276,9 +13298,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_uploaduseravatar",
-      "target": "r2_storage_service_multerfile",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_multerfile"
     },
     {
       "relation": "imports",
@@ -13287,9 +13309,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service",
-      "target": "r2_storage_service_r2uploadresult",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_r2uploadresult"
     },
     {
       "relation": "references",
@@ -13298,9 +13320,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L346",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_cleanupuploadedavatar",
-      "target": "r2_storage_service_r2uploadresult",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_r2uploadresult"
     },
     {
       "relation": "method",
@@ -13369,9 +13391,9 @@
       "source_file": "src/users/users.module.ts",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_module",
-      "target": "r2_storage_service_r2storageservice",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_r2storageservice"
     },
     {
       "relation": "imports",
@@ -13380,9 +13402,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service",
-      "target": "r2_storage_service_r2storageservice",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_r2storageservice"
     },
     {
       "relation": "references",
@@ -13391,9 +13413,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_constructor",
-      "target": "r2_storage_service_r2storageservice",
-      "confidence_score": 1.0
+      "target": "r2_storage_service_r2storageservice"
     },
     {
       "relation": "calls",
@@ -14445,9 +14467,9 @@
       "source_file": "src/users/users.controller.ts",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_controller",
-      "target": "users_users_controller_useravatarinterceptor",
-      "confidence_score": 1.0
+      "target": "users_users_controller_useravatarinterceptor"
     },
     {
       "relation": "contains",
@@ -14743,9 +14765,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L346",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_cleanupuploadedavatar",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_cleanupuploadedavatar"
     },
     {
       "relation": "method",
@@ -14893,9 +14915,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice",
-      "target": "users_users_service_usersservice_uploaduseravatar",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_uploaduseravatar"
     },
     {
       "relation": "method",
@@ -15034,9 +15056,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L259",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_update",
-      "target": "users_users_service_usersservice_cleanupuploadedavatar",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_cleanupuploadedavatar"
     },
     {
       "relation": "calls",
@@ -15045,9 +15067,9 @@
       "source_file": "src/users/users.service.ts",
       "source_location": "L242",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "users_users_service_usersservice_update",
-      "target": "users_users_service_usersservice_uploaduseravatar",
-      "confidence_score": 1.0
+      "target": "users_users_service_usersservice_uploaduseravatar"
     },
     {
       "relation": "calls",
@@ -16518,5 +16540,5 @@
       "source_file": "AGENTS.md"
     }
   ],
-  "built_at_commit": "3b517361ba0a10217a37f32746c995ed0240948a"
+  "built_at_commit": "e8ce961066c649932c747f9a24c48f1cf65274aa"
 }
