@@ -30,6 +30,9 @@ export class Project {
   liveLink: string;
 
   @Column({ nullable: false, default: '' })
+  figmaLink: string;
+
+  @Column({ nullable: false, default: '' })
   status: string;
 
   @Column({ nullable: false, default: false })

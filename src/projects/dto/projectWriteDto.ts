@@ -86,6 +86,10 @@ export class CreateProjectDto {
 
   @IsString()
   @IsOptional()
+  figmaLink?: string;
+
+  @IsString()
+  @IsOptional()
   status?: string;
 
   @IsBoolean()
@@ -122,6 +126,10 @@ export class UpdateProjectDto {
   @IsString()
   @IsOptional()
   liveLink?: string;
+
+  @IsString()
+  @IsOptional()
+  figmaLink?: string;
 
   @IsString()
   @IsOptional()
