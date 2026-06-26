@@ -44,7 +44,7 @@ export class ProjectsController {
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)
-  @Roles('admin')
+  @Roles('admin', 'manager', 'user')
   @Post()
   @UseInterceptors(ProjectImageInterceptor)
   createProject(
@@ -55,7 +55,7 @@ export class ProjectsController {
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)
-  @Roles('admin')
+  @Roles('admin', 'manager', 'user')
   @Patch('/:id')
   @UseInterceptors(ProjectImageInterceptor)
   updateProject(
@@ -67,28 +67,28 @@ export class ProjectsController {
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)
-  @Roles('admin')
+  @Roles('admin', 'manager', 'user')
   @Delete('/:id')
   deleteProject(@Param('id') id: string) {
     return this.projectsService.deleteProject(+id);
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)
-  @Roles('admin')
+  @Roles('admin', 'manager', 'user')
   @Post('/tags')
   createTag(@Body() body: CreateTagDto) {
     return this.projectsService.createTag(body);
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)
-  @Roles('admin')
+  @Roles('admin', 'manager', 'user')
   @Patch('/tags/:id')
   updateTag(@Param('id') id: string, @Body() body: UpdateTagDto) {
     return this.projectsService.updateTag(+id, body);
   }
 
   @UseGuards(AuthGuard('jwt'), RolesGuard)
-  @Roles('admin')
+  @Roles('admin', 'manager', 'user')
   @Delete('/tags/:id')
   deleteTag(@Param('id') id: string) {
     return this.projectsService.deleteTag(+id);
