@@ -1,4 +1,10 @@
-import { IsBoolean, IsEnum, IsOptional, IsString } from 'class-validator';
+import {
+  IsBoolean,
+  IsEnum,
+  IsNotEmpty,
+  IsOptional,
+  IsString,
+} from 'class-validator';
 
 export class UpdateUserDto {
   @IsString()
@@ -95,4 +101,10 @@ export class UpdateUserStatusDto {
 export class UpdateUserActivationDto {
   @IsBoolean()
   active: boolean;
+}
+
+export class UpdateUserRoleDto {
+  @IsString()
+  @IsNotEmpty()
+  roleName: string;
 }

@@ -22,7 +22,11 @@ import { RestorePasswordDto } from './dto/restorePasswordDto';
 import { UsersRepository } from 'src/common/repositories';
 import { UsersService } from './users.service';
 import { RegisterDto } from './dto/createUserDto';
-import { UpdateUserActivationDto, UpdateUserDto } from './dto/updateUserDto';
+import {
+  UpdateUserActivationDto,
+  UpdateUserDto,
+  UpdateUserRoleDto,
+} from './dto/updateUserDto';
 import { Roles } from 'src/common/decorators/roles.decorator';
 import { GetUsersDto } from './dto/getUserDto';
 import { RolesGuard } from 'src/common/guards';
@@ -116,6 +120,13 @@ export class UsersController {
     @Body() body: UpdateUserActivationDto,
   ) {
     return this.usersService.updateActivation(+id, body.active);
+  }
+
+  @UseGuards(AuthGuard('jwt'), RolesGuard)
+  @Roles('admin')
+  @Patch(':id/role')
+  updateRole(@Param('id') id: string, @Body() body: UpdateUserRoleDto) {
+    return this.usersService.updateRole(+id, body.roleName);
   }
 
   @UseGuards(AuthGuard('jwt'))

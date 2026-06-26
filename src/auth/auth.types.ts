@@ -6,6 +6,7 @@ export interface AuthInfo {
 
 export interface JwtPayload {
   id?: number;
+  roleId?: number;
   exp?: number;
   iat: number;
   sub: number;

@@ -246,6 +246,23 @@ export class UsersService {
     return this.usersRepository.getUserInfo(id);
   }
 
+  async updateRole(id: number, roleName: string) {
+    const user = await this.usersRepository.findOneBy({ id });
+    if (!user) {
+      throw new NotFoundAppException(ErrorCodes.UserNotFound);
+    }
+
+    const role = await this.rolesRepository.getRole(
+      roleName.trim().toLowerCase(),
+    );
+    if (!role) {
+      throw new NotFoundAppException(ErrorCodes.DataNotFound);
+    }
+
+    await this.usersRepository.update({ id }, { roleId: role.id });
+    return this.usersRepository.getUserWithRole(user.email);
+  }
+
   async blockUser(id: number) {
     const user = await this.usersRepository.findOneBy({ id });
     if (!user) {

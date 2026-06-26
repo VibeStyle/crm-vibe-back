@@ -20,8 +20,15 @@ export class JwtRefreshStrategy extends PassportStrategy(
 
   async validate(payload: JwtPayload): Promise<JwtPayload> {
     // We can not get here without token in parameters
-    if (await this.authService.validateUserById(payload?.id)) {
-      return payload;
+    const user = await this.authService.validateUserById(payload?.id);
+    if (user) {
+      return {
+        id: user.id,
+        roleId: user.roleId,
+        exp: payload.exp,
+        iat: payload.iat,
+        sub: payload.sub,
+      };
     }
     throw new ForbiddenException(ErrorCodes.Unauthorized);
   }
