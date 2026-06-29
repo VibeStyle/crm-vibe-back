@@ -89,20 +89,10 @@
       "norm_label": "project.entity.ts"
     },
     {
-      "label": "ProjectStatus",
-      "file_type": "code",
-      "source_file": "db/entities/project.entity.ts",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "entities_project_entity_projectstatus",
-      "community": 2,
-      "norm_label": "projectstatus"
-    },
-    {
       "label": "Project",
       "file_type": "code",
       "source_file": "db/entities/project.entity.ts",
-      "source_location": "L20",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "entities_project_entity_project",
       "community": 2,
@@ -115,7 +105,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "entities_roles_entity",
-      "community": 40,
+      "community": 13,
       "norm_label": "roles.entity.ts"
     },
     {
@@ -125,7 +115,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "entities_roles_entity_roles",
-      "community": 40,
+      "community": 13,
       "norm_label": "roles"
     },
     {
@@ -165,7 +155,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "entities_users_entity",
-      "community": 40,
+      "community": 13,
       "norm_label": "users.entity.ts"
     },
     {
@@ -175,7 +165,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "entities_users_entity_users",
-      "community": 40,
+      "community": 13,
       "norm_label": "users"
     },
     {
@@ -419,46 +409,6 @@
       "norm_label": ".down()"
     },
     {
-      "label": "1782376487423-addProjectStatusEnum.ts",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487423-addProjectStatusEnum.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "migrations_1782376487423_addprojectstatusenum",
-      "community": 43,
-      "norm_label": "1782376487423-addprojectstatusenum.ts"
-    },
-    {
-      "label": "AddProjectStatusEnum1782376487423",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487423-addProjectStatusEnum.ts",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423",
-      "community": 43,
-      "norm_label": "addprojectstatusenum1782376487423"
-    },
-    {
-      "label": ".up()",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487423-addProjectStatusEnum.ts",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423_up",
-      "community": 43,
-      "norm_label": ".up()"
-    },
-    {
-      "label": ".down()",
-      "file_type": "code",
-      "source_file": "db/migrations/1782376487423-addProjectStatusEnum.ts",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423_down",
-      "community": 43,
-      "norm_label": ".down()"
-    },
-    {
       "label": "nest-cli.json",
       "file_type": "code",
       "source_file": "nest-cli.json",
@@ -525,7 +475,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "package",
-      "community": 8,
+      "community": 5,
       "norm_label": "package.json"
     },
     {
@@ -535,7 +485,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "package_name",
-      "community": 8,
+      "community": 5,
       "norm_label": "name"
     },
     {
@@ -545,7 +495,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "package_version",
-      "community": 8,
+      "community": 5,
       "norm_label": "version"
     },
     {
@@ -555,7 +505,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "package_description",
-      "community": 8,
+      "community": 5,
       "norm_label": "description"
     },
     {
@@ -565,7 +515,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "package_author",
-      "community": 8,
+      "community": 5,
       "norm_label": "author"
     },
     {
@@ -575,7 +525,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "package_private",
-      "community": 8,
+      "community": 5,
       "norm_label": "private"
     },
     {
@@ -585,7 +535,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "package_license",
-      "community": 8,
+      "community": 5,
       "norm_label": "license"
     },
     {
@@ -1345,7 +1295,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "package_jest",
-      "community": 8,
+      "community": 5,
       "norm_label": "jest"
     },
     {
@@ -1355,7 +1305,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "package_jest_modulefileextensions",
-      "community": 8,
+      "community": 5,
       "norm_label": "modulefileextensions"
     },
     {
@@ -1365,7 +1315,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "package_jest_rootdir",
-      "community": 8,
+      "community": 5,
       "norm_label": "rootdir"
     },
     {
@@ -1375,7 +1325,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "package_jest_testregex",
-      "community": 8,
+      "community": 5,
       "norm_label": "testregex"
     },
     {
@@ -1385,7 +1335,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "package_jest_transform",
-      "community": 8,
+      "community": 5,
       "norm_label": "transform"
     },
     {
@@ -1395,7 +1345,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "package_transform_t_j_s",
-      "community": 8,
+      "community": 5,
       "norm_label": "^.+\\\\.(t|j)s$"
     },
     {
@@ -1405,7 +1355,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "package_jest_collectcoveragefrom",
-      "community": 8,
+      "community": 5,
       "norm_label": "collectcoveragefrom"
     },
     {
@@ -1415,7 +1365,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "package_jest_coveragedirectory",
-      "community": 8,
+      "community": 5,
       "norm_label": "coveragedirectory"
     },
     {
@@ -1425,7 +1375,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "package_jest_testenvironment",
-      "community": 8,
+      "community": 5,
       "norm_label": "testenvironment"
     },
     {
@@ -1435,7 +1385,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_controller_spec",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.controller.spec.ts"
     },
     {
@@ -1445,7 +1395,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_controller",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.controller.ts"
     },
     {
@@ -1455,7 +1405,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_app_controller_appcontroller",
-      "community": 13,
+      "community": 7,
       "norm_label": "appcontroller"
     },
     {
@@ -1465,7 +1415,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_app_controller_appcontroller_constructor",
-      "community": 13,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -1475,7 +1425,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_app_controller_appcontroller_gethello",
-      "community": 13,
+      "community": 7,
       "norm_label": ".gethello()"
     },
     {
@@ -1485,7 +1435,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_module",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.module.ts"
     },
     {
@@ -1495,7 +1445,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_app_module_appmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "appmodule"
     },
     {
@@ -1505,7 +1455,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_service",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.service.ts"
     },
     {
@@ -1515,7 +1465,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_app_service_appservice",
-      "community": 13,
+      "community": 7,
       "norm_label": "appservice"
     },
     {
@@ -1525,7 +1475,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_app_service_appservice_gethello",
-      "community": 13,
+      "community": 7,
       "norm_label": ".gethello()"
     },
     {
@@ -1625,7 +1575,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "auth_auth_service_authservice_constructor",
-      "community": 40,
+      "community": 1,
       "norm_label": ".constructor()"
     },
     {
@@ -1925,7 +1875,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "strategies_jwtrefresh_strategy",
-      "community": 4,
+      "community": 13,
       "norm_label": "jwtrefresh.strategy.ts"
     },
     {
@@ -2095,7 +2045,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "configs_postgres_config",
-      "community": 13,
+      "community": 7,
       "norm_label": "postgres.config.ts"
     },
     {
@@ -2695,7 +2645,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_index",
-      "community": 2,
+      "community": 13,
       "norm_label": "index.ts"
     },
     {
@@ -2712,7 +2662,7 @@
       "label": "ProjectCategoryFilters",
       "file_type": "code",
       "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L7",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "repositories_projects_repository_projectcategoryfilters",
       "community": 2,
@@ -2722,7 +2672,7 @@
       "label": "FindProjectsParams",
       "file_type": "code",
       "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L9",
+      "source_location": "L8",
       "_origin": "ast",
       "id": "repositories_projects_repository_findprojectsparams",
       "community": 2,
@@ -2732,7 +2682,7 @@
       "label": "ProjectsRepository",
       "file_type": "code",
       "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L20",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "repositories_projects_repository_projectsrepository",
       "community": 2,
@@ -2742,7 +2692,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L21",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "repositories_projects_repository_projectsrepository_constructor",
       "community": 2,
@@ -2752,7 +2702,7 @@
       "label": ".getProjects()",
       "file_type": "code",
       "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L25",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "repositories_projects_repository_projectsrepository_getprojects",
       "community": 2,
@@ -2765,7 +2715,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_roles_repository",
-      "community": 40,
+      "community": 13,
       "norm_label": "roles.repository.ts"
     },
     {
@@ -2845,7 +2795,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_users_repository",
-      "community": 2,
+      "community": 13,
       "norm_label": "users.repository.ts"
     },
     {
@@ -2855,7 +2805,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "repositories_users_repository_getuserslistparams",
-      "community": 2,
+      "community": 13,
       "norm_label": "getuserslistparams"
     },
     {
@@ -2865,7 +2815,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository",
-      "community": 40,
+      "community": 13,
       "norm_label": "usersrepository"
     },
     {
@@ -2875,7 +2825,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_constructor",
-      "community": 40,
+      "community": 13,
       "norm_label": ".constructor()"
     },
     {
@@ -2885,7 +2835,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserbyid",
-      "community": 40,
+      "community": 13,
       "norm_label": ".getuserbyid()"
     },
     {
@@ -2895,7 +2845,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuser",
-      "community": 40,
+      "community": 13,
       "norm_label": ".getuser()"
     },
     {
@@ -2905,7 +2855,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserinfo",
-      "community": 40,
+      "community": 13,
       "norm_label": ".getuserinfo()"
     },
     {
@@ -2915,7 +2865,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserwithrole",
-      "community": 40,
+      "community": 13,
       "norm_label": ".getuserwithrole()"
     },
     {
@@ -2925,7 +2875,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "repositories_users_repository_usersrepository_getuserslist",
-      "community": 40,
+      "community": 13,
       "norm_label": ".getuserslist()"
     },
     {
@@ -3185,7 +3135,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service",
-      "community": 42,
+      "community": 7,
       "norm_label": "openai-invoice-extraction.service.ts"
     },
     {
@@ -3195,7 +3145,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_invoiceextractionschema",
-      "community": 42,
+      "community": 7,
       "norm_label": "invoiceextractionschema"
     },
     {
@@ -3205,7 +3155,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_invoiceextractionresult",
-      "community": 42,
+      "community": 7,
       "norm_label": "invoiceextractionresult"
     },
     {
@@ -3215,7 +3165,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice",
-      "community": 42,
+      "community": 7,
       "norm_label": "openaiinvoiceextractionservice"
     },
     {
@@ -3225,7 +3175,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice_constructor",
-      "community": 42,
+      "community": 7,
       "norm_label": ".constructor()"
     },
     {
@@ -3235,7 +3185,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice_extractinvoicedata",
-      "community": 42,
+      "community": 7,
       "norm_label": ".extractinvoicedata()"
     },
     {
@@ -3245,7 +3195,7 @@
       "source_location": "L124",
       "_origin": "ast",
       "id": "openai_openai_invoice_extraction_service_openaiinvoiceextractionservice_isimage",
-      "community": 42,
+      "community": 7,
       "norm_label": ".isimage()"
     },
     {
@@ -3255,7 +3205,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "openai_openai_module",
-      "community": 42,
+      "community": 7,
       "norm_label": "openai.module.ts"
     },
     {
@@ -3265,7 +3215,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "openai_openai_module_openaimodule",
-      "community": 42,
+      "community": 7,
       "norm_label": "openaimodule"
     },
     {
@@ -3282,7 +3232,7 @@
       "label": "GetProjectsDto",
       "file_type": "code",
       "source_file": "src/projects/dto/getProjectsDto.ts",
-      "source_location": "L11",
+      "source_location": "L4",
       "_origin": "ast",
       "id": "dto_getprojectsdto_getprojectsdto",
       "community": 2,
@@ -3292,7 +3242,7 @@
       "label": "GetProjectTagsDto",
       "file_type": "code",
       "source_file": "src/projects/dto/getProjectsDto.ts",
-      "source_location": "L53",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "dto_getprojectsdto_getprojecttagsdto",
       "community": 2,
@@ -3312,7 +3262,7 @@
       "label": "toOptionalBoolean()",
       "file_type": "code",
       "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L13",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "dto_projectwritedto_tooptionalboolean",
       "community": 2,
@@ -3322,7 +3272,7 @@
       "label": "toOptionalNumberArray()",
       "file_type": "code",
       "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L37",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "dto_projectwritedto_tooptionalnumberarray",
       "community": 2,
@@ -3332,7 +3282,7 @@
       "label": "CreateProjectDto",
       "file_type": "code",
       "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L73",
+      "source_location": "L71",
       "_origin": "ast",
       "id": "dto_projectwritedto_createprojectdto",
       "community": 2,
@@ -3342,7 +3292,7 @@
       "label": "UpdateProjectDto",
       "file_type": "code",
       "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L115",
+      "source_location": "L113",
       "_origin": "ast",
       "id": "dto_projectwritedto_updateprojectdto",
       "community": 2,
@@ -3515,7 +3465,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "projects_projects_module_projectsmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "projectsmodule"
     },
     {
@@ -3532,7 +3482,7 @@
       "label": "ProjectsService",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L26",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice",
       "community": 2,
@@ -3542,7 +3492,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L27",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_constructor",
       "community": 2,
@@ -3552,7 +3502,7 @@
       "label": ".getProjects()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L33",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_getprojects",
       "community": 2,
@@ -3562,7 +3512,7 @@
       "label": ".getTags()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L54",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_gettags",
       "community": 2,
@@ -3572,7 +3522,7 @@
       "label": ".createProject()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L71",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_createproject",
       "community": 2,
@@ -3582,7 +3532,7 @@
       "label": ".updateProject()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L97",
+      "source_location": "L94",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_updateproject",
       "community": 2,
@@ -3592,7 +3542,7 @@
       "label": ".deleteProject()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L163",
+      "source_location": "L160",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_deleteproject",
       "community": 2,
@@ -3602,7 +3552,7 @@
       "label": ".createTag()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L177",
+      "source_location": "L174",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_createtag",
       "community": 2,
@@ -3612,7 +3562,7 @@
       "label": ".updateTag()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L189",
+      "source_location": "L186",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_updatetag",
       "community": 2,
@@ -3622,7 +3572,7 @@
       "label": ".deleteTag()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L209",
+      "source_location": "L206",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_deletetag",
       "community": 2,
@@ -3632,7 +3582,7 @@
       "label": ".parseList()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L220",
+      "source_location": "L217",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_parselist",
       "community": 2,
@@ -3642,7 +3592,7 @@
       "label": ".getTagsByIds()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L227",
+      "source_location": "L224",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_gettagsbyids",
       "community": 2,
@@ -3652,7 +3602,7 @@
       "label": ".uploadProjectImage()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L241",
+      "source_location": "L238",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_uploadprojectimage",
       "community": 2,
@@ -3662,7 +3612,7 @@
       "label": ".cleanupUploadedImage()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L252",
+      "source_location": "L249",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_cleanupuploadedimage",
       "community": 2,
@@ -3672,7 +3622,7 @@
       "label": ".normalizeProjectBody()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L262",
+      "source_location": "L259",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_normalizeprojectbody",
       "community": 2,
@@ -3682,7 +3632,7 @@
       "label": ".normalizeBoolean()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L273",
+      "source_location": "L270",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_normalizeboolean",
       "community": 2,
@@ -3692,7 +3642,7 @@
       "label": ".normalizeTagIds()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L289",
+      "source_location": "L286",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_normalizetagids",
       "community": 2,
@@ -3702,7 +3652,7 @@
       "label": ".checkTagUnique()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L321",
+      "source_location": "L318",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_checktagunique",
       "community": 2,
@@ -3712,7 +3662,7 @@
       "label": ".assignDefined()",
       "file_type": "code",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L339",
+      "source_location": "L336",
       "_origin": "ast",
       "id": "projects_projects_service_projectsservice_assigndefined",
       "community": 2,
@@ -3725,7 +3675,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "r2_r2_client",
-      "community": 13,
+      "community": 2,
       "norm_label": "r2.client.ts"
     },
     {
@@ -3735,7 +3685,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "r2_r2_client_r2client",
-      "community": 13,
+      "community": 2,
       "norm_label": "r2client"
     },
     {
@@ -3765,7 +3715,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "r2_storage_service",
-      "community": 13,
+      "community": 2,
       "norm_label": "storage.service.ts"
     },
     {
@@ -3785,7 +3735,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "r2_storage_service_r2uploadresult",
-      "community": 13,
+      "community": 2,
       "norm_label": "r2uploadresult"
     },
     {
@@ -3965,7 +3915,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_index",
-      "community": 13,
+      "community": 4,
       "norm_label": "index.ts"
     },
     {
@@ -4055,7 +4005,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "shared_shared_module",
-      "community": 13,
+      "community": 7,
       "norm_label": "shared.module.ts"
     },
     {
@@ -4065,7 +4015,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "shared_shared_module_providers",
-      "community": 13,
+      "community": 7,
       "norm_label": "providers"
     },
     {
@@ -4075,7 +4025,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "shared_shared_module_sharedmodule",
-      "community": 13,
+      "community": 7,
       "norm_label": "sharedmodule"
     },
     {
@@ -4775,7 +4725,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "test_app_e2e_spec",
-      "community": 13,
+      "community": 7,
       "norm_label": "app.e2e-spec.ts"
     },
     {
@@ -6499,28 +6449,6 @@
       "target": "entities_index"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/getProjectsDto.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "dto_getprojectsdto",
-      "target": "entities_project_entity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "dto_projectwritedto",
-      "target": "entities_project_entity",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "db/entities/project.entity.ts",
@@ -6529,16 +6457,6 @@
       "confidence_score": 1.0,
       "source": "entities_project_entity",
       "target": "entities_project_entity_project"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/entities/project.entity.ts",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "entities_project_entity",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6561,116 +6479,6 @@
       "confidence_score": 1.0,
       "source": "entities_project_entity",
       "target": "entities_tag_entity_tag"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "entities_project_entity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "repositories_projects_repository",
-      "target": "entities_project_entity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/getProjectsDto.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "dto_getprojectsdto",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/getProjectsDto.ts",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "dto_getprojectsdto_getprojectsdto",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "dto_projectwritedto",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "dto_projectwritedto_createprojectdto",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/dto/projectWriteDto.ts",
-      "source_location": "L136",
-      "weight": 1.0,
-      "source": "dto_projectwritedto_updateprojectdto",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "projects_projects_service",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "repositories_projects_repository",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/common/repositories/projects.repository.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "repositories_projects_repository_findprojectsparams",
-      "target": "entities_project_entity_projectstatus",
-      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7276,36 +7084,6 @@
       "confidence_score": 1.0,
       "source": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422",
       "target": "migrations_1782376487422_adduseravatarfields_adduseravatarfields1782376487422_up"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrations/1782376487423-addProjectStatusEnum.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "migrations_1782376487423_addprojectstatusenum",
-      "target": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrations/1782376487423-addProjectStatusEnum.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423",
-      "target": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423_down",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "db/migrations/1782376487423-addProjectStatusEnum.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423",
-      "target": "migrations_1782376487423_addprojectstatusenum_addprojectstatusenum1782376487423_up",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8924,9 +8702,9 @@
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "auth_auth_module",
-      "target": "r2_storage_module"
+      "target": "r2_storage_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8935,9 +8713,9 @@
       "source_file": "src/auth/auth.module.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "auth_auth_module",
-      "target": "r2_storage_module_storagemodule"
+      "target": "r2_storage_module_storagemodule",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -13138,17 +12916,6 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/projects/projects.service.ts",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "projects_projects_service_projectsservice_getprojects",
-      "target": "projects_projects_service_projectsservice_normalizeboolean",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/projects/projects.service.ts",
       "source_location": "L21",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -16773,5 +16540,5 @@
       "source_file": "AGENTS.md"
     }
   ],
-  "built_at_commit": "cc526f050d1a1b6e274459d6f8840282798a3b03"
+  "built_at_commit": "e8ce961066c649932c747f9a24c48f1cf65274aa"
 }

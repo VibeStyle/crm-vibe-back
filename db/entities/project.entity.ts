@@ -9,6 +9,13 @@ import {
 } from 'typeorm';
 import { Tag } from './tag.entity';
 
+export enum ProjectStatus {
+  Lead = 'lead',
+  InProgress = 'in_progress',
+  Finished = 'finished',
+  Cancelled = 'cancelled',
+}
+
 @Entity({ name: 'projects' })
 export class Project {
   @PrimaryGeneratedColumn()
@@ -32,8 +39,14 @@ export class Project {
   @Column({ nullable: false, default: '' })
   figmaLink: string;
 
-  @Column({ nullable: false, default: '' })
-  status: string;
+  @Column({
+    type: 'enum',
+    enum: ProjectStatus,
+    enumName: 'project_status_enum',
+    nullable: false,
+    default: ProjectStatus.Lead,
+  })
+  status: ProjectStatus;
 
   @Column({ nullable: false, default: false })
   nda: boolean;

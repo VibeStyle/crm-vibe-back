@@ -2,11 +2,13 @@ import {
   ArrayUnique,
   IsArray,
   IsBoolean,
+  IsEnum,
   IsInt,
   IsOptional,
   IsString,
 } from 'class-validator';
 import { Transform } from 'class-transformer';
+import { ProjectStatus } from 'db/entities/project.entity';
 
 const toOptionalBoolean = (value: unknown) => {
   if (value === undefined || value === null || value === '') {
@@ -88,9 +90,9 @@ export class CreateProjectDto {
   @IsOptional()
   figmaLink?: string;
 
-  @IsString()
+  @IsEnum(ProjectStatus)
   @IsOptional()
-  status?: string;
+  status?: ProjectStatus;
 
   @IsBoolean()
   @Transform(({ value }) => toOptionalBoolean(value))
@@ -131,9 +133,9 @@ export class UpdateProjectDto {
   @IsOptional()
   figmaLink?: string;
 
-  @IsString()
+  @IsEnum(ProjectStatus)
   @IsOptional()
-  status?: string;
+  status?: ProjectStatus;
 
   @IsBoolean()
   @Transform(({ value }) => toOptionalBoolean(value))

@@ -415,8 +415,8 @@
     "semantic_hash": "f56536cedf4b9a8b3fff2c5013b00a4a"
   },
   "db/entities/project.entity.ts": {
-    "mtime": 1782741558.468835,
-    "ast_hash": "1692cc2e4651e574820b3b194f7a3a46",
+    "mtime": 1782478059.677054,
+    "ast_hash": "6089185169148b9d8c250e8e84752133",
     "semantic_hash": ""
   },
   "db/entities/tag.entity.ts": {
@@ -430,8 +430,8 @@
     "semantic_hash": ""
   },
   "src/common/repositories/projects.repository.ts": {
-    "mtime": 1782741592.2536795,
-    "ast_hash": "d8d94006ffb6ea5b594e2a5f7382c669",
+    "mtime": 1782380598.531281,
+    "ast_hash": "8049fc0947bfe2361a9db4adbd4a7693",
     "semantic_hash": ""
   },
   "src/common/repositories/tags.repository.ts": {
@@ -440,8 +440,8 @@
     "semantic_hash": ""
   },
   "src/projects/dto/getProjectsDto.ts": {
-    "mtime": 1782741573.8054686,
-    "ast_hash": "1b841ca8d74f3b9fb3e956e8180d789f",
+    "mtime": 1782739919.217359,
+    "ast_hash": "deb8344aea3381a3f21c41412997e7fe",
     "semantic_hash": ""
   },
   "src/projects/projects.controller.ts": {
@@ -455,13 +455,13 @@
     "semantic_hash": ""
   },
   "src/projects/projects.service.ts": {
-    "mtime": 1782741583.531157,
-    "ast_hash": "aceb6270a0aed92cb3d757b2c6429766",
+    "mtime": 1782739920.4975927,
+    "ast_hash": "c3ef62de867332c8f01e956296dfd9fa",
     "semantic_hash": ""
   },
   "src/projects/dto/projectWriteDto.ts": {
-    "mtime": 1782741567.2134933,
-    "ast_hash": "4f4412c3a534e27b4b8a1bd9d9e433a9",
+    "mtime": 1782478062.2037654,
+    "ast_hash": "ff31137433278382a399fd250b70a291",
     "semantic_hash": ""
   },
   "src/projects/dto/tagWriteDto.ts": {
@@ -537,11 +537,6 @@
   "db/migrations/1782376487422-addUserAvatarFields.ts": {
     "mtime": 1782481220.5294633,
     "ast_hash": "1e941ee6cac67072f2d15ac6efd005a6",
-    "semantic_hash": ""
-  },
-  "db/migrations/1782376487423-addProjectStatusEnum.ts": {
-    "mtime": 1782741603.554179,
-    "ast_hash": "7daa6942e166d5f240cd54a1fd7b5354",
     "semantic_hash": ""
   }
 }

@@ -1,4 +1,5 @@
 import { Project } from 'db/entities';
+import { ProjectStatus } from 'db/entities/project.entity';
 import { TagCategory } from 'db/entities/tag.entity';
 import { DataSource, Repository } from 'typeorm';
 import { Injectable } from '@nestjs/common';
@@ -9,6 +10,8 @@ export interface FindProjectsParams {
   page: number;
   perPage: number;
   search?: string;
+  status?: ProjectStatus;
+  nda?: boolean;
   tags: string[];
   categoryFilters: ProjectCategoryFilters;
 }
@@ -30,6 +33,14 @@ export class ProjectsRepository extends Repository<Project> {
       qb.andWhere('project.name ILIKE :search', {
         search: `%${params.search}%`,
       });
+    }
+
+    if (params.status) {
+      qb.andWhere('project.status = :status', { status: params.status });
+    }
+
+    if (params.nda !== undefined) {
+      qb.andWhere('project.nda = :nda', { nda: params.nda });
     }
 
     Object.entries(params.categoryFilters).forEach(

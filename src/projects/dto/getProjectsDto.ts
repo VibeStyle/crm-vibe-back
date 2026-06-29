@@ -1,4 +1,11 @@
-import { IsEnum, IsNumberString, IsOptional, IsString } from 'class-validator';
+import {
+  IsBooleanString,
+  IsEnum,
+  IsNumberString,
+  IsOptional,
+  IsString,
+} from 'class-validator';
+import { ProjectStatus } from 'db/entities/project.entity';
 import { TagCategory } from 'db/entities/tag.entity';
 
 export class GetProjectsDto {
@@ -33,6 +40,14 @@ export class GetProjectsDto {
   @IsString()
   @IsOptional()
   qualityLevel?: string;
+
+  @IsEnum(ProjectStatus)
+  @IsOptional()
+  status?: ProjectStatus;
+
+  @IsBooleanString()
+  @IsOptional()
+  nda?: string;
 }
 
 export class GetProjectTagsDto {

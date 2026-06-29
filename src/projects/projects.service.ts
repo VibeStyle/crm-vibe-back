@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Project, Tag } from 'db/entities';
+import { ProjectStatus } from 'db/entities/project.entity';
 import { TagCategory } from 'db/entities/tag.entity';
 import {
   BadRequestAppException,
@@ -43,6 +44,8 @@ export class ProjectsService {
       page,
       perPage,
       search: query.search?.trim() || undefined,
+      status: query.status,
+      nda: this.normalizeBoolean(query.nda),
       tags: this.parseList(query.tags),
       categoryFilters,
     });
@@ -78,7 +81,7 @@ export class ProjectsService {
         previewKey: uploadedImage?.key || null,
         liveLink: projectBody.liveLink ?? '',
         figmaLink: projectBody.figmaLink ?? '',
-        status: projectBody.status ?? '',
+        status: projectBody.status ?? ProjectStatus.Lead,
         nda: projectBody.nda ?? false,
         isPublished: projectBody.isPublished ?? true,
         tags,
