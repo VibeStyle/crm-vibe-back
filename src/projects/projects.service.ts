@@ -36,7 +36,7 @@ export class ProjectsService {
       [TagCategory.Industry]: this.parseList(query.industry),
       [TagCategory.WorkType]: this.parseList(query.workType),
       [TagCategory.Stack]: this.parseList(query.stack),
-      [TagCategory.Custom]: this.parseList(query.custom),
+      [TagCategory.QualityLevel]: this.parseList(query.qualityLevel),
     };
 
     return this.projectsRepository.getProjects({
@@ -60,7 +60,7 @@ export class ProjectsService {
         [TagCategory.Industry]: [],
         [TagCategory.WorkType]: [],
         [TagCategory.Stack]: [],
-        [TagCategory.Custom]: [],
+        [TagCategory.QualityLevel]: [],
       },
     );
   }

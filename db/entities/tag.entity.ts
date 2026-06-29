@@ -13,7 +13,7 @@ export enum TagCategory {
   Industry = 'industry',
   WorkType = 'work_type',
   Stack = 'stack',
-  Custom = 'custom',
+  QualityLevel = 'quality_level',
 }
 
 @Index(['slug', 'category'], { unique: true })
@@ -28,7 +28,11 @@ export class Tag {
   @Column({ nullable: false })
   slug: string;
 
-  @Column({ type: 'varchar', nullable: false, default: TagCategory.Custom })
+  @Column({
+    type: 'varchar',
+    nullable: false,
+    default: TagCategory.QualityLevel,
+  })
   category: TagCategory;
 
   @ManyToMany(() => Project, project => project.tags)

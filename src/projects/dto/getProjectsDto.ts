@@ -32,7 +32,7 @@ export class GetProjectsDto {
 
   @IsString()
   @IsOptional()
-  custom?: string;
+  qualityLevel?: string;
 }
 
 export class GetProjectTagsDto {
